@@ -1,0 +1,34 @@
+#TOA-container {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-rows: 10% 7% auto auto;
+}
+
+#TOA-container a {
+    grid-row-start: 1;
+    grid-row-end: 1;
+    justify-self: center;
+    align-self: flex-end;
+}
+
+#TOA-title {
+    grid-row-start: 2;
+    grid-row-end: 2;
+    font-size: 20px;
+    justify-self: center;
+    align-self: center;
+}
+
+#TOA-content {
+    grid-row-start: 3;
+    grid-row-end: 3;
+    margin: 0% 20% 3% 20%;
+    font-size: 16px;
+    line-height: 35px;
+}
+
+#toa-footer {
+    grid-row-start: 4;
+    margin-bottom: 1%;
+}

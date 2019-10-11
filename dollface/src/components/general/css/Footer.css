@@ -1,0 +1,23 @@
+#footer-wrapper svg {
+    height: 20px;
+}
+
+#footer-wrapper {
+    display: grid;
+    grid-template-columns: 5% 11% auto 7% 7% 7% 5%;
+    grid-template-rows: 80px;
+
+}
+
+#footer-wrapper span {
+    justify-self: center;
+    align-self: center;
+}
+
+#address {
+    grid-column-start: 2;
+}
+
+#number {
+    padding-left: 17%;
+}

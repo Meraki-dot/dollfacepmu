@@ -31,3 +31,7 @@ html {
   ::-webkit-scrollbar-thumb:hover {
     background: rgb(46, 46, 46);
   }
+
+  h1 {
+    font-family: 'Abril Fatface', 'sans-serif';
+  }

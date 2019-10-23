@@ -4,9 +4,10 @@
 
 #footer-wrapper {
     display: grid;
-    grid-template-columns: 5% 11% auto 7% 7% 7% 5%;
+    grid-template-columns: 5% 12% auto 7% 7% 7% 5%;
     grid-template-rows: 80px;
-
+    font-family: 'Poppins', 'Serif';
+    font-size: 12px;
 }
 
 #footer-wrapper span {
@@ -16,8 +17,49 @@
 
 #address {
     grid-column-start: 2;
+    width: 100%;
+    cursor: pointer;
+}
+
+#address p:hover {
+    animation-name: color-shift-footer;
+    animation-duration: 0.25s;
+    transition-timing-function: ease-out;
+    transition-timing-function: ease-in;
+    animation-fill-mode: forwards;
+}
+
+@keyframes color-shift-footer {
+    from {
+        background-color: white;
+    }
+    to {
+        background-color: black;
+    }
+    from {
+        color: black;
+    }
+    to {
+        color: white;
+    }
+    from {
+        padding: 0;
+    }
+    to {
+        padding: 5%;
+        text-align: center;
+    }
+}
+
+#address a {
+    text-decoration: none;
+    color: black;
 }
 
 #number {
-    padding-left: 17%;
+    padding-left: 14%;
+}
+
+#insta #fb #yelp {
+    cursor: pointer;
 }

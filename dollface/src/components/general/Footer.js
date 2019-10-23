@@ -8,8 +8,11 @@ const Footer = () => {
     return ( 
         <div id="footer-wrapper">
             <span id="address">
-                <a href="https://www.shorturl.at/lqRZ3" target="_blank" rel="noopener noreferrer">1671 West Katella Ave ste 240
-                Anaheim, CA 92802</a>
+                <a href="https://www.shorturl.at/lqRZ3" target="_blank" rel="noopener noreferrer">
+                    <p>
+                        1671 West Katella Ave ste 240 Anaheim, CA 92802
+                    </p>
+                </a>
             </span>
             <span id="number">
                 714.949.9495
@@ -23,6 +26,7 @@ const Footer = () => {
             <span id="yelp">
                 <a href="https://www.yelp.com/biz/dollface-permanent-makeup-anaheim" target="_blank" rel="noopener noreferrer"><Yelp /></a>
             </span>
+            
         </div>
      );
 }

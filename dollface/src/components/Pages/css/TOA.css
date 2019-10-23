@@ -2,7 +2,7 @@
     width: 100%;
     height: 100%;
     display: grid;
-    grid-template-rows: 10% 7% auto auto;
+    grid-template-rows: 10% 3% auto 3% 2%;
 }
 
 #TOA-container a {
@@ -29,6 +29,7 @@
 }
 
 #toa-footer {
-    grid-row-start: 4;
+    grid-row-start: 5;
     margin-bottom: 1%;
+    align-self: center;
 }

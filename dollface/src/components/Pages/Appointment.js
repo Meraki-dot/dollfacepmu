@@ -26,7 +26,7 @@ const Appointment = () => {
         <Animated animationIn="fadeIn" animationInDuration="2000" isVisible={true}>
             <div id="appointment-container">
                 <Navbar />
-                <h1 id="appointment-title">IF YOU HAVEN'T ALREADY PLEASE LOOK AT THESE FIRST</h1>
+                <h1 id="appointment-title">BEFORE BOOKING AN APPOINTMENT PLEASE LOOK AT THESE FIRST</h1>
                 <div id="pre-reading">
                     <span id="prep-preread">
                         <h2><a href="/preparation" rel="noopener noreferrer">PREPARE</a></h2>

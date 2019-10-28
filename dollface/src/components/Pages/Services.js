@@ -10,10 +10,7 @@ const Services = () => {
             <div id="services-container">
                 <Navbar />
                 <div id="services-title">
-                    <h1>SERVICES</h1>
-                </div>
-                <div id="sub-title">
-                    <h2>EYEBROWS</h2>
+                    <h1>EYEBROW SERVICES</h1>
                 </div>
                 <div id="eyebrow-services">
                     <a href="/services/ombre" className="flip-card">

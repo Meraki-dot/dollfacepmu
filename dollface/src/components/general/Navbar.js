@@ -10,13 +10,13 @@ const Navbar = () => {
                 <a href="/"><Logo /></a>
             </span>
             <span id="nav-item">
-                <a href="/toa">Terms of Agreement</a>
+                <a href="/toa">Policies</a>
             </span>
             <span id="nav-item">
                 <a href="/about-me">About Me</a>
             </span>
             <span id="nav-item">
-                <a href="/preparation">How to Prepare</a>
+                <a href="/preparation">Prep & Aftercare</a>
             </span>
             <span id="nav-item">
                 <a href="/services">Services</a>

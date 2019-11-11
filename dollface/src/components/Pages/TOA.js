@@ -12,7 +12,7 @@ const TOA = () => {
                 <Navbar />
                 <div id="TOA-title">
                     <h1>
-                        TERMS OF AGREEMENT
+                        POLICIES
                 </h1>
                 </div>
                 <div id="TOA-content">

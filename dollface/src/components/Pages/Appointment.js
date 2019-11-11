@@ -39,7 +39,7 @@ const Appointment = () => {
                     <div id="statement">
                         <div class="custom-control form-control-lg custom-checkbox">
                             <input type="checkbox" class="custom-control-input" id="customCheck1" onClick={onClick} />
-                            <label class="custom-control-label" for="customCheck1">BY CHECKING THE BOX, YOU ARE AGREEING TO THE <a href="/toa">TOA</a></label>
+                            <label class="custom-control-label" for="customCheck1">BY CHECKING THE BOX, YOU ARE AGREEING TO THE <a href="/toa">POLICIES</a></label>
                         </div>
                     </div>
                 </div>

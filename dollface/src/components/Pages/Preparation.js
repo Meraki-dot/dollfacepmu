@@ -50,7 +50,7 @@ const Preparation = () => {
                     <img id="second-image" src={require("../images/dollface2.JPG")} alt="done eyebrows"/>
                 </div>
                 <div id="page-title-3">
-                    <h1>POST-PROCEDURE</h1>
+                    <h1>AFTERCARE</h1>
                 </div>
                 <div id="prep-row-3">
                     <ol>

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import './css/Homepage.css'
 import Navbar from '../general/Navbar';
 import Footer from '../general/Footer';
@@ -19,11 +19,45 @@ const Homepage = () => {
     });
     feed.run();
 
+    const [clicked, setClicked] = useState(false)
+    const [display, setDisplay] = useState("none")
+
+    const onClick = () => {
+        setClicked(!clicked)
+        setDisplay("inline")
+    }
+
     return (
         <Animated animationIn="fadeIn" animationInDelay="1500" animationInDuration="2000" isVisible={true}>
             <div id="home-container">
                 <span id="navbar-container"><Navbar /></span>
-                <span id="mobile-navbar-container"><SideBar pageWrapId={"page-wrap"} outerContainerId={"App"} /></span>
+                {(!clicked) && (
+                    <span id="mobile-navbar-container" onClick={onClick}>
+                        <span >
+                            ──
+                        </span>
+                        <span>
+                            ──
+                        </span>
+                        <span>
+                            ──
+                        </span>
+                    </span>
+                )}
+                <span id="sidebar" style={{display: display}}>
+                    <span>
+                        test
+                    </span>
+                    <span>
+                        test
+                    </span>
+                    <span>
+                        test
+                    </span>
+                    <span>
+                        test
+                    </span>
+                </span>
                 <span id="mobile-logo"><Logo /></span>
                 <div id="hero-panel">
                     <div id="hero-left">
@@ -46,12 +80,12 @@ const Homepage = () => {
                         </div>
                     </div>
                     <a href="/appointments" id="homepage-schedule-mobile">
-                            <button id="homepage-schedule-mobile-button">
-                                <span>
-                                    SCHEDULE AN APPOINTMENT
+                        <button id="homepage-schedule-mobile-button">
+                            <span>
+                                SCHEDULE AN APPOINTMENT
                             </span>
-                            </button>
-                        </a>
+                        </button>
+                    </a>
                 </div>
                 <div id="footer-container">
                     <Footer />

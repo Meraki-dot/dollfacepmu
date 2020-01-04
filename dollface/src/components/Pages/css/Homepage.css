@@ -134,8 +134,16 @@
     }
     #mobile-navbar-container {
         display: grid;
+        grid-template-rows: 10% 10% 10%;
         grid-row-start: 1;
     }
+
+    #mobile-navbar-container span {
+        justify-self: flex-end;
+        margin-right: 11%;
+        margin-top: 4.7%;
+    }
+
     #mobile-logo {
         display: grid;
         justify-self: center;

@@ -5,11 +5,10 @@ import Footer from '../general/Footer';
 import Instafeed from 'instafeed.js';
 import { Animated } from "react-animated-css";
 import { ReactComponent as Logo } from '../images/dollface.svg';
-import SideBar from '../general/SideBar';
 
 const Homepage = () => {
 
-    var feed = new Instafeed({
+    let feed = new Instafeed({
         get: 'user',
         userId: '7601234475',
         accessToken: '7601234475.1677ed0.b8899fa0e21347c8b91daea60166211e',
@@ -17,10 +16,13 @@ const Homepage = () => {
         sortBy: "most-recent",
         template: '<div class="gallery col-lg-4 instaimg"><a href="{{link}}" target="_blank"><img src="{{image}}" alt="{{caption}}" class="img-fluid" /></a></div>'
     });
-    feed.run();
 
     const [clicked, setClicked] = useState(false)
     const [display, setDisplay] = useState("none")
+
+    useEffect(() => {
+        feed.run()
+    }, []) 
 
     const onClick = () => {
         setClicked(!clicked)
@@ -30,8 +32,9 @@ const Homepage = () => {
     return (
         <Animated animationIn="fadeIn" animationInDelay="1500" animationInDuration="2000" isVisible={true}>
             <div id="home-container">
+                {console.log(feed)}
                 <span id="navbar-container"><Navbar /></span>
-                {(!clicked) && (
+                { !clicked && (
                     <span id="mobile-navbar-container" onClick={onClick}>
                         <span >
                             ──
@@ -76,7 +79,7 @@ const Homepage = () => {
                         </a>
                     </div>
                     <div id="hero-right">
-                        <div id="instafeed" class="row">
+                        <div id="instafeed" className="row">
                         </div>
                     </div>
                     <a href="/appointments" id="homepage-schedule-mobile">

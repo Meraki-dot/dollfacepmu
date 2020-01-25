@@ -9,7 +9,7 @@
     height: 12%;
     z-index: 2;
     font-family: 'Poppins', "Serif";
-    font-size: 12px;
+    font-size: 0.75vw;
 }
 
 #nav-container span {
@@ -22,7 +22,7 @@
 }
 
 #top-logo svg {
-    height: 75px;
+    height: 5vw;
 }
 
 #nav-container span a {

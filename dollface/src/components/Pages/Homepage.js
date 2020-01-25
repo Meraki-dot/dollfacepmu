@@ -32,7 +32,6 @@ const Homepage = () => {
     return (
         <Animated animationIn="fadeIn" animationInDelay="1500" animationInDuration="2000" isVisible={true}>
             <div id="home-container">
-                {console.log(feed)}
                 <span id="navbar-container"><Navbar /></span>
                 { !clicked && (
                     <span id="mobile-navbar-container" onClick={onClick}>

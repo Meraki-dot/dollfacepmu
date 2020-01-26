@@ -18,13 +18,13 @@ const Footer = () => {
                 714.949.9495
             </span>
             <span id="insta">
-                <a href="https://www.instagram.com/dollfacepmu/?hl=en" target="_blank" rel="noopener noreferrer"><Instagram /></a>
+                <a className="social-icon" href="https://www.instagram.com/dollfacepmu/?hl=en" target="_blank" rel="noopener noreferrer"><Instagram /></a>
             </span>
             <span id="fb">
-                <a href="https://www.shorturl.at/fhjwU" target="_blank" rel="noopener noreferrer"><Facebook /></a>
+                <a className="social-icon" href="https://www.shorturl.at/fhjwU" target="_blank" rel="noopener noreferrer"><Facebook /></a>
             </span>
             <span id="yelp">
-                <a href="https://www.yelp.com/biz/dollface-permanent-makeup-anaheim" target="_blank" rel="noopener noreferrer"><Yelp /></a>
+                <a className="social-icon" href="https://www.yelp.com/biz/dollface-permanent-makeup-anaheim" target="_blank" rel="noopener noreferrer"><Yelp /></a>
             </span>
             
         </div>

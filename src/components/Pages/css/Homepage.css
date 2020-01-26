@@ -112,7 +112,7 @@ screen and (max-height: 800px) {
     #home-container {
         display: grid;
         height: 100vh;
-        grid-template-rows: 2.5em 3em 47em 1em;
+        grid-template-rows: 2.5em 1.7em 44.5em 1em;
         z-index: 3;
         max-width: 100%;
     }
@@ -146,7 +146,7 @@ screen and (max-height: 800px) {
         grid-row-start: 2;
     }
     #hero-message {
-        font-size: 4vw;
+        font-size: 2em;
         width: 11em;
         text-align: center;
         margin: auto;
@@ -165,13 +165,13 @@ screen and (max-height: 800px) {
         display: grid;
         grid-template-columns: auto auto auto;
         width: 10em;
-        grid-column-start: 2;
         justify-content: center;
+        margin-left: 7.9em;
     }
     .img-fluid {
         justify-self: center;
         align-self: center;
-        height: 7em;
+        max-height: 7em;
         max-width: 7em;
         border: black 0.75px solid;
     }
@@ -194,8 +194,8 @@ screen and (max-height: 800px) {
         border: black solid 1px;
         padding: 1em 2em 1em 2em;
         font-family: 'Poppins', 'Serif';
-        font-size: 1.5vw;
-        margin: 1em auto auto auto;
+        font-size: 0.8em;
+        margin: auto;
     }
     #footer-container {
         grid-row-start: 4;

@@ -13,7 +13,7 @@ const AboutMe = () => {
                     <h1>ABOUT ME</h1>
                 </div>
                 <div id="profile-container">
-                    <img id="profile" src={require("../images/steph_profile.jpg")} />
+                    <img id="profile" src={require("../images/steph_profile.jpg")} alt="Profile of Stephanie Gang" />
                 </div>
                 <div id="about-me-content">
                     Stephanie Gang is a 29-year-old personal trainer who enjoys stealing candy from babies, walking and hockey. She is exciting and entertaining, but can also be very cowardly and a bit impatient.

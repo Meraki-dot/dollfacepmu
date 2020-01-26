@@ -9,7 +9,7 @@ const Schedule = () => {
         <Animated animationIn="fadeIn" animationInDuration="2000" isVisible={true}>
         <div id="schedule-container">
             <Navbar />
-            <iframe id="schedulista-widget-00" src="https://www.schedulista.com/schedule/dollfacepermanentmakeup?mode=widget" allowtransparency="true" frameborder="0" scrolling="yes" width="100%" marginLeft="5%">
+            <iframe title="schedulista" id="schedulista-widget-00" src="https://www.schedulista.com/schedule/dollfacepermanentmakeup?mode=widget" allowtransparency="true" frameborder="0" scrolling="yes" width="100%" marginLeft="5%">
             </iframe>
             <div id="schedule-footer">
                 <Footer />

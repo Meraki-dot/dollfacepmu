@@ -1,5 +1,5 @@
-import React, { useState } from 'react'
-import './App.css'
+import React from 'react';
+import './App.css';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import Homepage from './components/Pages/Homepage';
 import { createStore, applyMiddleware, compose } from 'redux';

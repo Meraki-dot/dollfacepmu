@@ -22,6 +22,7 @@ const Homepage = () => {
 
     useEffect(() => {
         feed.run()
+        // eslint-disable-next-line
     }, []) 
 
     const onClick = () => {

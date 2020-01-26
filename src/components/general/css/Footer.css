@@ -47,7 +47,7 @@
       padding: 0;
     }
     to {
-      padding: 5%;
+      padding: 1em;
       text-align: center;
     }
   }
@@ -58,7 +58,7 @@
   }
 
   #number {
-    padding-left: 14%;
+    padding-left: 14.5em;
   }
 
   #insta #fb #yelp {

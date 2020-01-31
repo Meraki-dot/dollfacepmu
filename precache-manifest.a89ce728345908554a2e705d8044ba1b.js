@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "64510ec10d0dce74d2fef0446638a847",
+    "revision": "58599fed4b904da08a91de863ec6230f",
     "url": "/DollfacePMU/index.html"
   },
   {
-    "revision": "f7abe2b77b50f53db40f",
-    "url": "/DollfacePMU/static/css/main.89929f8c.chunk.css"
+    "revision": "52e0a69540f11207098a",
+    "url": "/DollfacePMU/static/css/main.3b0547ae.chunk.css"
   },
   {
-    "revision": "0e3e7d16826ac8794cf5",
-    "url": "/DollfacePMU/static/js/2.fc811c2b.chunk.js"
+    "revision": "0cae6e77fd4013dba50a",
+    "url": "/DollfacePMU/static/js/2.486ab648.chunk.js"
   },
   {
-    "revision": "f34946825965aa84dde89f731dfb7db4",
-    "url": "/DollfacePMU/static/js/2.fc811c2b.chunk.js.LICENSE"
+    "revision": "4ad85bdf5c84271999fa61653aa196b7",
+    "url": "/DollfacePMU/static/js/2.486ab648.chunk.js.LICENSE"
   },
   {
-    "revision": "f7abe2b77b50f53db40f",
-    "url": "/DollfacePMU/static/js/main.f454bbc0.chunk.js"
+    "revision": "52e0a69540f11207098a",
+    "url": "/DollfacePMU/static/js/main.0b974367.chunk.js"
   },
   {
     "revision": "c74efa7cc375e3e1a195",

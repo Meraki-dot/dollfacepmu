@@ -12,7 +12,7 @@ import AboutMe from './components/Pages/AboutMe';
 function App() {
 
     return (
-        <BrowserRouter>
+        <BrowserRouter basename={process.env.PUBLIC_URL}>
             <Switch>
                 <Route exact path='/' component={Homepage} />
                 <Route path='/toa' component={TOA} />

@@ -1,35 +1,57 @@
-#TOA-container {
-    width: 100%;
-    height: 100%;
-    display: grid;
-    grid-template-rows: 10% 3% auto 3% 2%;
+@media screen and (min-width: 921px) {
+    #TOA-container {
+        width: 100%;
+        height: 100%;
+        display: grid;
+        grid-template-rows: 10em 5em auto 3% 2%;
+    }
+    #TOA-title {
+        grid-row-start: 2;
+        grid-row-end: 2;
+        font-size: 20px;
+        justify-self: center;
+        align-self: center;
+    }
+    #TOA-content {
+        grid-row-start: 3;
+        grid-row-end: 3;
+        margin: 0% 20% 3% 20%;
+        font-size: 16px;
+        line-height: 35px;
+    }
+    #toa-footer {
+        grid-row-start: 5;
+        margin-bottom: 1%;
+        align-self: center;
+    }
 }
 
-#TOA-container a {
-    grid-row-start: 1;
-    grid-row-end: 1;
-    justify-self: center;
-    align-self: flex-end;
-}
+/*mobile*/
 
-#TOA-title {
-    grid-row-start: 2;
-    grid-row-end: 2;
-    font-size: 20px;
-    justify-self: center;
-    align-self: center;
-}
-
-#TOA-content {
-    grid-row-start: 3;
-    grid-row-end: 3;
-    margin: 0% 20% 3% 20%;
-    font-size: 16px;
-    line-height: 35px;
-}
-
-#toa-footer {
-    grid-row-start: 5;
-    margin-bottom: 1%;
-    align-self: center;
+@media screen and (max-width: 920px) {
+    #TOA-container {
+        width: 100%;
+        height: 100%;
+        display: grid;
+        grid-template-rows: 7em 5em auto 2%;
+    }
+    #TOA-title {
+        grid-row-start: 2;
+        grid-row-end: 2;
+        font-size: 20px;
+        justify-self: center;
+        align-self: center;
+    }
+    #TOA-content {
+        grid-row-start: 3;
+        grid-row-end: 3;
+        margin: 0% 2em 2em 2em;
+        font-size: 16px;
+        line-height: 35px;
+    }
+    #toa-footer {
+        grid-row-start: 4;
+        margin-bottom: 1%;
+        align-self: center;
+    }
 }

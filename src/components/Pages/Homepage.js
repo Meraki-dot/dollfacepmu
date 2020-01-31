@@ -5,6 +5,8 @@ import Footer from '../general/Footer';
 import Instafeed from 'instafeed.js';
 import { Animated } from "react-animated-css";
 import { ReactComponent as Logo } from '../images/dollface.svg';
+import Burger from '../general/Burger/Burger';
+import Menu from '../general/Menu/Menu';
 
 const Homepage = () => {
 
@@ -17,50 +19,21 @@ const Homepage = () => {
         template: '<div class="gallery col-lg-4 instaimg"><a href="{{link}}" target="_blank"><img src="{{image}}" alt="{{caption}}" class="img-fluid" /></a></div>'
     });
 
-    const [clicked, setClicked] = useState(false)
-    const [display, setDisplay] = useState("none")
+    const [open, isOpen] = useState(false)
 
     useEffect(() => {
         feed.run()
         // eslint-disable-next-line
-    }, []) 
-
-    const onClick = () => {
-        setClicked(!clicked)
-        setDisplay("inline")
-    }
+    }, [])
 
     return (
-        <Animated animationIn="fadeIn" animationInDelay="1500" animationInDuration="2000" isVisible={true}>
+        <Animated animationIn="fadeIn" animationInDelay="800" animationInDuration="2000" isVisible={true}>
             <div id="home-container">
                 <span id="navbar-container"><Navbar /></span>
-                { !clicked && (
-                    <span id="mobile-navbar-container" onClick={onClick}>
-                        <span >
-                            ──
-                        </span>
-                        <span>
-                            ──
-                        </span>
-                        <span>
-                            ──
-                        </span>
-                    </span>
-                )}
-                <span id="sidebar" style={{display: display}}>
-                    <span>
-                        test
-                    </span>
-                    <span>
-                        test
-                    </span>
-                    <span>
-                        test
-                    </span>
-                    <span>
-                        test
-                    </span>
-                </span>
+                <div class="burger-container">
+                    <Burger className="burger-menu" open={open} isOpen={isOpen} />
+                </div>
+                <Menu open={open} isOpen={isOpen} />
                 <span id="mobile-logo"><Logo /></span>
                 <div id="hero-panel">
                     <div id="hero-left">

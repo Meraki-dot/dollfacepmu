@@ -3,12 +3,16 @@ import Navbar from '../general/Navbar';
 import Footer from '../general/Footer';
 import './css/Appointment.css';
 import { Animated } from "react-animated-css";
+import PoliciesModal from './AppointmentsModal/PoliciesModal';
+import PrepareModal from './AppointmentsModal/PrepareModal';
+import Burger from '../general/Burger/Burger';
+import Menu from '../general/Menu/Menu';
 
 const Appointment = () => {
 
     const [agreed, setAgreed] = useState(false)
 
-    const onClick = (e) => {
+    const onClick = () => {
         setAgreed(!agreed)
     }
 
@@ -22,14 +26,24 @@ const Appointment = () => {
         }
     })
 
+    const [open, isOpen] = useState(false)
+
+    useEffect(() => {
+        isOpen(false);
+    }, []);
+
     return (
         <Animated animationIn="fadeIn" animationInDuration="2000" isVisible={true}>
             <div id="appointment-container">
                 <Navbar />
+                <div className="burger-container">
+                    <Burger className="burger-menu" open={open} isOpen={isOpen} />
+                </div>
+                <Menu open={open} isOpen={isOpen} />
                 <h1 id="appointment-title">BEFORE BOOKING AN APPOINTMENT PLEASE LOOK AT THESE FIRST</h1>
                 <div id="pre-reading">
                     <span id="prep-preread">
-                        <h2><a href="/preparation" rel="noopener noreferrer">PREPARE</a></h2>
+                        <PrepareModal />
                     </span>
                     <span id="services-preread">
                         <h2><a href="/services" rel="noopener noreferrer">SERVICES</a></h2>
@@ -37,16 +51,17 @@ const Appointment = () => {
                 </div>
                 <div id="agreement-container">
                     <div id="statement">
-                        <div class="custom-control form-control-lg custom-checkbox">
-                            <input type="checkbox" class="custom-control-input" id="customCheck1" onClick={onClick} />
-                            <label class="custom-control-label" for="customCheck1">BY CHECKING THE BOX, YOU ARE AGREEING TO THE <a href="/toa">POLICIES</a></label>
+                        <div className="checkbox-container">
+                            <input type="checkbox" id="checkbox_1" value="value2" onClick={onClick} />
+                            <label for="checkbox_1"></label>
+                                <p>AGREE TO THE<PoliciesModal /></p>
                         </div>
                     </div>
                 </div>
                 <div id="redirect-schedulista">
                     <a href="/schedule">
                         <button id="schedulista-button">
-                            <h2>NEXT</h2>
+                            <h2>BOOK</h2>
                         </button>
                     </a>
                 </div>

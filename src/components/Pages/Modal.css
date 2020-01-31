@@ -1,0 +1,131 @@
+/*transitions*/
+
+.ReactModal__Overlay {
+    opacity: 0;
+    transition: opacity 300ms ease-in-out;
+    background-color: rgba(0, 0, 0, 0.747) !important;
+}
+
+.ReactModal__Overlay--after-open {
+    opacity: 1;
+}
+
+.ReactModal__Overlay--before-close {
+    opacity: 0;
+}
+
+.ReactModal__Content {
+    border-radius: 0 !important;
+}
+
+.modal-close-button {
+    background: transparent;
+    float: right;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+
+.modal-close-button:focus {
+    outline: none;
+}
+
+.modal-content {
+    padding: 7em;
+    border: none;
+}
+
+@media screen and (min-width: 921px) {
+    .ReactModal__Content {
+        height: 60%;
+        width: 65%;
+        margin: auto;
+    }
+    .first-prep-modal-title {
+        text-align: center;
+        margin-bottom: 1em;
+        margin-top: -1em;
+    }
+    .title-style {
+        text-align: center;
+        margin-bottom: 1em;
+        margin-top: 1em;
+    }
+    .prep-modal-content {
+        text-align: center;
+        list-style-type: none;
+        margin-right: 4em;
+    }
+}
+
+@media screen and (max-width: 920px) {
+    .ReactModal__Content {
+        height: 40em;
+        width: 21em;
+        margin: auto;
+    }
+    .modal-close-button {
+        display: none;
+    }
+    .modal-content {
+        padding: 2em;
+    }
+    .modal-content h1 {
+        text-align: center;
+        margin-bottom: 1em;
+        overflow-wrap: break-word;
+        font-size: 2.2em
+    }
+    .before-booking-modal-button {
+        color: darkblue;
+    }
+    .first-prep-modal-title {
+        text-align: center;
+        margin-bottom: 1em;
+        font-size: 2em;
+    }
+    .title-style {
+        text-align: center;
+        margin-bottom: 1em;
+        margin-top: 0.5em;
+        font-size: 2em;
+    }
+    .prep-modal-content {
+        text-align: center;
+        list-style-type: none;
+        margin-right: 4em;
+    }
+    .prep-modal-content {
+        width: 20em;
+        list-style-type: none;
+        margin-left: -4em;
+    }
+    .policies-modal-button {
+        margin-bottom: 0.15em;
+    }
+}
+
+/*policies modal*/
+.policies-modal-button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    height: 1.5em;
+    color: darkblue;
+}
+.policies-modal-button:focus {
+    outline: none;
+}
+
+/*before booking modal*/
+.before-booking-modal-button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    height: 2.5em;
+}
+
+.before-booking-modal-button:focus {
+    outline: none;
+}
+

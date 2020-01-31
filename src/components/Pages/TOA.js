@@ -1,19 +1,31 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import './css/TOA.css';
 import Navbar from '../general/Navbar';
 import Footer from '../general/Footer';
 import { Animated } from "react-animated-css";
-
+import Burger from '../general/Burger/Burger';
+import Menu from '../general/Menu/Menu';
 
 const TOA = () => {
+
+    const [open, isOpen] = useState(false)
+
+    useEffect(() => {
+        isOpen(false);
+    }, []);
+
     return (
         <Animated animationIn="fadeIn" animationInDuration="2000" isVisible={true}>
             <div id="TOA-container">
                 <Navbar />
+                <div className="burger-container">
+                    <Burger className="burger-menu" open={open} isOpen={isOpen} />
+                </div>
+                <Menu open={open} isOpen={isOpen} />
                 <div id="TOA-title">
                     <h1>
                         POLICIES
-                </h1>
+                    </h1>
                 </div>
                 <div id="TOA-content">
                     <p>
@@ -27,7 +39,7 @@ const TOA = () => {
                         appointment and can be paid with cash, Venmo or all major credit cards. Any card transactions will
                         have a 3% tranascation fee applied.
                     <br></br>
-                    <br></br>
+                        <br></br>
                         Deposits are not refundable and will automatically forfeited if the following occur: Canceling / Rescheduling
                         within one week of your appointment - rescheduling your touch up must not exceed 6 months of your initial
                         procedure and two reschedules are allowed per client -, being 20 minutes late or later to arrive for your
@@ -36,7 +48,7 @@ const TOA = () => {
                         can be uncomfortable and distracting for your guest(s) and for myself as the artist. If an exception must be
                         made please contact me directly.
                     <br></br>
-                    <br></br>
+                        <br></br>
                         DISCLAIMER - We will be working together to create a shape that fits to your unique facial structure.
                         Please be mindful that all faces are not symmerical, so we ask that all clients carefully examine and
                         approve each predraw before starting all tatooting procedures. Results may vary dependent on the client's
@@ -48,7 +60,7 @@ const TOA = () => {
                          and promotions are subject to change at any time. Since this is a service, all transactions will be final.
                          There will be no refunds. We reserve the right to refuse service to anyone.
                      <br></br>
-                     <br></br>
+                        <br></br>
                         CONTRAINDICATIONS - Those who have the following will not be eligible for Permanent Makeup: Being under the
                          age of 18 years old, pregnant and nursing, diabetic (insulin dependent), being on anticoagulants / blood thinners
                           (long term use of aspirin or ibuprofen), autoimmune disease, blood disorders, heart conditions, prone to keloids,
@@ -56,7 +68,7 @@ const TOA = () => {
                            wounds, rashes, or any skin conditions on the procedure area, undergoing or scheduled for chemotherapy, prone
                             to fainting and allergies to pigments or topical anesthetics.
                          <br></br>
-                         <br></br>
+                        <br></br>
                         Your safety is my priority. You know your health better than anyone. If you have any medical issues that you feel
                          might be a contraindication, then we suggest you get clearance from your physicican prior to getting any procedures.
                 </p>

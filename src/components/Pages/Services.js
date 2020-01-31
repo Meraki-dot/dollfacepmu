@@ -1,83 +1,48 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import './css/Services.css';
 import Navbar from '../general/Navbar';
 import Footer from '../general/Footer';
 import { Animated } from "react-animated-css";
+import Burger from '../general/Burger/Burger';
+import Menu from '../general/Menu/Menu';
+import OmbreModal from './ServicesModals/OmbreModal';
+import MicroModal from './ServicesModals/MicroModal';
+import Removal from './ServicesModals/Removal';
+import SkinNeedling from './ServicesModals/SkinNeedling';
+import LashLift from './ServicesModals/LashLift';
+import LipBlush from './ServicesModals/LipBlush';
 
 const Services = () => {
+
+    const [open, isOpen] = useState(false)
+
+    useEffect(() => {
+        isOpen(false);
+    }, []);
+
     return (
         <Animated animationIn="fadeIn" animationInDuration="2000" isVisible={true}>
             <div id="services-container">
                 <Navbar />
-                <div id="services-title">
+                <div className="burger-container">
+                    <Burger className="burger-menu" open={open} isOpen={isOpen} />
+                </div>
+                <Menu open={open} isOpen={isOpen} />
+                <div id="main-services-title">
                     <h1>EYEBROW SERVICES</h1>
                 </div>
                 <div id="eyebrow-services">
-                    <a href="/services/ombre" className="flip-card">
-                        <div id="ombre" className="flip-card-inner" >
-                            <div className="flip-card-front">
-                                <h1>OMBRE</h1>
-                            </div>
-                            <div className="flip-card-back">
-                                <h3>Test run Test run Test run Test run Test run Test run</h3>
-                            </div>
-                        </div>
-                    </a>
-                    <a href="/services/microblading" className="flip-card">
-                        <div id="microblading" className="flip-card-inner">
-                            <div className="flip-card-front">
-                                <h1>MICRO BLADING</h1>
-                            </div>
-                            <div className="flip-card-back">
-                                <h3>Test run Test run Test run Test run Test run Test run</h3>
-                            </div>
-                        </div>
-                    </a>
-                    <a href="/services/removal-lightening" className="flip-card">
-                        <div id="removal" className="flip-card-inner">
-                            <div className="flip-card-front">
-                                <h1>REMOVAL/<br></br>LIGHTENING</h1>
-                            </div>
-                            <div className="flip-card-back">
-                                <h3>Test run Test run Test run Test run Test run Test run</h3>
-                            </div>
-                        </div>
-                    </a>
+                    <OmbreModal />
+                    <MicroModal />
+                    <Removal />
                 </div>
                 <div id="services-title-2">
                     <h1>OTHER SERVICES</h1>
                 </div>
-                <div id="other-services" >
-                    <a href="/services/skin-needling" className="flip-card">
-                        <div id="skin-needling" className="flip-card-inner">
-                            <div className="flip-card-front">
-                                <h1>SKIN NEEDLING</h1>
-                            </div>
-                            <div className="flip-card-back">
-                                <h3>Test run Test run Test run Test run Test run Test run</h3>
-                            </div>
-                        </div>
-                    </a>
-                    <a href="/services/lash-lift" className="flip-card">
-                        <div id="lash-lift" className="flip-card-inner">
-                            <div className="flip-card-front">
-                                <h1>LASH LIFT</h1>
-                            </div>
-                            <div className="flip-card-back">
-                                <h3>Test run Test run Test run Test run Test run Test run</h3>
-                            </div>
-                        </div>
-                    </a>
-                    <a href="/services/lip-blush" className="flip-card">
-                        <div id="lip-blush" className="flip-card-inner">
-                            <div className="flip-card-front">
-                                <h1>LIP BLUSH</h1>
-                            </div>
-                            <div className="flip-card-back">
-                                <h3>Test run Test run Test run Test run Test run Test run</h3>
-                            </div>
-                        </div>
-                    </a>
+                <div id="other-services">
+                    <SkinNeedling />
+                    <LashLift />
+                    <LipBlush />
                 </div>
                 <div id="services-footer">
                     <Footer />

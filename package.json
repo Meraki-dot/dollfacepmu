@@ -2,7 +2,7 @@
   "name": "dollface",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://meraki-dot.github.io/DollfacePMU",
+  "homepage": "https://meraki-dot.github.io/DollfacePMU",
   "dependencies": {
     "axios": "^0.19.0",
     "gh-pages": "^2.2.0",

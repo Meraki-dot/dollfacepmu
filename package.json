@@ -1,10 +1,8 @@
 {
   "name": "dollface",
   "version": "0.1.0",
-  "private": true,
   "homepage": "https://meraki-dot.github.io/DollfacePMU",
   "dependencies": {
-    "axios": "^0.19.0",
     "gh-pages": "^2.2.0",
     "instafeed.js": "^1.4.1",
     "react": "^16.10.2",

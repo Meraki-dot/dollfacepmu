@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/dollfacepmu/static/css/main.3b0547ae.chunk.css",
-    "main.js": "/dollfacepmu/static/js/main.a7c86da4.chunk.js",
-    "main.js.map": "/dollfacepmu/static/js/main.a7c86da4.chunk.js.map",
+    "main.js": "/dollfacepmu/static/js/main.2baef8e2.chunk.js",
+    "main.js.map": "/dollfacepmu/static/js/main.2baef8e2.chunk.js.map",
     "runtime-main.js": "/dollfacepmu/static/js/runtime-main.4aead2ab.js",
     "runtime-main.js.map": "/dollfacepmu/static/js/runtime-main.4aead2ab.js.map",
     "static/js/2.fa2ac1d2.chunk.js": "/dollfacepmu/static/js/2.fa2ac1d2.chunk.js",
     "static/js/2.fa2ac1d2.chunk.js.map": "/dollfacepmu/static/js/2.fa2ac1d2.chunk.js.map",
     "index.html": "/dollfacepmu/index.html",
-    "precache-manifest.640e60696c41419b63e6087cd5a3e4f8.js": "/dollfacepmu/precache-manifest.640e60696c41419b63e6087cd5a3e4f8.js",
+    "precache-manifest.f58b796d2a02696d4cd6b2c3295b1ff3.js": "/dollfacepmu/precache-manifest.f58b796d2a02696d4cd6b2c3295b1ff3.js",
     "service-worker.js": "/dollfacepmu/service-worker.js",
     "static/css/main.3b0547ae.chunk.css.map": "/dollfacepmu/static/css/main.3b0547ae.chunk.css.map",
     "static/js/2.fa2ac1d2.chunk.js.LICENSE": "/dollfacepmu/static/js/2.fa2ac1d2.chunk.js.LICENSE",
@@ -25,6 +25,6 @@
     "static/js/runtime-main.4aead2ab.js",
     "static/js/2.fa2ac1d2.chunk.js",
     "static/css/main.3b0547ae.chunk.css",
-    "static/js/main.a7c86da4.chunk.js"
+    "static/js/main.2baef8e2.chunk.js"
   ]
 }

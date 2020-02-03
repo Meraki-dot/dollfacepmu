@@ -1,30 +1,30 @@
 {
   "files": {
-    "main.css": "/DollfacePMU/static/css/main.3b0547ae.chunk.css",
-    "main.js": "/DollfacePMU/static/js/main.8e77f0e4.chunk.js",
-    "main.js.map": "/DollfacePMU/static/js/main.8e77f0e4.chunk.js.map",
-    "runtime-main.js": "/DollfacePMU/static/js/runtime-main.4497c75f.js",
-    "runtime-main.js.map": "/DollfacePMU/static/js/runtime-main.4497c75f.js.map",
-    "static/js/2.486ab648.chunk.js": "/DollfacePMU/static/js/2.486ab648.chunk.js",
-    "static/js/2.486ab648.chunk.js.map": "/DollfacePMU/static/js/2.486ab648.chunk.js.map",
-    "index.html": "/DollfacePMU/index.html",
-    "precache-manifest.2620af675f6f16e49af8aa7651e412de.js": "/DollfacePMU/precache-manifest.2620af675f6f16e49af8aa7651e412de.js",
-    "service-worker.js": "/DollfacePMU/service-worker.js",
-    "static/css/main.3b0547ae.chunk.css.map": "/DollfacePMU/static/css/main.3b0547ae.chunk.css.map",
-    "static/js/2.486ab648.chunk.js.LICENSE": "/DollfacePMU/static/js/2.486ab648.chunk.js.LICENSE",
-    "static/media/dollface.a64cae4b.svg": "/DollfacePMU/static/media/dollface.a64cae4b.svg",
-    "static/media/dollface1.JPG": "/DollfacePMU/static/media/dollface1.416a763c.JPG",
-    "static/media/dollface2.JPG": "/DollfacePMU/static/media/dollface2.bc16a067.JPG",
-    "static/media/dollface3.JPG": "/DollfacePMU/static/media/dollface3.58291ceb.JPG",
-    "static/media/facebook.70f7463b.svg": "/DollfacePMU/static/media/facebook.70f7463b.svg",
-    "static/media/instagram.d0b7c685.svg": "/DollfacePMU/static/media/instagram.d0b7c685.svg",
-    "static/media/steph_profile.jpg": "/DollfacePMU/static/media/steph_profile.8cc95c3a.jpg",
-    "static/media/yelp.4b666449.svg": "/DollfacePMU/static/media/yelp.4b666449.svg"
+    "main.css": "/dollface/static/css/main.3b0547ae.chunk.css",
+    "main.js": "/dollface/static/js/main.a7c86da4.chunk.js",
+    "main.js.map": "/dollface/static/js/main.a7c86da4.chunk.js.map",
+    "runtime-main.js": "/dollface/static/js/runtime-main.9f532969.js",
+    "runtime-main.js.map": "/dollface/static/js/runtime-main.9f532969.js.map",
+    "static/js/2.3389e848.chunk.js": "/dollface/static/js/2.3389e848.chunk.js",
+    "static/js/2.3389e848.chunk.js.map": "/dollface/static/js/2.3389e848.chunk.js.map",
+    "index.html": "/dollface/index.html",
+    "precache-manifest.d0ed28440f404e838854c79feb9efc6a.js": "/dollface/precache-manifest.d0ed28440f404e838854c79feb9efc6a.js",
+    "service-worker.js": "/dollface/service-worker.js",
+    "static/css/main.3b0547ae.chunk.css.map": "/dollface/static/css/main.3b0547ae.chunk.css.map",
+    "static/js/2.3389e848.chunk.js.LICENSE": "/dollface/static/js/2.3389e848.chunk.js.LICENSE",
+    "static/media/dollface.a64cae4b.svg": "/dollface/static/media/dollface.a64cae4b.svg",
+    "static/media/dollface1.JPG": "/dollface/static/media/dollface1.416a763c.JPG",
+    "static/media/dollface2.JPG": "/dollface/static/media/dollface2.bc16a067.JPG",
+    "static/media/dollface3.JPG": "/dollface/static/media/dollface3.58291ceb.JPG",
+    "static/media/facebook.70f7463b.svg": "/dollface/static/media/facebook.70f7463b.svg",
+    "static/media/instagram.d0b7c685.svg": "/dollface/static/media/instagram.d0b7c685.svg",
+    "static/media/steph_profile.jpg": "/dollface/static/media/steph_profile.8cc95c3a.jpg",
+    "static/media/yelp.4b666449.svg": "/dollface/static/media/yelp.4b666449.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.4497c75f.js",
-    "static/js/2.486ab648.chunk.js",
+    "static/js/runtime-main.9f532969.js",
+    "static/js/2.3389e848.chunk.js",
     "static/css/main.3b0547ae.chunk.css",
-    "static/js/main.8e77f0e4.chunk.js"
+    "static/js/main.a7c86da4.chunk.js"
   ]
 }

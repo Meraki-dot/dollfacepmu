@@ -1,7 +1,7 @@
 @media screen and (min-width: 921px) {
     #appointment-container {
         display: grid;
-        grid-template-rows: 5em[header] 15em[title] 8em[preread] 5em[agree] 10em[book] 10em[footer];
+        grid-template-rows: 7.5em[header] 15em[title] 8em[preread] 5em[agree] 10em[book] auto[footer];
         height: 100vh;
         width: 100%;
     }

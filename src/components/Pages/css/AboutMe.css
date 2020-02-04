@@ -12,23 +12,22 @@
         align-self: flex-end;
     }
     #profile-container {
-        grid-row-start: 3;
-        display: grid;
-        grid-template-columns: auto auto;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-evenly;
+        max-width: 100%;
     }
     #profile {
         max-width: 20em;
         justify-self: flex-start;
         align-self: center;
-        grid-column-start: 2;
         border: black solid 1px;
     }
     #about-me-content {
-        grid-row-start: 1;
-        grid-column-start: 1;
         max-width: 50em;
         justify-self: center;
         align-self: center;
+        padding: 2em;
         margin-bottom: 4%;
     }
     #about-me-footer {

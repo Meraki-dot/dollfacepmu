@@ -60,11 +60,11 @@ const Appointment = () => {
                     </div>
                 </div>
                 <div id="redirect-schedulista">
-                    <a href="/schedule">
+                    <Link to="/schedule">
                         <button id="schedulista-button">
                             <h2>BOOK</h2>
                         </button>
-                    </a>
+                    </Link>
                 </div>
                 <div id="appointment-footer">
                     <Footer />

@@ -39,7 +39,9 @@ const Preparation = () => {
                         Ex fugiat nulla esse occaecat commodo ea quis velit mollit aliqua velit.
                     </li>
                 </ol>
-                <img id="first-image" src={require("../images/dollface3.JPG")} alt="undone eyebrows" />
+                <div id="img-container">
+                    <img id="first-image" src={require("../images/dollface3.JPG")} alt="undone eyebrows" />
+                </div>
             </div>
             <div id="page-title-2">
                 <h1>WHAT TO EXPECT</h1>
@@ -59,7 +61,9 @@ const Preparation = () => {
                         Ex fugiat nulla esse occaecat commodo ea quis velit mlilit aliqua velit.
                     </li>
                 </ol>
-                <img id="second-image" src={require("../images/dollface2.JPG")} alt="done eyebrows" />
+                <div id="img-container">
+                    <img id="second-image" src={require("../images/dollface2.JPG")} alt="done eyebrows" />
+                </div>
             </div>
             <div id="page-title-3">
                 <h1>AFTERCARE</h1>
@@ -79,7 +83,9 @@ const Preparation = () => {
                         Ex fugiat nulla esse occaecat commodo ea quis velit mlilit aliqua velit.
                     </li>
                 </ol>
-                <img id="third-image" src={require("../images/dollface1.JPG")} alt="woman" />
+                <div id="img-container">
+                    <img id="third-image" src={require("../images/dollface1.JPG")} alt="woman" />
+                </div>
             </div>
             <div id="prep-footer">
                 <Footer />

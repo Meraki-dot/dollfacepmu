@@ -1,5 +1,6 @@
 import React from 'react';
-import './css/Navbar.css'
+import { Link } from 'react-router-dom';
+import './css/Navbar.css';
 import { ReactComponent as Logo } from '../images/dollface.svg';
 
 const Navbar = () => {
@@ -7,22 +8,22 @@ const Navbar = () => {
     return (
         <div id="nav-container">
             <span id="top-logo">
-                <a href="/"><Logo /></a>
+                <Link to="/"><Logo /></Link>
             </span>
             <span id="nav-item">
-                <a href="/toa">Policies</a>
+                <Link to="/toa">Policies</Link>
             </span>
             <span id="nav-item">
-                <a href="/about-me">About Me</a>
+                <Link to="/about-me">About Me</Link>
             </span>
             <span id="nav-item">
-                <a href="/preparation">Prep & Aftercare</a>
+                <Link to="/preparation">Prep & Aftercare</Link>
             </span>
             <span id="nav-item">
-                <a href="/services">Services</a>
+                <Link to="/services">Services</Link>
             </span>
             <span id="nav-item">
-            <a href="/appointments">Appointments</a>
+                <Link to="/appointments">Appointments</Link>
             </span>
             <span id="nav-item">
                 <a href="https://www.instagram.com/dollfacepmu/?hl=en" target="_blank" rel="noopener noreferrer">

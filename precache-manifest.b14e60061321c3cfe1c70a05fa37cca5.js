@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "db16b8c4364c3ca357be31c1dce4473f",
+    "revision": "2f2f0bf41548d7f9bb8b101b6a60937f",
     "url": "/dollfacepmu/index.html"
   },
   {
-    "revision": "454b38786d676398783e",
-    "url": "/dollfacepmu/static/css/main.3b0547ae.chunk.css"
+    "revision": "58d7f15ec99d008cab07",
+    "url": "/dollfacepmu/static/css/main.f2caadb6.chunk.css"
   },
   {
     "revision": "e2f013a1ae33e3d84ab5",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/dollfacepmu/static/js/2.2b727caa.chunk.js.LICENSE"
   },
   {
-    "revision": "454b38786d676398783e",
+    "revision": "58d7f15ec99d008cab07",
     "url": "/dollfacepmu/static/js/main.54770b1d.chunk.js"
   },
   {

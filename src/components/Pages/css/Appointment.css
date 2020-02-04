@@ -178,20 +178,12 @@
     }
     #pre-reading {
         grid-row-start: 3;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin-top: 1.5em;
     }
-    #prep-preread {
-        grid-column-start: 1;
-        justify-self: flex-end;
-        align-self: center;
-        padding-right: 2%;
-    }
-    #services-preread {
-        grid-column-start: 2;
-        justify-self: flex-start;
-        align-self: center;
-    }
+
     #services-preread a {
         color: darkblue;
         text-decoration: none;

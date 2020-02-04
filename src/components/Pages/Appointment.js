@@ -7,6 +7,7 @@ import PoliciesModal from './AppointmentsModal/PoliciesModal';
 import PrepareModal from './AppointmentsModal/PrepareModal';
 import Burger from '../general/Burger/Burger';
 import Menu from '../general/Menu/Menu';
+import { Link } from 'react-router-dom';
 
 const Appointment = () => {
 
@@ -46,7 +47,7 @@ const Appointment = () => {
                         <PrepareModal />
                     </span>
                     <span id="services-preread">
-                        <h2><a href="/services" rel="noopener noreferrer">SERVICES</a></h2>
+                        <h2><Link to="/services" rel="noopener noreferrer">SERVICES</Link></h2>
                     </span>
                 </div>
                 <div id="agreement-container">

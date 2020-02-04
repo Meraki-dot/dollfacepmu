@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/dollfacepmu/precache-manifest.b54cf3d73e3e0c35bcaed288e9dbb5a5.js"
+  "/dollfacepmu/precache-manifest.1a832cdfbc4f0be81929da21a0a7db05.js"
 );
 
 self.addEventListener('message', (event) => {

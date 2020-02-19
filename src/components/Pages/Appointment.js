@@ -36,12 +36,16 @@ const Appointment = () => {
     return (
         <Animated animationIn="fadeIn" animationInDuration="2000" isVisible={true}>
             <div id="appointment-container">
-                <Navbar />
+                <div>
+                    <Navbar />
+                </div>
                 <div className="burger-container">
                     <Burger className="burger-menu" open={open} isOpen={isOpen} />
                 </div>
                 <Menu open={open} isOpen={isOpen} />
-                <h1 id="appointment-title">BEFORE BOOKING AN APPOINTMENT PLEASE LOOK AT THESE FIRST</h1>
+                <div id="appt-title-box">
+                    <h1 id="appointment-title">BEFORE BOOKING AN APPOINTMENT PLEASE LOOK AT THESE FIRST</h1>
+                </div>
                 <div id="pre-reading">
                     <span id="prep-preread">
                         <PrepareModal />
@@ -55,7 +59,7 @@ const Appointment = () => {
                         <div className="checkbox-container">
                             <input type="checkbox" id="checkbox_1" value="value2" onClick={onClick} />
                             <label for="checkbox_1"></label>
-                                <p>AGREE TO THE<PoliciesModal /></p>
+                            <p>AGREE TO THE<PoliciesModal /></p>
                         </div>
                     </div>
                 </div>

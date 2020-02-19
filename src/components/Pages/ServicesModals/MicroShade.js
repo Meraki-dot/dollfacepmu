@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import Modal from 'react-modal';
 import { Link } from 'react-router-dom';
 
-const SkinNeedling = () => {
+const MicroShade = () => {
 
     const [modalOpen, setModalOpen] = useState(false);
 
@@ -11,10 +11,10 @@ const SkinNeedling = () => {
     }
 
     return (
-        <button id="coming-soon" onClick={onClick}>
+        <button onClick={onClick}>
             <div className="services-title">
-                <h1>SKIN NEEDLING</h1>
-                <p><i>Coming Soon!</i></p>
+                <h1>MICROSHADE</h1>
+                <p><i>3 - 4 hours | $450</i></p>
             </div>
             <Modal
                 appElement={document.getElementById('eyebrow-services')}
@@ -23,10 +23,18 @@ const SkinNeedling = () => {
             >
                 <button className="modal-close-button" onClick={onClick}>X</button>
                 <div className="modal-content">
-                    <h1>SKIN NEEDLING</h1>
-                    <p className="duration-price"><i>Coming Soon!</i></p>
+                    <h1>MICROSHADE</h1>
+                    <p className="duration-price"><i>3 - 4 hours | $450</i></p>
                     <br></br>
-                    <p></p>
+                    <p>A hybrid of Ombre with Microbladed fronts.</p>
+                    <ul>
+                        <li>
+                            This technique is recommended for clients with normal to dry skin, with preexisting hair in the front of the eyebrows.
+                        </li>
+                        <li>
+                            Generally retains 1-2 years before requiring an annual touch up.
+                        </li>
+                    </ul>
                     <br></br>
                     <div className="modal-book-button">
                         <Link className="modal-book" to="/appointments">Book Now</Link>
@@ -37,4 +45,4 @@ const SkinNeedling = () => {
     )
 }
 
-export default SkinNeedling
+export default MicroShade

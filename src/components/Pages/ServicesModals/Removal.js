@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import Modal from 'react-modal';
+import { Link } from 'react-router-dom';
 
 const Removal = () => {
 
@@ -13,6 +14,7 @@ const Removal = () => {
         <button className="services-overview-button" onClick={onClick}>
             <div className="services-title">
                 <h1>REMOVAL /<br></br>LIGHTENING</h1>
+                <p><i>1 - 2 hours | $175</i></p>
             </div>
             <Modal
                 appElement={document.getElementById('eyebrow-services')}
@@ -22,7 +24,22 @@ const Removal = () => {
                 <button className="modal-close-button" onClick={onClick}>X</button>
                 <div className="modal-content">
                     <h1>REMOVAL / LIGHTENING</h1>
-                    <p>Qui laborum nisi sunt esse in aliquip sint nulla qui est Lorem Lorem elit aliqua. Sint occaecat ut nostrud dolor. Reprehenderit deserunt do ad non veniam nisi aliqua magna. Do incididunt nostrud mollit est amet cupidatat. Deserunt deserunt aute proident amet sunt Lorem cupidatat laboris dolore dolor id esse eiusmod. Culpa et enim exercitation cillum. Lorem exercitation est ipsum aliqua laboris irure id.</p>
+                    <p className="duration-price"><i>1 - 2 hours | $175</i></p>
+                    <br></br>
+                    <p>For clients with eyebrow tattoos that are too dark or botched to correct, this service is an alternative solution compared to laser removals.</p>
+                    <p>Using Li-FT (a safe, high content salt and fruit seed extraction solution), anesthetics, and our specialized needles, we penetrate the unwanted pigment and activate the body's natural immune system to create scabs. These scabs assist in pulling out pigment from the skin and can help lighten the overall look of the old tattoo.</p>
+                    <ul>
+                        <li>
+                            Depending on the saturation and design of the unwanted tattoo, multiple sessions may be required to lighten the area enough before creating a new eyebrow design.
+                        </li>
+                        <li>
+                            If multiple sessions are required, there must be a minimum of a 10 week waiting period between treatments.
+                        </li>
+                    </ul>
+                    <br></br>
+                    <div className="modal-book-button">
+                        <Link className="modal-book" to="/appointments">Book Now</Link>
+                    </div>
                 </div>
             </Modal>
         </button>

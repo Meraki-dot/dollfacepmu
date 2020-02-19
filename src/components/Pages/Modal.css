@@ -31,13 +31,66 @@
 }
 
 .modal-content {
-    padding: 7em;
+    padding: 3em 6em;
     border: none;
+}
+
+.modal-content h1, .duration-price {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+#first-prep-modal h1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.modal-book {
+    background: transparent;
+    border: 1px solid black;
+    width: 6em;
+    display: flex;
+    justify-content: center;
+    color: black;
+    text-decoration: none;
+    padding: 0.5em 0;
+}
+
+@keyframes color-shift {
+    from {
+        background-color: white;
+    }
+    to {
+        background-color: black;
+    }
+    from {
+        color: black;
+    }
+    to {
+        color: white;
+    }
+}
+
+.modal-book:hover {
+    animation-name: color-shift;
+    animation-duration: 0.25s;
+    transition-timing-function: ease-out;
+    transition-timing-function: ease-in;
+    animation-fill-mode: forwards;
+    text-decoration: none;
+}
+
+.modal-book-button {
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 @media screen and (min-width: 921px) {
     .ReactModal__Content {
-        height: 60%;
+        height: 65%;
         width: 65%;
         margin: auto;
     }
@@ -56,6 +109,9 @@
         list-style-type: none;
         margin-right: 4em;
     }
+    .before-booking-modal-button {
+        margin-top: 5em;
+    }
 }
 
 @media screen and (max-width: 920px) {
@@ -64,24 +120,35 @@
         width: 21em;
         margin: auto;
     }
-    .modal-close-button {
-        display: none;
-    }
     .modal-content {
-        padding: 2em;
+        padding: 1em;
     }
     .modal-content h1 {
+        display: flex;
+        width: 100%;
         text-align: center;
-        margin-bottom: 1em;
+        justify-content: center;
+        margin-bottom: 0.2em;
         overflow-wrap: break-word;
         font-size: 2.2em
+    }
+    .duration-price {
+        width: 100%;
+        display: flex;
+        justify-content: center;
     }
     .before-booking-modal-button {
         color: darkblue;
     }
+    #first-prep-modal {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
     .first-prep-modal-title {
         text-align: center;
         margin-bottom: 1em;
+        margin-top: 1.2em;
         font-size: 2em;
     }
     .title-style {
@@ -90,15 +157,16 @@
         margin-top: 0.5em;
         font-size: 2em;
     }
-    .prep-modal-content {
-        text-align: center;
-        list-style-type: none;
-        margin-right: 4em;
+    #prep-modal-content-container {
+        display: flex;
+        width: 100%;
+        justify-content: center;
     }
     .prep-modal-content {
         width: 20em;
         list-style-type: none;
-        margin-left: -4em;
+        margin-left: -3.2em;
+        text-align: center;
     }
     .policies-modal-button {
         margin-bottom: 0.15em;
@@ -106,6 +174,7 @@
 }
 
 /*policies modal*/
+
 .policies-modal-button {
     background: transparent;
     border: none;
@@ -113,19 +182,21 @@
     height: 1.5em;
     color: darkblue;
 }
+
 .policies-modal-button:focus {
     outline: none;
 }
 
 /*before booking modal*/
+
 .before-booking-modal-button {
     background: transparent;
     border: none;
     cursor: pointer;
     height: 2.5em;
+
 }
 
 .before-booking-modal-button:focus {
     outline: none;
 }
-

@@ -2,27 +2,28 @@
     #TOA-container {
         width: 100%;
         height: 100%;
-        display: grid;
-        grid-template-rows: 10em 5em auto 3% 2%;
+        display: flex;
+        flex-direction: column;
     }
     #TOA-title {
-        grid-row-start: 2;
-        grid-row-end: 2;
         font-size: 20px;
-        justify-self: center;
-        align-self: center;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        width: 100%;
+        height: 10em;
     }
+
     #TOA-content {
-        grid-row-start: 3;
-        grid-row-end: 3;
         margin: 0% 20% 3% 20%;
         font-size: 16px;
         line-height: 35px;
     }
     #toa-footer {
-        grid-row-start: 5;
-        margin-bottom: 1%;
-        align-self: center;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 2em;
     }
 }
 
@@ -32,26 +33,27 @@
     #TOA-container {
         width: 100%;
         height: 100%;
-        display: grid;
-        grid-template-rows: 7em 5em auto 2%;
+        display: flex;
+        flex-direction: column;
     }
     #TOA-title {
-        grid-row-start: 2;
-        grid-row-end: 2;
         font-size: 20px;
-        justify-self: center;
-        align-self: center;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        width: 100%;
+        height: 10em;
     }
     #TOA-content {
-        grid-row-start: 3;
-        grid-row-end: 3;
         margin: 0% 2em 2em 2em;
         font-size: 16px;
         line-height: 35px;
     }
     #toa-footer {
-        grid-row-start: 4;
-        margin-bottom: 1%;
-        align-self: center;
+        width: 95%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        margin-top: 2em;
     }
 }

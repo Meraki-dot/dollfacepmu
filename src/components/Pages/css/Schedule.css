@@ -45,8 +45,9 @@
         grid-row-start: 3;
         grid-column-start: 1;
         grid-column-end: 4;
-        width: 100%;
+        width: 95%;
         align-self: flex-end;
+        margin-right: 1.5em;
     }
     .breadcrumb {
         margin-left: 5%;

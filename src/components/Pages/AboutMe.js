@@ -28,18 +28,12 @@ const AboutMe = () => {
                 <div id="profile-container">
                     <img id="profile" src={require("../images/steph_profile.jpg")} alt="Profile of Stephanie Gang" />
                     <div id="about-me-content">
-                        <h2 id="name-title"><strong>STEPHANIE GANG</strong></h2>
-                    Stephanie Gang is a 29-year-old personal trainer who enjoys stealing candy from babies, walking and hockey. She is exciting and entertaining, but can also be very cowardly and a bit impatient.
-    
-        She is Korean who defines herself as straight. She started studying sports science at college but never finished the course.
-    
-        Physically, Stephanie is in pretty good shape. She is average-height with light skin, blonde hair and blue eyes.
-    
-        She grew up in a middle class neighbourhood. She was raised by her father, her mother having left when she was young.
-    
-        She is currently in a relationship with Jimmy Oskar Jackson. Jimmy is the same age as her and works as a student.
-    
-        Stephanie's best friend is a personal trainer called Ivan Rogers. They are inseparable. She also hangs around with Tomas Doherty and Charles Moore. They enjoy planking together.
+                        <br></br>
+                        <p>Stephanie G. is the owner and artist of Dollface Permanent Makeup.</p>
+                        <p>Her mother swears that Stephanie was born with a crayon in her hand, since she’s always been drawn to any form of Art since she was a little girl.</p>
+                        <p>With an extensive imagination, she has gained experience in numerous forms of art (painting, drawing, digital media, photography, culinary, crafts, and design). Her work has been featured in magazines, newspapers, and local galleries. Creativity has always been a huge part of her life.</p>
+                        <p>Stephanie first stepped into the tattoo-beauty industry in 2017, where she learned and refined her tattoo skills by shadowing various Masters within the industry, earning her multiple certifications.</p>
+                        <p>Equipped with her preexisting knowledge of color and design, she incorporates color theory, attention to detail and an eye for aesthetics into her business to help her clients look and feel their truest beauty everyday.</p>
                 </div>
             </div>
                 <div id="about-me-footer">

@@ -1,25 +1,24 @@
 @media screen and (min-width: 921px) {
   #footer-wrapper svg {
-    height: 20px;
+    height: 2em;
   }
 
   #footer-wrapper {
-    display: grid;
-    grid-template-columns: 5% 12% auto 7% 7% 7% 5%;
-    grid-template-rows: 80px;
+    display: flex;
+    justify-content: space-between;
     font-family: "Poppins", "Serif";
     font-size: 0.75em;
+    width: 95%;
+    height: 5em;
   }
 
-  #footer-wrapper span {
+  #footer-wrapper div {
     justify-self: center;
-    align-self: center;
+    align-self: flex-start;
   }
 
   #address {
-    grid-column-start: 2;
-    width: 100%;
-    cursor: pointer;
+    width: 15em;
   }
 
   #address p:hover {
@@ -47,7 +46,7 @@
       padding: 0;
     }
     to {
-      padding: 1em;
+      padding: 0.2em 1em;
       text-align: center;
     }
   }
@@ -58,7 +57,15 @@
   }
 
   #number {
-    padding-left: 14.5em;
+    display: flex;
+    width: 11em;
+    justify-content: flex-end;
+  }
+
+  #social-icons {
+    display: flex;
+    justify-content: space-evenly;
+    width: 20em;
   }
 
   #insta #fb #yelp {
@@ -74,26 +81,26 @@
       }
     
       #footer-wrapper {
-        display: grid;
-        grid-template-columns: 2em 12em auto 2em;
-        grid-template-rows: 4em;
-        font-family: "Poppins", "Serif";
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        flex-direction: row;
         font-size: 0.75em;
       }
     
       #address {
-        grid-column-start: 2;
-        align-self: flex-start;
+        width: 13em;
+        margin-left: 6%;
       }
+
       #address a {
         text-decoration: none;
         color: black;
       }
       #number {
-        grid-column-start: 3;
-        justify-self: flex-end;
-        margin-bottom: 0.7em;
-        align-self: center;
+        display: flex;
+        justify-content: flex-end;
+        width: 60%;
       }
     
       .social-icon {

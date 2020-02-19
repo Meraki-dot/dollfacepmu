@@ -13,6 +13,7 @@ export const StyledBurger = styled.button`
   border: none;
   cursor: pointer;
   padding: 0;
+  z-index: 100;
   
   &:focus {
     outline: none;
@@ -27,7 +28,7 @@ export const StyledBurger = styled.button`
     transform-origin: 1px;
   }
 
-  @media screen and (min-width: 921px) {
+  @media screen and (min-width: 1081px) {
     display: none
   }
 `;

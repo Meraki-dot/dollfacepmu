@@ -11,6 +11,8 @@ import Removal from './ServicesModals/Removal';
 import SkinNeedling from './ServicesModals/SkinNeedling';
 import LashLift from './ServicesModals/LashLift';
 import LipBlush from './ServicesModals/LipBlush';
+import MicroShade from './ServicesModals/MicroShade';
+import Correction from './ServicesModals/Correction';
 
 const Services = () => {
 
@@ -31,18 +33,22 @@ const Services = () => {
                 <div id="main-services-title">
                     <h1>EYEBROW SERVICES</h1>
                 </div>
-                <div id="eyebrow-services">
+                <div className="eyebrow-services">
                     <OmbreModal />
                     <MicroModal />
-                    <Removal />
+                    <MicroShade />
                 </div>
-                <div id="services-title-2">
+                <div className="eyebrow-services" id="second-row-services">
+                    <Removal />
+                    <Correction />
+                </div>
+                <div id="other-services-title">
                     <h1>OTHER SERVICES</h1>
                 </div>
                 <div id="other-services">
-                    <SkinNeedling />
-                    <LashLift />
                     <LipBlush />
+                    <LashLift />
+                    <SkinNeedling />
                 </div>
                 <div id="services-footer">
                     <Footer />

@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import Modal from 'react-modal';
+import { Link } from 'react-router-dom';
 
 const LipBlush = () => {
 
@@ -13,6 +14,7 @@ const LipBlush = () => {
         <button onClick={onClick}>
             <div className="services-title">
                 <h1>LIP BLUSH</h1>
+                <p><i>3 - 4 hours | $175</i></p>
             </div>
             <Modal
                 appElement={document.getElementById('eyebrow-services')}
@@ -22,7 +24,28 @@ const LipBlush = () => {
                 <button className="modal-close-button" onClick={onClick}>X</button>
                 <div className="modal-content">
                     <h1>LIP BLUSH</h1>
-                    <p>Qui laborum nisi sunt esse in aliquip sint nulla qui est Lorem Lorem elit aliqua. Sint occaecat ut nostrud dolor. Reprehenderit deserunt do ad non veniam nisi aliqua magna. Do incididunt nostrud mollit est amet cupidatat. Deserunt deserunt aute proident amet sunt Lorem cupidatat laboris dolore dolor id esse eiusmod. Culpa et enim exercitation cillum. Lorem exercitation est ipsum aliqua laboris irure id.</p>
+                    <p className="duration-price"><i>3 - 4 hours | $250</i></p>
+                    <br></br>
+                    <p>By adding a soft splash of color, this technique can help enhance the natural "pinkness" of your lips.  Our lip tattoos are completely borderless, meaning, <strong>that this service is not a "lip liner,"</strong> but a very natural blush of color for the entire lips.</p>
+                    <p>This service is excellent for clients who need:</p>
+                    <ul>
+                        <li>
+                            To refine the natural shape of their lips.
+                        </li>
+                        <li>
+                            Add color to pale lips.
+                        </li>
+                        <li>
+                            Add warmth to cool-toned lips.
+                        </li>
+                        <li>
+                            Generally retains 1-2 years before requiring an annual touch up.
+                        </li>
+                    </ul>
+                    <br></br>
+                    <div className="modal-book-button">
+                        <Link className="modal-book" to="/appointments">Book Now</Link>
+                    </div>
                 </div>
             </Modal>
         </button>

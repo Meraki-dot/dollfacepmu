@@ -20,9 +20,9 @@ const PrepareModal = () => {
                     closeTimeoutMS={300}
                 >
                     <button className="modal-close-button" onClick={onClick}>X</button>
-                    <div className="modal-content">
+                    <div className="modal-content" id="first-prep-modal">
                         <h1 className="first-prep-modal-title">PREPARE</h1>
-                        <div>
+                        <div className="prep-modal-content-container">
                             <ul className="prep-modal-content" >
                                 <li>
                                     Ex fugiat nulla esse occaecat commodo ea quis velit mollit aliqua velit.
@@ -41,7 +41,7 @@ const PrepareModal = () => {
                         <div>
                             <h1 className="title-style">WHAT TO EXPECT</h1>
                         </div>
-                        <div>
+                        <div className="prep-modal-content-container">
                             <ul className="prep-modal-content">
                                 <li>
                                     Ex fugiat nulla esse occaecat commodo ea quis velit mlilit aliqua velit.
@@ -60,7 +60,7 @@ const PrepareModal = () => {
                         <div>
                             <h1 className="title-style">AFTERCARE</h1>
                         </div>
-                        <div>
+                        <div className="prep-modal-content-container">
                             <ul className="prep-modal-content">
                                 <li>
                                     Ex fugiat nulla esse occaecat commodo ea quis velit mlilit aliqua velit.

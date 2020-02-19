@@ -18,7 +18,7 @@ export const StyledMenu = styled.nav`
   transition: transform 0.3s ease-in-out;
   
   
-  @media (max-width: 920px) {
+  @media (max-width: 1080px) {
     width: 100%;
   }
 

@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import Modal from 'react-modal';
 import '../Modal.css'
+import { Link } from 'react-router-dom';
 
 const OmbreModal = () => {
 
@@ -14,16 +15,32 @@ const OmbreModal = () => {
         <button className="services-overview-button" onClick={onClick}>
             <div className="services-title">
                 <h1>OMBRE</h1>
+                <p><i>3 - 4 hours | $400</i></p>
             </div>
             <Modal
                 appElement={document.getElementById('eyebrow-services')}
                 isOpen={modalOpen}
                 closeTimeoutMS={300}
             >
-                <button className="modal-close-button" onClick={onClick}>X</button>
+                <button className="modal-close-button" onClick={onClick}>X</button> {/* Needs to render on mobile side too */}
                 <div className="modal-content">
                     <h1>OMBRE</h1>
-                    <p>Qui laborum nisi sunt esse in aliquip sint nulla qui est Lorem Lorem elit aliqua. Sint occaecat ut nostrud dolor. Reprehenderit deserunt do ad non veniam nisi aliqua magna. Do incididunt nostrud mollit est amet cupidatat. Deserunt deserunt aute proident amet sunt Lorem cupidatat laboris dolore dolor id esse eiusmod. Culpa et enim exercitation cillum. Lorem exercitation est ipsum aliqua laboris irure id.</p>
+                    <p className="duration-price"><i>3 - 4 hours | $400</i></p>
+                    <br></br>
+                    <p>The "Ombre Powder" is a technique that gradually shades from lightly colored fronts into a darker tail. This look can be customized to replicate a more saturated "makeup look," or it can be as subtle as a naturally tinted brow.</p>
+                    <p>This service is the signature technique at Dollface Permanent Makeup.</p>
+                    <ul>
+                        <li>
+                            Suitable for all skin types (oily, dry, normal, combination).
+                        </li>
+                        <li>
+                            Generally retains 1-3 years before requiring an annual touch up.
+                        </li>
+                    </ul>
+                    <br></br>
+                    <div className="modal-book-button">
+                        <Link className="modal-book" to="/appointments">Book Now</Link>
+                    </div>
                 </div>
             </Modal>
         </button>

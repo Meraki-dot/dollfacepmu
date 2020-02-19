@@ -1,7 +1,6 @@
 #nav-container {
-    display: grid;
-    grid-template-columns: 45% auto auto auto auto auto auto 4.7%;
-    grid-template-rows: 100%;
+    display: flex;
+    justify-content: space-between;
     padding-top: 4%;
     background-color: white;
     position: fixed;
@@ -13,16 +12,33 @@
 }
 
 #top-logo {
-    margin-top: -5%;
-    padding-left: 10%;
+    top: 2em;
+    left: 4em;
+    position: absolute;
 }
 
 #top-logo svg {
-    height: 5vw;
+    height: 8em;
     cursor: pointer;
 }
 
-#nav-container span a {
+#nav-container ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 100%;
+    margin-right: 4em;
+}
+
+#nav-container li {
+    width: 10em;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-self: flex-start;
+}
+
+#nav-container li a {
     text-decoration: none;
     position: relative;
     color: black;
@@ -45,7 +61,7 @@
     transition: all 0.175s ease-in-out 0s;
 }
 
-#nav-container span a:hover:before {
+#nav-container li a:hover:before {
     visibility: visible;    
     -webkit-transform: scaleX(1);
     transform: scaleX(1);
@@ -54,7 +70,7 @@
 
 /*mobile*/
 
-@media screen and (max-width: 920px) {
+@media screen and (max-width: 1080px) {
     #nav-container {
         display: none;
     }

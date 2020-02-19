@@ -40,7 +40,6 @@ const Preparation = () => {
                     </li>
                 </ol>
                 <div id="img-container">
-                    <img id="first-image" src={require("../images/dollface3.JPG")} alt="undone eyebrows" />
                 </div>
             </div>
             <div id="page-title-2">
@@ -62,7 +61,6 @@ const Preparation = () => {
                     </li>
                 </ol>
                 <div id="img-container">
-                    <img id="second-image" src={require("../images/dollface2.JPG")} alt="done eyebrows" />
                 </div>
             </div>
             <div id="page-title-3">
@@ -84,7 +82,6 @@ const Preparation = () => {
                     </li>
                 </ol>
                 <div id="img-container">
-                    <img id="third-image" src={require("../images/dollface1.JPG")} alt="woman" />
                 </div>
             </div>
             <div id="prep-footer">

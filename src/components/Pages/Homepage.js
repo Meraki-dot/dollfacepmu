@@ -7,6 +7,7 @@ import { Animated } from "react-animated-css";
 import { ReactComponent as Logo } from '../images/dollface.svg';
 import Burger from '../general/Burger/Burger';
 import Menu from '../general/Menu/Menu';
+import { Link } from 'react-router-dom';
 
 const Homepage = () => {
 
@@ -34,16 +35,16 @@ const Homepage = () => {
                     <Burger className="burger-menu" open={open} isOpen={isOpen} />
                 </div>
                 <Menu open={open} isOpen={isOpen} />
-                <span id="mobile-logo"><Logo /></span>
+                <div id="mobile-logo"><Logo /></div>
                 <div id="hero-panel">
                     <div id="hero-left">
                         <h1 id="hero-message">
-                            BRUH, MY EYES ARE DOWN HERE
+                            HEY, DOLLFACE
                         </h1>
                         <a href="/appointments">
                             <button id="homepage-schedule">
                                 <span>
-                                    SCHEDULE AN APPOINTMENT
+                                    BOOK AN APPOINTMENT
                             </span>
                                 <span>
                                     <p id="arrow">🡢</p>
@@ -55,13 +56,13 @@ const Homepage = () => {
                         <div id="instafeed" className="row">
                         </div>
                     </div>
-                    <a href="/appointments" id="homepage-schedule-mobile">
+                    <Link to="/appointments" id="homepage-schedule-mobile">
                         <button id="homepage-schedule-mobile-button">
                             <span>
                                 SCHEDULE AN APPOINTMENT
                             </span>
                         </button>
-                    </a>
+                    </Link>
                 </div>
                 <div id="footer-container">
                     <Footer />

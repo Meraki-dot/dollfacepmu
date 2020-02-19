@@ -1,61 +1,77 @@
 @media screen and (min-width: 921px) {
     #appointment-container {
-        display: grid;
-        grid-template-rows: 5em[header] 15em[title] 8em[preread] 5em[agree] 10em[book] 10em[footer];
-        height: 100vh;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
         width: 100%;
     }
+    #appt-title-box {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin-top: 13em;
+    }
     #appointment-title {
-        grid-row-start: 2;
-        justify-self: center;
-        align-self: flex-end;
-        width: 60%;
+        width: 20em;
         text-align: center;
         font-size: 50px;
     }
     #pre-reading {
-        grid-row-start: 3;
-        justify-self: center;
-        align-self: center;
-        display: grid;
-        grid-template-columns: 50% 50%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
         width: 100%;
+        height: 9em;
     }
     #prep-preread {
-        grid-column-start: 1;
         font-family: 'Abril Fatface', 'Serif';
         justify-self: center;
-        margin-left: 50%;
     }
-    #prep-preread a {
-        color: black;
-        text-decoration: none;
-        position: relative;
+    #prep-preread h2 {
+        border: black 1px solid;
+        padding: 0.48em 1em;
+    }
+    #TOA-container {
+        display: none;
     }
     #services-preread {
-        grid-column-start: 2;
         font-family: 'Abril Fatface', 'Serif';
         justify-self: center;
-        margin-right: 50%;
+        align-self: flex-end;
+        margin-top: 1.13em;
     }
     #services-preread a {
         color: black;
         text-decoration: none;
         position: relative;
+        border: black 1px solid;
+        padding: 0.42em 1em;
     }
+    @keyframes color-shift {
+        from {
+            background-color: white;
+        }
+        to {
+            background-color: black;
+        }
+        from {
+            color: black;
+        }
+        to {
+            color: white;
+        }
+    }
+    #prep-preread h2:hover, #services-preread a:hover {
+        animation-name: color-shift;
+        animation-duration: 0.25s;
+        transition-timing-function: ease-out;
+        transition-timing-function: ease-in;
+        animation-fill-mode: forwards;
+    }
+ 
     #agreement-container {
-        display: grid;
-        grid-row-start: 4;
-        grid-template-rows: auto;
-    }
-    #statement {
-        grid-row-start: 1;
-        justify-self: center;
-        align-self: center;
-        display: grid;
-        grid-template-columns: 100%;
-        width: 100%;
-        height: 100%;
+        height: 6em;
+        margin-top: 3em;
     }
     .checkbox-container {
         display: flex;
@@ -115,11 +131,9 @@
        margin-top: 1.7em;
     }
     #redirect-schedulista {
-        grid-row-start: 5;
-        justify-self: center;
-        align-self: center;
         width: 100%;
         text-align: center;
+        height: 10em;
     }
     #schedulista-button {
         background: transparent;
@@ -153,8 +167,11 @@
         cursor: pointer;
     }
     #appointment-footer {
-        grid-row-start: 6;
+        display: flex;
+        width: 100%;
         align-self: flex-end;
+        justify-content: center;
+        margin-top: 5.5em;
     }
 }
 
@@ -162,12 +179,18 @@
 
 @media screen and (max-width: 920px) {
     #appointment-container {
-        display: grid;
-        grid-template-rows: 7em[header] 12em[title] 6em[prep] 5em[checkmark] 6em[next] 8.5em[footer];
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         width: 100%;
     }
+    #appt-title-box {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        margin-top: 7em;
+    }
     #appointment-title {
-        grid-row-start: 2;
         font-size: 1.9em;
         width: 85%;
         word-wrap: break-word;
@@ -177,13 +200,22 @@
         margin-bottom: 1em;
     }
     #pre-reading {
-        grid-row-start: 3;
         display: flex;
+        width: 100%;
         flex-direction: row;
         justify-content: space-evenly;
+        align-items: center;
         margin-top: 1.5em;
     }
 
+    #services-preread {
+        border: 1px solid black;
+        padding: 0.3em 0.8em;
+    }
+    #prep-preread {
+        border: 1px solid black;
+        padding: 0.25em 0.2em;
+    }
     #services-preread a {
         color: darkblue;
         text-decoration: none;
@@ -192,8 +224,17 @@
         margin: 0;
     }
     #agreement-container {
-        grid-row-start: 4;
-        align-self: center;
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        height: 6em;
+        margin-top: 1.5em;
+    }
+    #statement {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
     }
     .checkbox-container {
         display: flex;
@@ -250,14 +291,17 @@
     }
     .checkbox-container p {
         position: absolute;
-        right: 20vw;
+        right: 15%;
         top: 0.4vw;
     }
     #redirect-schedulista {
-        grid-row-start: 5;
         width: 100%;
         text-align: center;
-        align-self: flex-end;
+        height: 6em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 1.5em;
     }
     #redirect-schedulista button {
         background: transparent;
@@ -283,7 +327,8 @@
         margin: auto;
     }
     #appointment-footer {
-        grid-row-start: 6;
-        align-self: flex-end;
+        width: 95%;
+        margin-right: 1.2em;
+        margin-top: 6em;
     }
 }

@@ -1,153 +1,165 @@
-@media screen and (min-width: 921px) {
-    #services-container {
-        display: grid;
-        grid-template-rows: 14% 14% 60% 20% 60% 22%;
-        width: 100%;
-        height: 100vh;
+#services-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#coming-soon {
+    pointer-events: none;
+}
+
+.eyebrow-services button, #second-row-services button, #other-services button {
+    width: 25em;
+    height: 25em;
+    background: transparent;
+    border: 1px solid black;
+    cursor: pointer;
+    outline: gray;
+}
+
+.eyebrow-services button:hover, #second-row-services button:hover, #other-services button:hover {
+    animation-name: color-shift;
+    animation-duration: 0.25s;
+    transition-timing-function: ease-out;
+    transition-timing-function: ease-in;
+    animation-fill-mode: forwards;
+}
+
+@keyframes color-shift {
+    from {
+        background-color: white;
     }
-    #services-container button {
-        width: 100%;
-        height: 100%;
-        text-decoration: none;
+    to {
+        background-color: black;
+    }
+    from {
         color: black;
-        background: transparent;
-        outline: none;
-        border: black 1px solid;
-        cursor: pointer;
     }
-    #services-container button:hover {
-        animation-name: color-shift;
-        animation-duration: 0.25s;
-        transition-timing-function: ease-out;
-        transition-timing-function: ease-in;
-        animation-fill-mode: forwards;
-    }
-    @keyframes color-shift {
-        from {
-            background-color: white;
-        }
-        to {
-            background-color: black;
-        }
-        from {
-            color: black;
-        }
-        to {
-            color: white;
-        }
-    }
-    #main-services-title {
-        grid-row-start: 2;
-        justify-self: center;
-        align-self: center;
-    }
-    #sub-title h2 {
-        justify-self: center;
-    }
-    #eyebrow-services {
-        grid-row-start: 3;
-        display: grid;
-        grid-template-columns: 3fr 3fr 3fr;
-        grid-gap: 2%;
-        margin-left: 5%;
-        margin-right: 5%;
-    }
-    .services-title {
-        grid-column-start: 2;
-        text-align: center;
-        width: 100%;
-        height: 100%;
-        display: grid;
-    }
-    .services-title h1 {
-        align-self: center;
-    }
-    #services-title-2 {
-        grid-row-start: 4;
-        justify-self: center;
-        align-self: center;
-        padding-top: 2%;
-    }
-    #other-services {
-        grid-row-start: 5;
-        display: grid;
-        grid-template-columns: 3fr 3fr 3fr;
-        grid-gap: 2%;
-        margin-left: 5%;
-        margin-right: 5%;
-    }
-    #services-footer {
-        grid-row-start: 6;
-        align-self: center;
-        padding-bottom: 1%;
+    to {
+        color: white;
     }
 }
 
+.services-title {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0.5em;
+}
+
+#main-services-title {
+    width: 100%;
+    display: flex;
+    height: 14em;
+    align-items: flex-end;
+    justify-content: center;
+    margin-bottom: 2em;
+}
+
+.eyebrow-services {
+    width: 85em;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+#second-row-services {
+    margin-top: 2em;
+    justify-content: space-evenly;
+    width: 59em;
+    max-width: 100%;
+    flex-wrap: wrap;
+}
+
+#other-services-title {
+    width: 100%;
+    display: flex;
+    height: 8em;
+    justify-content: center;
+    align-items: center;
+}
+
+#other-services {
+    width: 85em;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 5em;
+    flex-wrap: wrap;
+}
+
+#services-footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 1208px) {
+    #services-container h1 {
+        font-size: 2.2em;
+    }
+    .eyebrow-services, #other-services {
+        flex-direction: row;
+        display: flex;
+        align-items: center;
+    }
+    #main-services-title {
+        margin: 0 0 1em 0;
+        text-align: center;
+        width: 25em;
+    }
+    #second-row-services {
+        margin-top: -0.01em;
+    }
+    #other-services-title {
+        height: 6em;
+        display: flex;
+        margin-top: 2em;
+        width: 25em;
+        text-align: center;
+    }
+    .eyebrow-services button, #second-row-services button, #other-services button {
+        height: 12em;
+        margin-top: 2em;
+        width: 20em;
+    }
+
+}
 /*mobile*/
 
 @media screen and (max-width: 920px) {
-    #services-container {
-        display: grid;
-        grid-template-rows: 5em[header] 7em[title] 20em[buttons] 7em[title] auto 12em[footer];
-        width: 100%;
-        height: 100vh;
+    #services-container h1 {
+        font-size: 2.2em;
     }
-    #eyebrow-services button, #other-services button {
-        width: 18em;
-        max-width: 100%;
-        height: 100%;
-        text-decoration: none;
-        color: black;
-        background: transparent;
-        outline: none;
-        border: black 1px solid;
-        justify-self: center;
+    .eyebrow-services, #other-services {
+        flex-direction: column;
         display: flex;
+        align-items: center;
     }
     #main-services-title {
-        grid-row-start: 2;
-        justify-self: center;
-        align-self: center;
-    }
-    #main-services-title h1 {
-        font-size: 2.3em;
-        justify-content: center;
-    }
-    #eyebrow-services {
-        grid-row-start: 3;
-        margin-left: 5%;
-        margin-right: 5%;
-        display: grid;
-        grid-gap: 2em;
-        grid-template-rows: 5em 5em 5em;
-    }
-    .services-title {
+        margin: 0 0 1em 0;
         text-align: center;
-        margin: auto;
-        height: 100%;
-        display: grid;
+        width: 10em;
     }
-    .services-title h1 {
-        align-self: center;
-        font-family: 'Poppins', 'sans-serif';
-        font-size: 1.4em;
-        padding-top: 0.25em;
+    #second-row-services {
+        margin-top: -0.01em;
     }
-    #services-title-2 {
-        grid-row-start: 4;
-        justify-self: center;
-        align-self: center;
+    #other-services-title {
+        height: 6em;
+        display: flex;
+        margin-top: 2em;
+        width: 10em;
+        text-align: center;
     }
-    #other-services {
-        grid-row-start: 5;
-        display: grid;
-        grid-template-rows: 5em 5em 5em;
-        grid-gap: 2em;
-        margin-left: 5%;
-        margin-right: 5%;
-    }
-    #services-footer {
-        grid-row-start: 6;
-        align-self: center;
+    .eyebrow-services button, #second-row-services button, #other-services button {
+        height: 12em;
+        margin-top: 2em;
+        width: 20em;
     }
 }

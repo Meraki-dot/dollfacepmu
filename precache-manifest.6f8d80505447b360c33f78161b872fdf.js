@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ac26a4c5c6b0f0bccfacf3602d4974dc",
+    "revision": "729f82430f1c68fb2ae5b24128609892",
     "url": "/dollfacepmu/index.html"
   },
   {
-    "revision": "1122ccbd3980b424e20c",
-    "url": "/dollfacepmu/static/css/main.07fbd7be.chunk.css"
+    "revision": "8dfd8354c486adda2715",
+    "url": "/dollfacepmu/static/css/main.3327f103.chunk.css"
   },
   {
-    "revision": "e2f013a1ae33e3d84ab5",
-    "url": "/dollfacepmu/static/js/2.2b727caa.chunk.js"
+    "revision": "68df3f8c602343a296fe",
+    "url": "/dollfacepmu/static/js/2.3a9dab50.chunk.js"
   },
   {
     "revision": "d8726e1b4dd3958da757fbb530e5f88c",
-    "url": "/dollfacepmu/static/js/2.2b727caa.chunk.js.LICENSE"
+    "url": "/dollfacepmu/static/js/2.3a9dab50.chunk.js.LICENSE"
   },
   {
-    "revision": "1122ccbd3980b424e20c",
-    "url": "/dollfacepmu/static/js/main.2b3eca81.chunk.js"
+    "revision": "8dfd8354c486adda2715",
+    "url": "/dollfacepmu/static/js/main.c3158196.chunk.js"
   },
   {
     "revision": "a0571d8fc4bd42a73afe",
@@ -26,18 +26,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "a64cae4b239fb425d7953a05f30c2a60",
     "url": "/dollfacepmu/static/media/dollface.a64cae4b.svg"
-  },
-  {
-    "revision": "416a763c31d0bc7cc5368f706ea02ad5",
-    "url": "/dollfacepmu/static/media/dollface1.416a763c.JPG"
-  },
-  {
-    "revision": "bc16a06704f8b0dee25a73024a6b2eff",
-    "url": "/dollfacepmu/static/media/dollface2.bc16a067.JPG"
-  },
-  {
-    "revision": "58291cebd676b6da83a17afbafcda5ce",
-    "url": "/dollfacepmu/static/media/dollface3.58291ceb.JPG"
   },
   {
     "revision": "70f7463bc17978812fc73372a66715d0",

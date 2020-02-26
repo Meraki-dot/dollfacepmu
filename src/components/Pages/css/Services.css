@@ -70,11 +70,12 @@
 }
 
 #second-row-services {
-    margin-top: 2em;
-    justify-content: space-evenly;
-    width: 59em;
+    width: 85em;
     max-width: 100%;
+    display: flex;
+    justify-content: space-evenly;
     flex-wrap: wrap;
+    margin-top: 2.5em;
 }
 
 #other-services-title {

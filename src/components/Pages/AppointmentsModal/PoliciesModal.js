@@ -13,7 +13,7 @@ const PoliciesModal = () => {
     return (
         <button className="policies-modal-button" onClick={onClick}>
             POLICIES
-            <div id="TOA-container">
+            <div id="TOA-modal-container">
                 <Modal
                     appElement={document.getElementById('eyebrow-services')}
                     isOpen={modalOpen}

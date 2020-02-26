@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import './App.css';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import Homepage from './components/Pages/Homepage';
@@ -8,20 +8,24 @@ import Services from './components/Pages/Services';
 import Appointment from './components/Pages/Appointment';
 import Schedule from './components/Pages/Schedule';
 import AboutMe from './components/Pages/AboutMe';
+import ScrollToTop from './components/general/ScrollToTop';
 
 function App() {
 
     return (
         <BrowserRouter basename='/dollfacepmu'>
-            <Switch>
-                <Route exact path='/' component={Homepage} />
-                <Route path='/toa' component={TOA} />
-                <Route path='/about-me' component={AboutMe} />
-                <Route path='/preparation' component={Preparation} />
-                <Route path='/services' component={Services} />
-                <Route path='/appointments' component={Appointment} />
-                <Route path='/schedule' component={Schedule} />
-            </Switch>
+            <Fragment>
+                <ScrollToTop />
+                <Switch>
+                    <Route exact path='/' component={Homepage} />
+                    <Route path='/toa' component={TOA} />
+                    <Route path='/about-me' component={AboutMe} />
+                    <Route path='/preparation' component={Preparation} />
+                    <Route path='/services' component={Services} />
+                    <Route path='/appointments' component={Appointment} />
+                    <Route path='/schedule' component={Schedule} />
+                </Switch>
+            </Fragment>
         </BrowserRouter>
     );
 }

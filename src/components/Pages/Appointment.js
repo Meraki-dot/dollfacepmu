@@ -48,7 +48,7 @@ const Appointment = () => {
                 </div>
                 <div id="pre-reading">
                     <span id="prep-preread">
-                        <PrepareModal />
+                    <h2><Link to="/preparation" rel="noopener noreferrer">PREPARE</Link></h2>
                     </span>
                     <span id="services-preread">
                         <h2><Link to="/services" rel="noopener noreferrer">SERVICES</Link></h2>
@@ -59,7 +59,7 @@ const Appointment = () => {
                         <div className="checkbox-container">
                             <input type="checkbox" id="checkbox_1" value="value2" onClick={onClick} />
                             <label for="checkbox_1"></label>
-                            <p>AGREE TO THE<PoliciesModal /></p>
+                            <p>AGREE TO THE<PoliciesModal/></p>
                         </div>
                     </div>
                 </div>

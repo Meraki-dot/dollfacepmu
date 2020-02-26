@@ -18,34 +18,38 @@
     }
     #pre-reading {
         display: flex;
-        justify-content: center;
+        justify-content: space-around;
         align-items: flex-start;
-        width: 100%;
+        width: 35%;
         height: 9em;
+        align-self: center;
+    }
+    #TOA-modal-container {
+        display: none;
     }
     #prep-preread {
         font-family: 'Abril Fatface', 'Serif';
         justify-self: center;
+        align-self: flex-end;
     }
-    #prep-preread h2 {
+    #prep-preread a {
+        color: black;
+        text-decoration: none;
+        position: relative;
         border: black 1px solid;
-        padding: 0.48em 1em;
-    }
-    #TOA-container {
-        display: none;
+        padding: 0.396em 1em;
     }
     #services-preread {
         font-family: 'Abril Fatface', 'Serif';
         justify-self: center;
         align-self: flex-end;
-        margin-top: 1.13em;
     }
     #services-preread a {
         color: black;
         text-decoration: none;
         position: relative;
         border: black 1px solid;
-        padding: 0.42em 1em;
+        padding: 0.396em 1em;
     }
     @keyframes color-shift {
         from {
@@ -61,7 +65,7 @@
             color: white;
         }
     }
-    #prep-preread h2:hover, #services-preread a:hover {
+    #prep-preread a:hover, #services-preread a:hover {
         animation-name: color-shift;
         animation-duration: 0.25s;
         transition-timing-function: ease-out;
@@ -214,7 +218,14 @@
     }
     #prep-preread {
         border: 1px solid black;
-        padding: 0.25em 0.2em;
+        padding: 0.3em 0.8em;
+    }
+    #prep-preread a {
+        color: darkblue;
+        text-decoration: none;
+    }
+    #prep-preread h2 {
+        margin: 0;
     }
     #services-preread a {
         color: darkblue;

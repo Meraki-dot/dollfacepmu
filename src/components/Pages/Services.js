@@ -13,6 +13,7 @@ import LashLift from './ServicesModals/LashLift';
 import LipBlush from './ServicesModals/LipBlush';
 import MicroShade from './ServicesModals/MicroShade';
 import Correction from './ServicesModals/Correction';
+import TouchUp from './ServicesModals/TouchUp';
 
 const Services = () => {
 
@@ -41,6 +42,7 @@ const Services = () => {
                 <div className="eyebrow-services" id="second-row-services">
                     <Removal />
                     <Correction />
+                    <TouchUp />
                 </div>
                 <div id="other-services-title">
                     <h1>OTHER SERVICES</h1>

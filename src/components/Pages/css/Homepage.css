@@ -173,7 +173,7 @@
         align-self: center;
         max-height: 6em;
         max-width: 6em;
-        border: black 0.75px solid;
+        /* border: #F5F5F5 2px solid; */
     }
     .row {
         grid-row-gap: 10px;

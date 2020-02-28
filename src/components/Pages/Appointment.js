@@ -4,7 +4,6 @@ import Footer from '../general/Footer';
 import './css/Appointment.css';
 import { Animated } from "react-animated-css";
 import PoliciesModal from './AppointmentsModal/PoliciesModal';
-import PrepareModal from './AppointmentsModal/PrepareModal';
 import Burger from '../general/Burger/Burger';
 import Menu from '../general/Menu/Menu';
 import { Link } from 'react-router-dom';

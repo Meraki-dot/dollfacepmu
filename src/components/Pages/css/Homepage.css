@@ -84,7 +84,6 @@
         align-self: center;
         max-height: 12em;
         max-width: 12em;
-        border: black 0.75px solid;
     }
     .row {
         justify-self: center;
@@ -173,10 +172,9 @@
         align-self: center;
         max-height: 6em;
         max-width: 6em;
-        /* border: #F5F5F5 2px solid; */
     }
     .row {
-        grid-row-gap: 10px;
+        grid-row-gap: 5px;
         grid-column-gap: 10px;
         align-self: center;
     }

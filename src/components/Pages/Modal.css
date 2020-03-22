@@ -16,6 +16,7 @@
 
 .ReactModal__Content {
     border-radius: 0 !important;
+    margin: auto;
 }
 
 .modal-close-button {
@@ -92,7 +93,7 @@
     .ReactModal__Content {
         height: 65%;
         width: 65%;
-        /* margin: auto; */
+        margin: auto;
     }
     .first-prep-modal-title {
         text-align: center;

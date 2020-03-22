@@ -1,5 +1,18 @@
 body {
-    max-width: 100%;
-    margin: 0;
-    padding: 0;
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: "Helvetica Light";
+  src: url("./fonts/Helvetica_light.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Helvetica Roman";
+  src: url("./fonts/Helvetica_Regular.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Helvetica Bold";
+  src: url("./fonts/Helvetica_Bold.woff2") format("woff2");
 }

@@ -15,6 +15,7 @@ const LipBlush = () => {
             <div className="services-title">
                 <h1>LIP BLUSH</h1>
                 <p><i>3 - 4 hours | $175</i></p>
+                <p><i>coming soon!</i></p>
             </div>
             <Modal
                 appElement={document.getElementById('eyebrow-services')}
@@ -25,6 +26,7 @@ const LipBlush = () => {
                 <div className="modal-content">
                     <h1>LIP BLUSH</h1>
                     <p className="duration-price"><i>3 - 4 hours | $250</i></p>
+                    <p><i>coming soon!</i></p>
                     <br></br>
                     <p>By adding a soft splash of color, this technique can help enhance the natural "pinkness" of your lips.  Our lip tattoos are completely borderless, meaning, <strong>that this service is not a "lip liner,"</strong> but a very natural blush of color for the entire lips.</p>
                     <p>This service is excellent for clients who need:</p>

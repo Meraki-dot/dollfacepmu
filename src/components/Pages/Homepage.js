@@ -39,8 +39,9 @@ const Homepage = () => {
                 <div id="hero-panel">
                     <div id="hero-left">
                         <h1 id="hero-message">
-                            HEY, DOLLFACE
+                            DOLLFACE
                         </h1>
+                        <h1 id="hero-message-2">PERMANENT MAKEUP</h1>
                         <a href="/appointments">
                             <button id="homepage-schedule">
                                 <span>

@@ -9,7 +9,7 @@ export const StyledMenu = styled.nav`
   height: 105%;
   text-align: left;
   width: 95%;
-  font-family: 'Poppins', 'sans serif';
+  font-family: 'Helvetica Light';
   padding: 2rem;
   position: fixed;
   top: 0;

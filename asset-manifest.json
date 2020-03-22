@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/dollfacepmu/static/css/main.4f38ea37.chunk.css",
-    "main.js": "/dollfacepmu/static/js/main.8355fa08.chunk.js",
-    "main.js.map": "/dollfacepmu/static/js/main.8355fa08.chunk.js.map",
+    "main.css": "/dollfacepmu/static/css/main.51544443.chunk.css",
+    "main.js": "/dollfacepmu/static/js/main.63db03dc.chunk.js",
+    "main.js.map": "/dollfacepmu/static/js/main.63db03dc.chunk.js.map",
     "runtime-main.js": "/dollfacepmu/static/js/runtime-main.74b5e4aa.js",
     "runtime-main.js.map": "/dollfacepmu/static/js/runtime-main.74b5e4aa.js.map",
     "static/js/2.69b92743.chunk.js": "/dollfacepmu/static/js/2.69b92743.chunk.js",
     "static/js/2.69b92743.chunk.js.map": "/dollfacepmu/static/js/2.69b92743.chunk.js.map",
     "index.html": "/dollfacepmu/index.html",
-    "precache-manifest.ddb591cb8f32c207c32e25dbd0b79b8f.js": "/dollfacepmu/precache-manifest.ddb591cb8f32c207c32e25dbd0b79b8f.js",
+    "precache-manifest.7a73e71d27512aa97039e6fc54eb31b0.js": "/dollfacepmu/precache-manifest.7a73e71d27512aa97039e6fc54eb31b0.js",
     "service-worker.js": "/dollfacepmu/service-worker.js",
-    "static/css/main.4f38ea37.chunk.css.map": "/dollfacepmu/static/css/main.4f38ea37.chunk.css.map",
+    "static/css/main.51544443.chunk.css.map": "/dollfacepmu/static/css/main.51544443.chunk.css.map",
     "static/js/2.69b92743.chunk.js.LICENSE.txt": "/dollfacepmu/static/js/2.69b92743.chunk.js.LICENSE.txt",
     "static/media/index.css": "/dollfacepmu/static/media/Helvetica_light.055551ba.woff2",
     "static/media/dollface.a64cae4b.svg": "/dollfacepmu/static/media/dollface.a64cae4b.svg",
@@ -22,7 +22,7 @@
   "entrypoints": [
     "static/js/runtime-main.74b5e4aa.js",
     "static/js/2.69b92743.chunk.js",
-    "static/css/main.4f38ea37.chunk.css",
-    "static/js/main.8355fa08.chunk.js"
+    "static/css/main.51544443.chunk.css",
+    "static/js/main.63db03dc.chunk.js"
   ]
 }

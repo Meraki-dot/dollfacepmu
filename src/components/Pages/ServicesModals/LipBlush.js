@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import Modal from 'react-modal';
 import { Link } from 'react-router-dom';
+import { ReactComponent as Arrow } from '../../images/arrow.svg';
 
 const LipBlush = () => {
 
@@ -11,11 +12,9 @@ const LipBlush = () => {
     }
 
     return (
-        <button onClick={onClick}>
+        <button className="services-overview-button" onClick={onClick}>
             <div className="services-title">
-                <h1>LIP BLUSH</h1>
-                <p><i>3 - 4 hours | $175</i></p>
-                <p><i>coming soon!</i></p>
+                <p className="detail-button"><Arrow/></p>
             </div>
             <Modal
                 appElement={document.getElementById('eyebrow-services')}

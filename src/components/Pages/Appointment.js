@@ -3,7 +3,6 @@ import Navbar from '../general/Navbar';
 import Footer from '../general/Footer';
 import './css/Appointment.css';
 import { Animated } from "react-animated-css";
-import PoliciesModal from './AppointmentsModal/PoliciesModal';
 import Burger from '../general/Burger/Burger';
 import Menu from '../general/Menu/Menu';
 import { Link } from 'react-router-dom';
@@ -58,7 +57,7 @@ const Appointment = () => {
                         <div className="checkbox-container">
                             <input type="checkbox" id="checkbox_1" value="value2" onClick={onClick} />
                             <label for="checkbox_1"></label>
-                            <p>AGREE TO THE<PoliciesModal/></p>
+                            <p>AGREE TO THE POLICIES & TO SEND BARE BROW PHOTOS.</p>
                         </div>
                     </div>
                 </div>

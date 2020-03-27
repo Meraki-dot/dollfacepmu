@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import Modal from 'react-modal';
 import { Link } from 'react-router-dom';
+import { ReactComponent as Arrow } from '../../images/arrow.svg';
 
 const SkinNeedling = () => {
 
@@ -13,7 +14,7 @@ const SkinNeedling = () => {
     return (
         <button id="coming-soon" onClick={onClick}>
             <div className="services-title">
-                <h1>SKIN NEEDLING</h1>
+                <p className="detail-button"><Arrow /></p>
                 <p><i>Coming Soon!</i></p>
             </div>
             <Modal

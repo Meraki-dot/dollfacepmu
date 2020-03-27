@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import Modal from 'react-modal';
 import { Link } from 'react-router-dom';
+import { ReactComponent as Arrow } from '../../images/arrow.svg';
 
 const Correction = () => {
 
@@ -13,8 +14,7 @@ const Correction = () => {
     return (
         <button onClick={onClick}>
             <div className="services-title">
-                <h1>CORRECTION/<br></br>COVER-UP</h1>
-                <p><i>3 - 4 hours | +$50 on top of selected service</i></p>
+                <p className="detail-button"><Arrow/></p>
             </div>
             <Modal
                 appElement={document.getElementById('eyebrow-services')}

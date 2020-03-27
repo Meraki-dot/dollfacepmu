@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import Modal from 'react-modal';
 import { Link } from 'react-router-dom';
+import { ReactComponent as Arrow } from '../../images/arrow.svg';
 
 const MicroModal = () => {
 
@@ -13,8 +14,7 @@ const MicroModal = () => {
     return (
         <button className="services-overview-button" onClick={onClick}>
             <div className="services-title">
-                <h1>MICROBLADE</h1>
-                <p><i>3 hours | $400</i></p>
+                <p className="detail-button"><Arrow/></p>
             </div>
             <Modal
                 appElement={document.getElementById('eyebrow-services')}

@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   max-width: 100%;
   margin: 0;
@@ -16,3 +20,4 @@ body {
   font-family: "Helvetica Bold";
   src: url("./fonts/Helvetica_Bold.woff2") format("woff2");
 }
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300;0,400;1,300;1,400&display=swap');

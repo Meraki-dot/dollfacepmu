@@ -14,6 +14,7 @@ import LipBlush from './ServicesModals/LipBlush';
 import MicroShade from './ServicesModals/MicroShade';
 import Correction from './ServicesModals/Correction';
 import TouchUp from './ServicesModals/TouchUp';
+import DollfaceEyebrow from '../images/dollface_eyebrow.JPG';
 
 const Services = () => {
 
@@ -31,26 +32,75 @@ const Services = () => {
                     <Burger className="burger-menu" open={open} isOpen={isOpen} />
                 </div>
                 <Menu open={open} isOpen={isOpen} />
-                <div id="main-services-title">
-                    <h1>EYEBROW SERVICES</h1>
+                <div id="sidebar-container">
+                    <a href="#lips">LIPS</a>
+                    <a href="#lashes">LASHES</a>
+                    <a href="#eyebrows">EYEBROWS</a>
                 </div>
-                <div className="eyebrow-services">
-                    <OmbreModal />
-                    <MicroModal />
-                    <MicroShade />
+                <div id="eyebrows" className="ind-services">
+                    <div className="services-info-container">
+                        <div className='services-info'>
+                            <h1>OMBRE</h1>
+                            <p className="subtext service-category">EYEBROW SERVICES</p>
+                            <p className="subtext"><em>3 hours | $400</em></p>
+                            <OmbreModal />
+                        </div>
+                    </div>
+                    <div className="img-box">
+                        <img src={DollfaceEyebrow} />
+                    </div>
                 </div>
-                <div className="eyebrow-services" id="second-row-services">
-                    <Removal />
-                    <Correction />
-                    <TouchUp />
+                <div id="eyebrows" className="ind-services">
+                    <div className="services-info-container">
+                        <div className='services-info'>
+                            <h1>MICROBLADE</h1>
+                            <p className="subtext service-category">EYEBROW SERVICES</p>
+                            <p className="subtext"><em>3 hours | $400</em></p>
+                            <MicroModal />
+                        </div>
+                    </div>
+                    <div className="img-box">
+                        <img src={DollfaceEyebrow} />
+                    </div>
                 </div>
-                <div id="other-services-title">
-                    <h1>OTHER SERVICES</h1>
+                <div id="eyebrows" className="ind-services">
+                    <div className="services-info-container">
+                        <div className='services-info'>
+                            <h1>MICROSHADE</h1>
+                            <p className="subtext service-category">EYEBROW SERVICES</p>
+                            <p className="subtext"><em>3 hours | $400</em></p>
+                            <MicroShade />
+                        </div>
+                    </div>
+                    <div className="img-box">
+                        <img src={DollfaceEyebrow} />
+                    </div>
                 </div>
-                <div id="other-services">
-                    <LipBlush />
-                    <LashLift />
-                    <SkinNeedling />
+                <div id="lashes" className="ind-services">
+                    <div className="services-info-container">
+                        <div className='services-info'>
+                            <h1>LASH LIFT</h1>
+                            <p className="subtext service-category">LASH SERVICES</p>
+                            <p className="subtext"><em>one hour | $80</em></p>
+                            <LashLift />
+                        </div>
+                    </div>
+                    <div className="img-box">
+                        <img src={DollfaceEyebrow} />
+                    </div>
+                </div>
+                <div id="lips" className="ind-services">
+                    <div className="services-info-container">
+                        <div className='services-info'>
+                            <h1>LIP BLUSH</h1>
+                            <p className="subtext service-category">LASH SERVICES</p>
+                            <p className="subtext"><em>one hour | $80</em></p>
+                            <LipBlush />
+                        </div>
+                    </div>
+                    <div className="img-box">
+                        <img src={DollfaceEyebrow} />
+                    </div>
                 </div>
                 <div id="services-footer">
                     <Footer />

@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import Modal from 'react-modal';
 import { Link } from 'react-router-dom';
+import { ReactComponent as Arrow } from '../../images/arrow.svg';
 
 const Removal = () => {
 
@@ -13,8 +14,7 @@ const Removal = () => {
     return (
         <button className="services-overview-button" onClick={onClick}>
             <div className="services-title">
-                <h1>REMOVAL /<br></br>LIGHTENING</h1>
-                <p><i>1 - 2 hours | $175</i></p>
+                <p className="detail-button"><Arrow/></p>
             </div>
             <Modal
                 appElement={document.getElementById('eyebrow-services')}

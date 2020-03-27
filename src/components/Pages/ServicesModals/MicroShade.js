@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import Modal from 'react-modal';
 import { Link } from 'react-router-dom';
+import { ReactComponent as Arrow } from '../../images/arrow.svg';
 
 const MicroShade = () => {
 
@@ -11,10 +12,9 @@ const MicroShade = () => {
     }
 
     return (
-        <button onClick={onClick}>
+        <button className="services-overview-button" onClick={onClick}>
             <div className="services-title">
-                <h1>MICROSHADE</h1>
-                <p><i>3 - 4 hours | $450</i></p>
+                <p className="detail-button"><Arrow/></p>
             </div>
             <Modal
                 appElement={document.getElementById('eyebrow-services')}

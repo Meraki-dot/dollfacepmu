@@ -32,16 +32,18 @@
     font-family: "Helvetica Bold";
   }
   #hero-message-2 {
-    font-family: "Helvetica Roman";
+    font-family: "Helvetica Light";
     font-size: 2em;
+    letter-spacing: 0.188em;
+    margin-left: 0.1em;
   }
   #homepage-schedule {
-    margin: 1em 0 0 0;
-    width: 19em;
+    margin: 3.5em 0 0 0.3em;
+    width: 23.5em;
     background-color: transparent;
     border: black solid 1px;
     padding: 0.9em;
-    font-family: "Helvetica Roman";
+    font-family: "Helvetica Light";
     font-size: 1.1em;
     cursor: pointer;
   }
@@ -155,16 +157,18 @@
     margin-bottom: 2em;
   }
   #hero-message, #hero-message-2 {
-    width: 11em;
+    width: 100%;
     text-align: center;
     margin: auto;
     align-self: flex-end;
   }
   #hero-message {
     font-size: 3.5em;
+    font-family: 'Helvetica Bold';
   }
   #hero-message-2 {
     font-size: 1.25em;
+    font-family: 'Helvetica Light';
   }
   #homepage-schedule {
     display: none;

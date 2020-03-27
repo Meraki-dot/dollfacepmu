@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import Modal from 'react-modal';
 import { Link } from 'react-router-dom';
+import { ReactComponent as Arrow } from '../../images/arrow.svg';
 
 const LashLift = () => {
 
@@ -11,10 +12,9 @@ const LashLift = () => {
     }
 
     return (
-        <button onClick={onClick}>
+        <button className="services-overview-button" onClick={onClick}>
             <div className="services-title">
-                <h1>LASH LIFT</h1>
-                <p><i>1 - 1.5 hours | $80</i></p>
+                <p className="detail-button"><Arrow/></p>
             </div>
             <Modal
                 appElement={document.getElementById('eyebrow-services')}

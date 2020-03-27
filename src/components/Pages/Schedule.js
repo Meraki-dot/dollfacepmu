@@ -16,18 +16,18 @@ const Schedule = () => {
 
     return (
         <Animated animationIn="fadeIn" animationInDuration="2000" isVisible={true}>
-         <div className="burger-container">
-                    <Burger className="burger-menu" open={open} isOpen={isOpen} />
-                </div>
-                <Menu open={open} isOpen={isOpen} />
-        <div id="schedule-container">
-            <Navbar />
-            <iframe title="schedulista" id="schedulista-widget-00" src="https://www.schedulista.com/schedule/dollfacepermanentmakeup?mode=widget" allowtransparency="true" frameborder="0" scrolling="yes" width="100%" marginLeft="5%">
-            </iframe>
+            <div className="burger-container">
+                <Burger className="burger-menu" open={open} isOpen={isOpen} />
+            </div>
+            <Menu open={open} isOpen={isOpen} />
+            <div id="schedule-container">
+                <Navbar />
+                <iframe title="schedulista" id="schedulista-widget-00" src="https://www.schedulista.com/schedule/dollfacepermanentmakeup?mode=widget" allowtransparency="true" frameborder="0" scrolling="yes" width="100%" marginLeft="5%">
+                </iframe>
+            </div>
             <div id="schedule-footer">
                 <Footer />
             </div>
-        </div>
         </Animated>
     );
 }

@@ -302,8 +302,9 @@
     }
     .checkbox-container p {
         position: absolute;
-        right: 15%;
-        top: 0.4vw;
+        right: 5%;
+        top: -2vw;
+        width: 15em;
     }
     #redirect-schedulista {
         width: 100%;

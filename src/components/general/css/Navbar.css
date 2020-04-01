@@ -1,13 +1,13 @@
 #nav-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     padding-top: 4%;
     background-color: white;
     position: fixed;
     width: 100%;
     height: 10em;
     z-index: 2;
-    font-family: 'Helvetica Light';
+    font-family: "Helvetica Light";
     font-size: 0.85em;
 }
 
@@ -22,52 +22,49 @@
     cursor: pointer;
 }
 
-#nav-container ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    width: 100%;
-    margin-right: 4em;
-}
-
-#nav-container li {
-    width: 10em;
-    list-style-type: none;
-    display: flex;
-    justify-content: space-evenly;
-    align-self: flex-start;
-}
-
-#nav-container li a {
+#nav-container a {
     text-decoration: none;
     position: relative;
     color: black;
     cursor: pointer;
 }
-
-#nav-item a:before {
+#nav-item-container a:before,
+#nav-item-container a:after {
     content: "";
     position: absolute;
-    width: 100%;
-    height: 0.75px;
-    top: 125%;
-    bottom: -5%;
+    bottom: 50%;
     left: 0;
-    background-color: #000;
-    visibility: hidden;
-    -webkit-transform: scaleX(0);
-    transform: scaleX(0);
-    -webkit-transition: all 0.175s ease-in-out 0s;
-    transition: all 0.175s ease-in-out 0s;
+    right: 0;
+    height: 1px;
+    background-color: black;
 }
-
-#nav-container li a:hover:before {
-    visibility: visible;    
-    -webkit-transform: scaleX(1);
-    transform: scaleX(1);
-    transform: scaleY(1.25);
+#nav-item-container a:before {
+    opacity: 0;
+    transform: translateY(-2px);
+    transition: transform 0s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0s;
 }
-
+#nav-item-container a:after {
+    opacity: 0;
+    transform: translateY(2px/2);
+    transition: transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0.2s;
+}
+#nav-item-container a:hover:before,
+#nav-item-container a:hover:after {
+    opacity: 1;
+    transform: translateY(0);
+}
+#nav-item-container a:hover:before {
+    transition: transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0.2s;
+}
+#nav-item-container a:hover:after {
+    transition: transform 0s .2s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0s .2s;
+}
+#nav-item-container {
+    width: 70em;
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 5em;
+}
 /*mobile*/
 
 @media screen and (max-width: 1080px) {

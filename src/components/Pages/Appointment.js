@@ -42,14 +42,14 @@ const Appointment = () => {
                 </div>
                 <Menu open={open} isOpen={isOpen} />
                 <div id="appt-title-box">
-                    <h1 id="appointment-title">BEFORE BOOKING AN APPOINTMENT PLEASE LOOK AT THESE FIRST</h1>
+                    <h1 id="appointment-title">BEFORE BOOKING, PLEASE READ</h1>
                 </div>
                 <div id="pre-reading">
                     <span id="prep-preread">
                     <h2><Link to="/preparation" rel="noopener noreferrer">PREPARE</Link></h2>
                     </span>
                     <span id="services-preread">
-                        <h2><Link to="/services" rel="noopener noreferrer">SERVICES</Link></h2>
+                        <h2><Link to="/toa" rel="noopener noreferrer">POLICIES</Link></h2>
                     </span>
                 </div>
                 <div id="agreement-container">

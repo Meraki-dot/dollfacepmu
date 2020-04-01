@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import './css/Services.css';
 import Navbar from '../general/Navbar';
 import Footer from '../general/Footer';
@@ -15,8 +15,23 @@ import MicroShade from './ServicesModals/MicroShade';
 import Correction from './ServicesModals/Correction';
 import TouchUp from './ServicesModals/TouchUp';
 import DollfaceEyebrow from '../images/dollface_eyebrow.JPG';
+import Microblading from '../images/Microblading.JPG';
+import Microshading from '../images/Microshading.JPG';
+import Touch_Up from '../images/Touch_Up.JPG';
+
 
 const Services = () => {
+
+    const scrollToRef = (ref) => window.scrollTo(0, ref.current.offsetTop)
+    // General scroll to element function
+
+    const lipRef = useRef(null)
+    const lashRef = useRef(null)
+    const eyebrowRef = useRef(null)
+
+    const lipScroll = () => scrollToRef(lipRef)
+    const lashScroll = () => scrollToRef(lashRef)
+    const eyebrowScroll = () => scrollToRef(eyebrowRef)
 
     const [open, isOpen] = useState(false)
 
@@ -33,11 +48,13 @@ const Services = () => {
                 </div>
                 <Menu open={open} isOpen={isOpen} />
                 <div id="sidebar-container">
-                    <a href="#lips">LIPS</a>
-                    <a href="#lashes">LASHES</a>
-                    <a href="#eyebrows">EYEBROWS</a>
+                    <a onClick={lipScroll}>LIPS</a>
+                    &emsp; &emsp;
+                    <a onClick={lashScroll}>LASHES</a>
+                    &emsp; &emsp;
+                    <a onClick={eyebrowScroll}>EYEBROWS</a>
                 </div>
-                <div id="eyebrows" className="ind-services">
+                <div ref={eyebrowRef} id="eyebrows" className="ind-services first">
                     <div className="services-info-container">
                         <div className='services-info'>
                             <h1>OMBRE</h1>
@@ -46,7 +63,7 @@ const Services = () => {
                             <OmbreModal />
                         </div>
                     </div>
-                    <div className="img-box">
+                    <div className="img-box first">
                         <img src={DollfaceEyebrow} />
                     </div>
                 </div>
@@ -60,7 +77,7 @@ const Services = () => {
                         </div>
                     </div>
                     <div className="img-box">
-                        <img src={DollfaceEyebrow} />
+                        <img src={Microblading} />
                     </div>
                 </div>
                 <div id="eyebrows" className="ind-services">
@@ -73,10 +90,23 @@ const Services = () => {
                         </div>
                     </div>
                     <div className="img-box">
-                        <img src={DollfaceEyebrow} />
+                        <img src={Microshading} />
                     </div>
                 </div>
-                <div id="lashes" className="ind-services">
+                <div id="eyebrows" className="ind-services">
+                    <div className="services-info-container">
+                        <div className='services-info'>
+                            <h1>TOUCH UP</h1>
+                            <p className="subtext service-category">EYEBROW SERVICES</p>
+                            <p className="subtext"><em>3 hours | $400</em></p>
+                            <TouchUp />
+                        </div>
+                    </div>
+                    <div className="img-box">
+                        <img src={Touch_Up} />
+                    </div>
+                </div>
+                <div ref={lashRef} id="lashes" className="ind-services">
                     <div className="services-info-container">
                         <div className='services-info'>
                             <h1>LASH LIFT</h1>
@@ -89,7 +119,7 @@ const Services = () => {
                         <img src={DollfaceEyebrow} />
                     </div>
                 </div>
-                <div id="lips" className="ind-services">
+                <div ref={lipRef} id="lips" className="ind-services">
                     <div className="services-info-container">
                         <div className='services-info'>
                             <h1>LIP BLUSH</h1>

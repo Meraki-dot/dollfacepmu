@@ -15,6 +15,7 @@ const Removal = () => {
         <button className="services-overview-button" onClick={onClick}>
             <div className="services-title">
                 <p className="detail-button"><Arrow/></p>
+                <p className='mobile-detail-button'>MORE DETAILS</p>
             </div>
             <Modal
                 appElement={document.getElementById('eyebrow-services')}

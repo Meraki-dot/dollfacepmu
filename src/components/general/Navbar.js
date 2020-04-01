@@ -10,28 +10,16 @@ const Navbar = () => {
             <span id="top-logo">
                 <Link to="/"><Logo /></Link>
             </span>
-            <ul>
-                <li id="nav-item">
-                    <Link to="/toa">POLICIES</Link>
-                </li>
-                <li id="nav-item">
-                    <Link to="/about-me">ABOUT ME</Link>
-                </li>
-                <li id="nav-item">
-                    <Link to="/preparation">PREP & AFTERCARE</Link>
-                </li>
-                <li id="nav-item">
-                    <Link to="/services">SERVICES</Link>
-                </li>
-                <li id="nav-item">
-                    <Link to="/appointments">APPOINTMENTS</Link>
-                </li>
-                <li id="nav-item">
-                    <a href="https://www.instagram.com/dollfacepmu/?hl=en" target="_blank" rel="noopener noreferrer">
-                        GALLERY
-                </a>
-                </li>
-            </ul>
+            <div id="nav-item-container">
+                <Link className="nav-item" to="/toa">POLICIES</Link>
+                <Link className="nav-item" to="/about-me">ABOUT ME</Link>
+                <Link className="nav-item" to="/preparation">PREP & AFTERCARE</Link>
+                <Link className="nav-item" to="/services">SERVICES</Link>
+                <Link className="nav-item" to="/appointments">APPOINTMENTS</Link>
+                <a className="nav-item" href="https://www.instagram.com/dollfacepmu/?hl=en" target="_blank" rel="noopener noreferrer">
+                    GALLERY
+            </a>
+            </div>
         </div>
     );
 }

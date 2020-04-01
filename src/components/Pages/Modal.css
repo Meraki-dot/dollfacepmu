@@ -139,7 +139,7 @@
         justify-content: center;
     }
     .before-booking-modal-button {
-        color: darkblue;
+        color: black;
     }
     #first-prep-modal {
         width: 100%;
@@ -181,7 +181,7 @@
     border: none;
     cursor: pointer;
     height: 1.5em;
-    color: darkblue;
+    color: black;
 }
 
 .policies-modal-button:focus {

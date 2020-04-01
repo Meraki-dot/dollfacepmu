@@ -17,6 +17,7 @@
         flex-direction: row-reverse;
         justify-content: space-evenly;
         max-width: 100%;
+        height: 32em;
     }
     #profile {
         max-width: 20em;
@@ -34,7 +35,7 @@
         width: 100%;
         display: flex;
         justify-content: center;
-        align-items: center;
+        align-items: flex-end;
         margin-top: 8em;
     }
 }

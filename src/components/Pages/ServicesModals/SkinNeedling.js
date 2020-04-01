@@ -15,6 +15,7 @@ const SkinNeedling = () => {
         <button id="coming-soon" onClick={onClick}>
             <div className="services-title">
                 <p className="detail-button"><Arrow /></p>
+                <p className='mobile-detail-button'>MORE DETAILS</p>
                 <p><i>Coming Soon!</i></p>
             </div>
             <Modal

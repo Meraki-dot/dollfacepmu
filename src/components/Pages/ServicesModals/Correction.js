@@ -12,7 +12,7 @@ const Correction = () => {
     }
 
     return (
-        <button onClick={onClick}>
+        <button className="services-overview-button" onClick={onClick}>
             <div className="services-title">
                 <p className="detail-button"><Arrow/></p>
                 <p className='mobile-detail-button'>MORE DETAILS</p>

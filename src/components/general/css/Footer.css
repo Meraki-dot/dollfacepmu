@@ -51,7 +51,7 @@
     }
   }
 
-  #address a {
+  #address a, #number a {
     text-decoration: none;
     color: black;
   }
@@ -93,7 +93,7 @@
         margin-left: 6%;
       }
 
-      #address a {
+      #address a, #number a {
         text-decoration: none;
         color: black;
       }

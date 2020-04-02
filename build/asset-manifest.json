@@ -1,18 +1,25 @@
 {
   "files": {
-    "main.css": "/dollfacepmu/static/css/main.51544443.chunk.css",
-    "main.js": "/dollfacepmu/static/js/main.63db03dc.chunk.js",
-    "main.js.map": "/dollfacepmu/static/js/main.63db03dc.chunk.js.map",
-    "runtime-main.js": "/dollfacepmu/static/js/runtime-main.74b5e4aa.js",
-    "runtime-main.js.map": "/dollfacepmu/static/js/runtime-main.74b5e4aa.js.map",
-    "static/js/2.69b92743.chunk.js": "/dollfacepmu/static/js/2.69b92743.chunk.js",
-    "static/js/2.69b92743.chunk.js.map": "/dollfacepmu/static/js/2.69b92743.chunk.js.map",
+    "main.css": "/dollfacepmu/static/css/main.2e409a60.chunk.css",
+    "main.js": "/dollfacepmu/static/js/main.f1d3dea6.chunk.js",
+    "main.js.map": "/dollfacepmu/static/js/main.f1d3dea6.chunk.js.map",
+    "runtime-main.js": "/dollfacepmu/static/js/runtime-main.cc82f20e.js",
+    "runtime-main.js.map": "/dollfacepmu/static/js/runtime-main.cc82f20e.js.map",
+    "static/js/2.8cb977e6.chunk.js": "/dollfacepmu/static/js/2.8cb977e6.chunk.js",
+    "static/js/2.8cb977e6.chunk.js.map": "/dollfacepmu/static/js/2.8cb977e6.chunk.js.map",
     "index.html": "/dollfacepmu/index.html",
-    "precache-manifest.7a73e71d27512aa97039e6fc54eb31b0.js": "/dollfacepmu/precache-manifest.7a73e71d27512aa97039e6fc54eb31b0.js",
+    "precache-manifest.61c3e9a1d45433078877e8ca59e404e0.js": "/dollfacepmu/precache-manifest.61c3e9a1d45433078877e8ca59e404e0.js",
     "service-worker.js": "/dollfacepmu/service-worker.js",
-    "static/css/main.51544443.chunk.css.map": "/dollfacepmu/static/css/main.51544443.chunk.css.map",
-    "static/js/2.69b92743.chunk.js.LICENSE.txt": "/dollfacepmu/static/js/2.69b92743.chunk.js.LICENSE.txt",
+    "static/css/main.2e409a60.chunk.css.map": "/dollfacepmu/static/css/main.2e409a60.chunk.css.map",
+    "static/js/2.8cb977e6.chunk.js.LICENSE.txt": "/dollfacepmu/static/js/2.8cb977e6.chunk.js.LICENSE.txt",
+    "static/media/Correction.JPG": "/dollfacepmu/static/media/Correction.572cf05a.JPG",
     "static/media/index.css": "/dollfacepmu/static/media/Helvetica_light.055551ba.woff2",
+    "static/media/Lashes.JPG": "/dollfacepmu/static/media/Lashes.5eb00c1c.JPG",
+    "static/media/Microblading.JPG": "/dollfacepmu/static/media/Microblading.a989b9d9.JPG",
+    "static/media/Microshading.JPG": "/dollfacepmu/static/media/Microshading.e773b0d5.JPG",
+    "static/media/Ombre.JPG": "/dollfacepmu/static/media/Ombre.3e9d0a9c.JPG",
+    "static/media/Touch_Up.JPG": "/dollfacepmu/static/media/Touch_Up.4c7bd595.JPG",
+    "static/media/arrow.26f17bc9.svg": "/dollfacepmu/static/media/arrow.26f17bc9.svg",
     "static/media/dollface.a64cae4b.svg": "/dollfacepmu/static/media/dollface.a64cae4b.svg",
     "static/media/facebook.70f7463b.svg": "/dollfacepmu/static/media/facebook.70f7463b.svg",
     "static/media/instagram.d0b7c685.svg": "/dollfacepmu/static/media/instagram.d0b7c685.svg",
@@ -20,9 +27,9 @@
     "static/media/yelp.4b666449.svg": "/dollfacepmu/static/media/yelp.4b666449.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.74b5e4aa.js",
-    "static/js/2.69b92743.chunk.js",
-    "static/css/main.51544443.chunk.css",
-    "static/js/main.63db03dc.chunk.js"
+    "static/js/runtime-main.cc82f20e.js",
+    "static/js/2.8cb977e6.chunk.js",
+    "static/css/main.2e409a60.chunk.css",
+    "static/js/main.f1d3dea6.chunk.js"
   ]
 }

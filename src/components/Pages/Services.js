@@ -14,10 +14,12 @@ import LipBlush from './ServicesModals/LipBlush';
 import MicroShade from './ServicesModals/MicroShade';
 import Correction from './ServicesModals/Correction';
 import TouchUp from './ServicesModals/TouchUp';
-import DollfaceEyebrow from '../images/dollface_eyebrow.JPG';
+import Ombre from '../images/Ombre.JPG';
 import Microblading from '../images/Microblading.JPG';
 import Microshading from '../images/Microshading.JPG';
 import Touch_Up from '../images/Touch_Up.JPG';
+import CorrectionImage from '../images/Correction.JPG';
+import Lashes from '../images/Lashes.JPG';
 
 
 const Services = () => {
@@ -48,7 +50,7 @@ const Services = () => {
                 </div>
                 <Menu open={open} isOpen={isOpen} />
                 <div id="sidebar-container">
-                    <a onClick={lipScroll}>LIPS</a>
+                    {/* <a onClick={lipScroll}>LIPS</a> */}
                     &emsp; &emsp;
                     <a onClick={lashScroll}>LASHES</a>
                     &emsp; &emsp;
@@ -64,7 +66,7 @@ const Services = () => {
                         </div>
                     </div>
                     <div className="img-box first">
-                        <img src={DollfaceEyebrow} />
+                        <img src={Ombre} />
                     </div>
                 </div>
                 <div id="eyebrows" className="ind-services">
@@ -106,6 +108,19 @@ const Services = () => {
                         <img src={Touch_Up} />
                     </div>
                 </div>
+                <div id="eyebrows" className="ind-services">
+                    <div className="services-info-container">
+                        <div className='services-info'>
+                            <h1>CORRECTION</h1>
+                            <p className="subtext service-category">EYEBROW SERVICES</p>
+                            <p className="subtext"><em>3 hours | $400</em></p>
+                            <Correction />
+                        </div>
+                    </div>
+                    <div className="img-box">
+                        <img src={CorrectionImage} />
+                    </div>
+                </div>
                 <div ref={lashRef} id="lashes" className="ind-services">
                     <div className="services-info-container">
                         <div className='services-info'>
@@ -116,10 +131,10 @@ const Services = () => {
                         </div>
                     </div>
                     <div className="img-box">
-                        <img src={DollfaceEyebrow} />
+                        <img src={Lashes} />
                     </div>
                 </div>
-                <div ref={lipRef} id="lips" className="ind-services">
+                {/* <div ref={lipRef} id="lips" className="ind-services">
                     <div className="services-info-container">
                         <div className='services-info'>
                             <h1>LIP BLUSH</h1>
@@ -131,7 +146,7 @@ const Services = () => {
                     <div className="img-box">
                         <img src={DollfaceEyebrow} />
                     </div>
-                </div>
+                </div> */}
                 <div id="services-footer">
                     <Footer />
                 </div>

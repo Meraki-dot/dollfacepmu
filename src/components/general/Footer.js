@@ -8,14 +8,14 @@ const Footer = () => {
     return (
         <div id="footer-wrapper">
             <div id="address">
-                <a href="https://www.shorturl.at/lqRZ3" target="_blank" rel="noopener noreferrer">
+                <a href="https://bit.ly/2UTTiOz" target="_blank" rel="noopener noreferrer">
                     <p>
                         1671 West Katella Ave ste 240 Anaheim, CA 92802
                     </p>
                 </a>
             </div>
             <div id="number">
-                <p>714.949.9495</p>
+                <a href="tel:7149499495">714.949.9495</a>
             </div>
             <div id="social-icons">
                 <span id="insta">

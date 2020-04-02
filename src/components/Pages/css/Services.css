@@ -10,7 +10,7 @@
   #sidebar-container {
     position: fixed;
     top: 500px;
-    left: -75px;
+    left: -55px;
     -webkit-transform: rotate(270deg);
     -moz-transform: rotate(270deg);
     -o-transform: rotate(270deg);
@@ -18,7 +18,6 @@
     transform: rotate(270deg);
   }
   #sidebar-container a {
-    /* padding-right: 75px; */
     font-family: "Helvetica Light";
     font-size: 20px;
     color: #747474;
@@ -55,7 +54,7 @@
   }
   .services-info h1 {
     font-size: 80px;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
     font-family: "Helvetica Bold";
   }
   .services-info p {

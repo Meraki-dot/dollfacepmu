@@ -10,7 +10,11 @@
         display: flex;
         justify-content: center;
         align-items: flex-end;
-        height: 15em;
+        height: 25em;
+    }
+    #about-me-title h1 {
+        font-size: 60px;
+        margin-top: 30px;
     }
     #profile-container {
         display: flex;

@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react';
+ import React, { useState, useEffect, useRef } from 'react';
 import './css/Services.css';
 import Navbar from '../general/Navbar';
 import Footer from '../general/Footer';
@@ -14,6 +14,7 @@ import LipBlush from './ServicesModals/LipBlush';
 import MicroShade from './ServicesModals/MicroShade';
 import Correction from './ServicesModals/Correction';
 import TouchUp from './ServicesModals/TouchUp';
+//images
 import Ombre from '../images/Ombre.JPG';
 import Microblading from '../images/Microblading.JPG';
 import Microshading from '../images/Microshading.JPG';
@@ -61,7 +62,7 @@ const Services = () => {
                         <div className='services-info'>
                             <h1>OMBRE</h1>
                             <p className="subtext service-category">EYEBROW SERVICES</p>
-                            <p className="subtext"><em>3 hours | $400</em></p>
+                            <p className="subtext"><em>3 - 4 hours | $400</em></p>
                             <OmbreModal />
                         </div>
                     </div>
@@ -87,7 +88,7 @@ const Services = () => {
                         <div className='services-info'>
                             <h1>MICROSHADE</h1>
                             <p className="subtext service-category">EYEBROW SERVICES</p>
-                            <p className="subtext"><em>3 hours | $400</em></p>
+                            <p className="subtext"><em>3 - 4 hours | $450</em></p>
                             <MicroShade />
                         </div>
                     </div>
@@ -100,7 +101,7 @@ const Services = () => {
                         <div className='services-info'>
                             <h1>TOUCH UP</h1>
                             <p className="subtext service-category">EYEBROW SERVICES</p>
-                            <p className="subtext"><em>3 hours | $400</em></p>
+                            <p className="subtext"><em>2 hours | price in details</em></p>
                             <TouchUp />
                         </div>
                     </div>
@@ -113,7 +114,7 @@ const Services = () => {
                         <div className='services-info'>
                             <h1>CORRECTION</h1>
                             <p className="subtext service-category">EYEBROW SERVICES</p>
-                            <p className="subtext"><em>3 hours | $400</em></p>
+                            <p className="subtext"><em>3 - 4 hours | +$50 on top of selected service</em></p>
                             <Correction />
                         </div>
                     </div>
@@ -126,7 +127,7 @@ const Services = () => {
                         <div className='services-info'>
                             <h1>LASH LIFT</h1>
                             <p className="subtext service-category">LASH SERVICES</p>
-                            <p className="subtext"><em>one hour | $80</em></p>
+                            <p className="subtext"><em>1 - 1.5 hours | $80</em></p>
                             <LashLift />
                         </div>
                     </div>

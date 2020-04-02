@@ -1,7 +1,7 @@
 {
   "name": "dollface",
   "version": "0.1.0",
-  "homepage": "https://meraki-dot.github.io/dollfacepmu",
+  "homepage": "https://dollfacepmu.netlify.com",
   "dependencies": {
     "instafeed.js": "^1.4.1",
     "netlify-cli": "^2.40.0",

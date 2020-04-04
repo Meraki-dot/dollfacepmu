@@ -14,10 +14,6 @@ const Menu = ({ open }) => {
         <span aria-label="policies"></span>
         Policies
       </Link>
-      <Link to="/about-me">
-        <span aria-label="about me"></span>
-        About Me
-        </Link>
       <Link to="/preparation">
         <span aria-label="prep"></span>
         Prep & Aftercare
@@ -34,6 +30,10 @@ const Menu = ({ open }) => {
         <span aria-label="gallery"></span>
         Gallery
       </a>
+      <Link to="/about-me">
+        <span aria-label="about me"></span>
+        About Me
+        </Link> 
     </StyledMenu>
   )
 }

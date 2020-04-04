@@ -81,5 +81,6 @@
     #about-me-footer {
         width: 95%;
         grid-row-start: 5;
+        margin-right: 8px;
     }
 }

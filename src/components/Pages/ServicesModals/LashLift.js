@@ -25,7 +25,7 @@ const LashLift = () => {
                 <button id="coming-soon" className="modal-close-button" onClick={onClick}>X</button>
                 <div className="modal-content">
                     <h1>LASH LIFT</h1>
-                    <p className="duration-price"><i>1 - 1.5 hours | $80</i></p>
+                    <p className="duration-price"><i>1 hours | $80</i></p>
                     <br></br>
                     <p>Lash Lift is a perming method that keep your natural lashes curled without the use of mascara or eyelash curlers. It helps to lift & curl any straight/ downward facing lashes to showcase a natural doll-like look, effortlessly.</p>
                     <br></br>

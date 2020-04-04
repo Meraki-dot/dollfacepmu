@@ -22,7 +22,7 @@ const Preparation = () => {
             </div>
             <Menu open={open} isOpen={isOpen} />
             <div id="prep-container">
-                <h1>PREPARATION</h1>
+                <h1>PREP</h1>
                 <ul className="left-list">
                     <li>
                         - Do not pick, tweeze, wax, thread, perform electrolysis before the procedure.

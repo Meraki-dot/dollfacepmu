@@ -306,7 +306,7 @@
   #sidebar-container {
     position: fixed;
     top: 400px;
-    right: -90px;
+    right: -75px;
     -webkit-transform: rotate(270deg);
     -moz-transform: rotate(270deg);
     -o-transform: rotate(270deg);
@@ -378,5 +378,6 @@
   #services-footer {
     width: 95%;
     margin-top: 110px;
+    margin-right: 8px;
   }
 } 

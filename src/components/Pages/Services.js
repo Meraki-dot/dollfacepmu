@@ -43,7 +43,7 @@ const Services = () => {
     }, []);
 
     return (
-        <Animated animationIn="fadeIn" animationInDuration="2000" isVisible={true}>
+        <Animated animationIn="fadeIn" animationInDelay="300" animationInDuration="2000" isVisible={true}>
             <div id="services-container">
                 <Navbar />
                 <div className="burger-container">
@@ -114,7 +114,7 @@ const Services = () => {
                         <div className='services-info'>
                             <h1>CORRECTION</h1>
                             <p className="subtext service-category">EYEBROW SERVICES</p>
-                            <p className="subtext"><em>3 - 4 hours | +$50 on top of selected service</em></p>
+                            <p className="subtext"><em>3 - 4 hours | selected style +$50</em></p>
                             <Correction />
                         </div>
                     </div>
@@ -127,7 +127,7 @@ const Services = () => {
                         <div className='services-info'>
                             <h1>LASH LIFT</h1>
                             <p className="subtext service-category">LASH SERVICES</p>
-                            <p className="subtext"><em>1 - 1.5 hours | $80</em></p>
+                            <p className="subtext"><em>1 hour | $80</em></p>
                             <LashLift />
                         </div>
                     </div>

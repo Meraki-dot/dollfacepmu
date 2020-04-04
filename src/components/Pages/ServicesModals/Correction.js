@@ -25,9 +25,8 @@ const Correction = () => {
                 <button className="modal-close-button" onClick={onClick}>X</button>
                 <div className="modal-content">
                     <h1>CORRECTION / COVER-UP</h1>
-                    <p className="duration-price"><i>3 - 4 hours | +$50 on top of selected service</i></p>
+                    <p className="duration-price"><i>3 hours | selected style +$50</i></p>
                     <br></br>
-                    <p>A hybrid of Ombre with Microbladed fronts.</p>
                     <p>For any clients that have had previous eyebrow tattoos, not initially performed by Dollface Permanent Makeup.</p>
                     <p>This service is to color correct, refine, cover-up, and/or add symmetry to your preexisting tattoo.</p>
                     <p><strong>Please be mindful that not all tattoos can be corrected, and all corrections require the client to submit a photo of their bare brows before booking their appointment.</strong></p>

@@ -80,8 +80,8 @@ const Preparation = () => {
                     All clients will be given an After Care Kit at the end of their sessions.
                     Kits will include detailed instructions, shower visors, and moisturizers that will help to properly care for the treated area(s).
                 </p>
-                <p>
-                    General rules of After Care (eyebrows):
+                <p className="sub-cat">
+                    <strong>General rules of After Care (eyebrows):</strong>
                 </p>
                 <p>
                     Do not scratch, pick, or pull any of the scabs. Please allow the scabs to exfoliate naturally! It will generally taking anywhere from 7-14 days.
@@ -90,9 +90,8 @@ const Preparation = () => {
                     Avoid exposing your eyebrows to water, direct shower streams, saunas, steam, pools, salt water, and tubs.
                     Do not expose healing skin to the sun, tanning beds, pets, dust/dirt, smoke, or chemicals of any kind (ie: make up, toners, moisturizers, serums, etc) unless stated otherwise by the artist.
                     No Botox, Peels, Microdermabrasions, or Chemical Treatments for a minimum of 5 weeks.
-                    <br></br>
-                    What to Expect During the Healing Process:
                 </p>
+                <p className="sub-cat"><strong>What to Expect During the Healing Process:</strong></p>
                 <p>
                     During the Healing & Peeling process (healing generally 7-14 days), your eyebrows will go through many phases as it sheds and develops your pigment.
                 </p>

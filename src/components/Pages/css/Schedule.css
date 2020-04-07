@@ -27,20 +27,18 @@
 
 @media screen and (max-width: 920px) {
     #schedule-container {
-        height: 80vh;
+        height: 110vh;
         width: 100%;
     }
     #schedulista-widget-00 {
-        height: 60%;
+        height: 115%;
         width: 100%;
         z-index: 0;
-        margin-top: 10em;
+        margin-top: 5em;
         padding: 1em;
     }
     #schedule-footer {
-        width: 95%;
-        align-self: center;
-        margin-right: 1.5em;
+        display: none;
     }
     .breadcrumb {
         margin-left: 5%;

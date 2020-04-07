@@ -20,6 +20,7 @@ import Microblading from '../images/Microblading.JPG';
 import Microshading from '../images/Microshading.JPG';
 import Touch_Up from '../images/Touch_Up.JPG';
 import CorrectionImage from '../images/Correction.JPG';
+import RemovalImage from '../images/Removal.jpg';
 import Lashes from '../images/Lashes.JPG';
 
 
@@ -120,6 +121,19 @@ const Services = () => {
                     </div>
                     <div className="img-box">
                         <img src={CorrectionImage} />
+                    </div>
+                </div>
+                <div id="eyebrows" className="ind-services">
+                    <div className="services-info-container">
+                        <div className='services-info'>
+                            <h1>Removal</h1>
+                            <p className="subtext service-category">EYEBROW SERVICES</p>
+                            <p className="subtext"><em>1 - 2 hours | $175</em></p>
+                            <Removal />
+                        </div>
+                    </div>
+                    <div className="img-box">
+                        <img src={RemovalImage} />
                     </div>
                 </div>
                 <div ref={lashRef} id="lashes" className="ind-services">

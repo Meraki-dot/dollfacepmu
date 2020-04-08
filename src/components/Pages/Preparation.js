@@ -51,6 +51,11 @@ const Preparation = () => {
                 <h1>DAY OF</h1>
                 <ul className="right-list">
                     <li>
+                        <strong>
+                            - Please provide a valid form of id if this is your first visit to Dollface Permanent Makeup.
+                        </strong>
+                    </li>
+                    <li>
                         - Please wear your make up when you arrive to your appointment, we will be taking plenty of before & after photos. Bring your makeup kit with you for touch ups, since I will be wiping your forehead often throughout the procedure.
                     </li>
                     <li>
@@ -71,6 +76,11 @@ const Preparation = () => {
                     </li>
                     <li>
                         - Do not drink alcohol, tea, coffee, or energy drinks 24 - 48 hours before your appointment.
+                    </li>
+                    <li>
+                        <strong>
+                            - Clients will be required to fill out a Health / Consent form prior to every procedure. If a translator is required, it is the client's responsibility to bring a translator who can help assist in interpreting the forms.
+                        </strong>
                     </li>
                 </ul>
             </div>

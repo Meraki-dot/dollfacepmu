@@ -72,7 +72,7 @@ const TOA = () => {
                             </h1>
                         </div>
                         We will be working together to create a shape that fits to your unique facial structure.
-                        Please be mindful that all faces are not symmerical, so we ask that all clients carefully examine and
+                        Please be mindful that faces are naturally asymmetrical, we ask all clients carefully examine and
                         approve each predraw before starting all tatooting procedures. Results may vary dependent on the client's
                         skin, lifestyle, age, sun exposure, diet, health and/or aftercare. We are not responsible and/or liable for
                         any changes in shape or color once you leave our studio. Permanent makeup is an Art and results are never

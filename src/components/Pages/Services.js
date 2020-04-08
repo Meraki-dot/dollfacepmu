@@ -6,21 +6,21 @@ import { Animated } from "react-animated-css";
 import Burger from '../general/Burger/Burger';
 import Menu from '../general/Menu/Menu';
 import OmbreModal from './ServicesModals/OmbreModal';
-import MicroModal from './ServicesModals/MicroModal';
-import Removal from './ServicesModals/Removal';
-import SkinNeedling from './ServicesModals/SkinNeedling';
+// import MicroModal from './ServicesModals/MicroModal';
+// import Removal from './ServicesModals/Removal';
+// import SkinNeedling from './ServicesModals/SkinNeedling';
 import LashLift from './ServicesModals/LashLift';
-import LipBlush from './ServicesModals/LipBlush';
+// import LipBlush from './ServicesModals/LipBlush';
 import MicroShade from './ServicesModals/MicroShade';
 import Correction from './ServicesModals/Correction';
 import TouchUp from './ServicesModals/TouchUp';
 //images
 import Ombre from '../images/Ombre.JPG';
-import Microblading from '../images/Microblading.JPG';
+// import Microblading from '../images/Microblading.JPG';
 import Microshading from '../images/Microshading.JPG';
 import Touch_Up from '../images/Touch_Up.JPG';
 import CorrectionImage from '../images/Correction.JPG';
-import RemovalImage from '../images/Removal.jpg';
+// import RemovalImage from '../images/Removal.jpg';
 import Lashes from '../images/Lashes.JPG';
 
 
@@ -29,11 +29,11 @@ const Services = () => {
     const scrollToRef = (ref) => window.scrollTo(0, ref.current.offsetTop)
     // General scroll to element function
 
-    const lipRef = useRef(null)
+    // const lipRef = useRef(null)
     const lashRef = useRef(null)
     const eyebrowRef = useRef(null)
 
-    const lipScroll = () => scrollToRef(lipRef)
+    // const lipScroll = () => scrollToRef(lipRef)
     const lashScroll = () => scrollToRef(lashRef)
     const eyebrowScroll = () => scrollToRef(eyebrowRef)
 
@@ -68,10 +68,10 @@ const Services = () => {
                         </div>
                     </div>
                     <div className="img-box first">
-                        <img src={Ombre} />
+                        <img src={Ombre} alt='woman with ombre eyebrows' />
                     </div>
                 </div>
-                <div id="eyebrows" className="ind-services">
+                {/* <div id="eyebrows" className="ind-services">
                     <div className="services-info-container">
                         <div className='services-info'>
                             <h1>MICROBLADE</h1>
@@ -81,9 +81,9 @@ const Services = () => {
                         </div>
                     </div>
                     <div className="img-box">
-                        <img src={Microblading} />
+                        <img src={Microblading} alt='woman with microbladed eyes' />
                     </div>
-                </div>
+                </div> */}
                 <div id="eyebrows" className="ind-services">
                     <div className="services-info-container">
                         <div className='services-info'>
@@ -94,7 +94,7 @@ const Services = () => {
                         </div>
                     </div>
                     <div className="img-box">
-                        <img src={Microshading} />
+                        <img src={Microshading} alt='woman with microshaded eyebrows' />
                     </div>
                 </div>
                 <div id="eyebrows" className="ind-services">
@@ -107,7 +107,7 @@ const Services = () => {
                         </div>
                     </div>
                     <div className="img-box">
-                        <img src={Touch_Up} />
+                        <img src={Touch_Up} alt='woman with touched up eyebrows' />
                     </div>
                 </div>
                 <div id="eyebrows" className="ind-services">
@@ -120,10 +120,10 @@ const Services = () => {
                         </div>
                     </div>
                     <div className="img-box">
-                        <img src={CorrectionImage} />
+                        <img src={CorrectionImage} alt='woman with corrected eyebrows' />
                     </div>
                 </div>
-                <div id="eyebrows" className="ind-services">
+                {/* <div id="eyebrows" className="ind-services">
                     <div className="services-info-container">
                         <div className='services-info'>
                             <h1>Removal</h1>
@@ -133,9 +133,9 @@ const Services = () => {
                         </div>
                     </div>
                     <div className="img-box">
-                        <img src={RemovalImage} />
+                        <img src={RemovalImage} alt='product used for eyebrow removal'/>
                     </div>
-                </div>
+                </div> */}
                 <div ref={lashRef} id="lashes" className="ind-services">
                     <div className="services-info-container">
                         <div className='services-info'>
@@ -146,7 +146,7 @@ const Services = () => {
                         </div>
                     </div>
                     <div className="img-box">
-                        <img src={Lashes} />
+                        <img src={Lashes} alt='woman with worked lashes'/>
                     </div>
                 </div>
                 {/* <div ref={lipRef} id="lips" className="ind-services">
@@ -158,7 +158,7 @@ const Services = () => {
                             <LipBlush />
                         </div>
                     </div>
-                    <div className="img-box">
+                    <div className="img-box" alt='woman with worked lips'>
                         <img src={DollfaceEyebrow} />
                     </div>
                 </div> */}

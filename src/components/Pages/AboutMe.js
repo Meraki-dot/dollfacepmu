@@ -15,7 +15,7 @@ const AboutMe = () => {
     }, []);
 
     return (
-        <Animated animationIn="fadeIn" animationInDuration="2000" isVisible={true}>
+        <Animated animationIn="fadeIn" animationInDuration="500" isVisible={true}>
             <div id="about-me-container">
                 <Navbar />
                 <div className="burger-container">
@@ -26,7 +26,7 @@ const AboutMe = () => {
                     <h1>ABOUT ME</h1>
                 </div>
                 <div id="profile-container">
-                    <img id="profile" src={require("../images/steph_profile.jpg")} alt="Profile of Stephanie Gang" />
+                    <img id="profile" src={require("../images/steph_profile.JPG")} alt="Profile of Stephanie Gang" />
                     <div id="about-me-content">
                         <br></br>
                         <p>Stephanie G. is the owner and artist of Dollface Permanent Makeup.</p>

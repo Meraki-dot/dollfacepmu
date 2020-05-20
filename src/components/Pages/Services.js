@@ -34,7 +34,7 @@ const Services = () => {
     const eyebrowRef = useRef(null)
 
     // const lipScroll = () => scrollToRef(lipRef)
-    const lashScroll = () => scrollToRef(lashRef)
+    // const lashScroll = () => scrollToRef(lashRef)
     const eyebrowScroll = () => scrollToRef(eyebrowRef)
 
     const [open, isOpen] = useState(false)
@@ -44,7 +44,7 @@ const Services = () => {
     }, []);
 
     return (
-        <Animated animationIn="fadeIn" animationInDelay="300" animationInDuration="2000" isVisible={true}>
+        <Animated animationIn="fadeIn" animationInDelay="100" animationInDuration="500" isVisible={true}>
             <div id="services-container">
                 <Navbar />
                 <div className="burger-container">
@@ -53,10 +53,10 @@ const Services = () => {
                 <Menu open={open} isOpen={isOpen} />
                 <div id="sidebar-container">
                     {/* <a onClick={lipScroll}>LIPS</a> */}
-                    &emsp; &emsp;
-                    <a onClick={lashScroll}>LASHES</a>
-                    &emsp; &emsp;
-                    <a onClick={eyebrowScroll}>EYEBROWS</a>
+                    {/* &emsp; &emsp;
+                    <a onClick={lashScroll}>LASHES</a> */}
+                    {/* &emsp; &emsp;
+                    <a onClick={eyebrowScroll}>EYEBROWS</a> */}
                 </div>
                 <div ref={eyebrowRef} id="eyebrows" className="ind-services first">
                     <div className="services-info-container">
@@ -136,7 +136,7 @@ const Services = () => {
                         <img src={RemovalImage} alt='product used for eyebrow removal'/>
                     </div>
                 </div> */}
-                <div ref={lashRef} id="lashes" className="ind-services">
+                {/* <div ref={lashRef} id="lashes" className="ind-services">
                     <div className="services-info-container">
                         <div className='services-info'>
                             <h1>LASH LIFT</h1>
@@ -148,7 +148,7 @@ const Services = () => {
                     <div className="img-box">
                         <img src={Lashes} alt='woman with worked lashes'/>
                     </div>
-                </div>
+                </div> */}
                 {/* <div ref={lipRef} id="lips" className="ind-services">
                     <div className="services-info-container">
                         <div className='services-info'>

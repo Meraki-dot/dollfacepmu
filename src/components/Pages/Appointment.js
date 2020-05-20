@@ -32,7 +32,7 @@ const Appointment = () => {
     }, []);
 
     return (
-        <Animated animationIn="fadeIn" animationInDuration="2000" isVisible={true}>
+        <Animated animationIn="fadeIn" animationInDuration="500" isVisible={true}>
             <div id="appointment-container">
                 <div>
                     <Navbar />
@@ -46,10 +46,10 @@ const Appointment = () => {
                 </div>
                 <div id="pre-reading">
                     <span id="prep-preread">
-                    <h2><Link to="/preparation" rel="noopener noreferrer">PREPARE</Link></h2>
+                    <p><Link to="/preparation" rel="noopener noreferrer">PRECARE</Link></p>
                     </span>
                     <span id="services-preread">
-                        <h2><Link to="/toa" rel="noopener noreferrer">POLICIES</Link></h2>
+                        <p><Link to="/toa" rel="noopener noreferrer">POLICIES</Link></p>
                     </span>
                 </div>
                 <div id="agreement-container">
@@ -57,7 +57,7 @@ const Appointment = () => {
                         <div className="checkbox-container">
                             <input type="checkbox" id="checkbox_1" value="value2" onClick={onClick} />
                             <label for="checkbox_1"></label>
-                            <p>AGREE TO THE POLICIES & TO SEND BARE BROW PHOTOS.</p>
+                            <p>I agree to the Policies and to send clear photos of the procedure area via text message.</p>
                         </div>
                     </div>
                 </div>

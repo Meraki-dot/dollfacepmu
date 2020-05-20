@@ -28,7 +28,7 @@ const Homepage = () => {
     }, [])
 
     return (
-        <Animated animationIn="fadeIn" animationInDelay="800" animationInDuration="2000" isVisible={true}>
+        <Animated animationIn="fadeIn" animationInDelay="400" animationInDuration="500" isVisible={true}>
             <div id="home-container">
                 <span id="navbar-container"><Navbar /></span>
                 <div class="burger-container">
@@ -42,16 +42,16 @@ const Homepage = () => {
                             DOLLFACE
                         </h1>
                         <h1 id="hero-message-2">PERMANENT MAKEUP</h1>
-                        <a href="/appointments">
+                        <Link to="/appointments">
                             <button id="homepage-schedule">
                                 <span>
                                     BOOK AN APPOINTMENT
                             </span>
                                 <span>
-                                    <p id="arrow">🡢</p>
+                                    <p id="arrow">&#8594;</p>
                                 </span>
                             </button>
-                        </a>
+                        </Link>
                     </div>
                     <div id="hero-right">
                         <div id="instafeed" className="row">
@@ -60,7 +60,7 @@ const Homepage = () => {
                     <Link to="/appointments" id="homepage-schedule-mobile">
                         <button id="homepage-schedule-mobile-button">
                             <span>
-                                SCHEDULE AN APPOINTMENT
+                                BOOK AN APPOINTMENT
                             </span>
                         </button>
                     </Link>

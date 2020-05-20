@@ -33,6 +33,9 @@
         justify-self: center;
         align-self: flex-end;
     }
+    #prep-preread, #services-preread {
+        font-size: 2em;
+    }
     #prep-preread a {
         color: black;
         text-decoration: none;
@@ -195,11 +198,11 @@
         display: flex;
         width: 100%;
         justify-content: center;
-        margin-top: 9em;
+        margin-top: 11em;
     }
     #appointment-title {
-        font-size: 1.9em;
-        width: 85%;
+        font-size: 1.5em;
+        width: 70%;
         word-wrap: break-word;
         text-align: center;
         justify-self: center;
@@ -208,7 +211,7 @@
     }
     #pre-reading {
         display: flex;
-        width: 100%;
+        width: 70%;
         flex-direction: row;
         justify-content: space-evenly;
         align-items: center;
@@ -227,15 +230,17 @@
         color: black;
         text-decoration: none;
     }
-    #prep-preread h2 {
+    #prep-preread p {
         margin: 0;
+        padding: 3px;
     }
     #services-preread a {
         color: black;
         text-decoration: none;
     }
-    #services-preread h2 {
+    #services-preread p {
         margin: 0;
+        padding: 3px;
     }
     #agreement-container {
         display: flex;
@@ -288,11 +293,11 @@
     }
     /*Outer box*/
     .checkbox-container label::before {
-        right: 300px;
+        right: 270px;
     }
     /*Checkmark*/
     .checkbox-container label::after {
-        right: 304px;
+        right: 274px;
         top: 3px;
     }
     /*Hide the checkmark by default*/
@@ -305,9 +310,10 @@
     }
     .checkbox-container p {
         position: absolute;
-        right: 5%;
+        left: 180px;
         top: -2vw;
-        width: 15em;
+        width: 17em;
+        font-size: 10px;
     }
     #redirect-schedulista {
         width: 100%;
@@ -321,7 +327,7 @@
     #redirect-schedulista button {
         background: transparent;
         border: 1px solid black;
-        padding: 1em 2em 1em 2em;
+        padding: 0.5em 1.5em;
     }
     #redirect-schedulista:hover {
         animation-name: button-press;
@@ -340,6 +346,7 @@
       } 
     #redirect-schedulista h2 {
         margin: auto;
+        font-size: 1.2em;
     }
     #appointment-footer {
         width: 95%;

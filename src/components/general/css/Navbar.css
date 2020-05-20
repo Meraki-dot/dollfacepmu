@@ -1,71 +1,210 @@
-#nav-container {
-    display: flex;
-    justify-content: flex-end;
-    padding-top: 4%;
-    background-color: white;
-    position: fixed;
-    width: 100%;
-    height: 10em;
-    z-index: 2;
-    font-family: "Helvetica Light";
-    font-size: 0.85em;
-}
+@media screen and (min-width: 1550px) {
+    #nav-container {
+        display: flex;
+        justify-content: flex-end;
+        padding-top: 4%;
+        background-color: white;
+        position: fixed;
+        width: 100%;
+        height: 10em;
+        z-index: 2;
+        font-family: "Helvetica Light";
+        font-size: 0.85em;
+    }
 
-#top-logo {
-    top: 2em;
-    left: 4em;
-    position: absolute;
-}
+    #top-logo {
+        top: 2em;
+        left: 4em;
+        position: absolute;
+    }
 
-#top-logo svg {
-    height: 8em;
-    cursor: pointer;
-}
+    #top-logo svg {
+        height: 8em;
+        cursor: pointer;
+    }
 
-#nav-container a {
-    text-decoration: none;
-    position: relative;
-    color: black;
-    cursor: pointer;
+    #nav-container a {
+        text-decoration: none;
+        position: relative;
+        color: black;
+        cursor: pointer;
+    }
+    #nav-item-container a:before,
+    #nav-item-container a:after {
+        content: "";
+        position: absolute;
+        bottom: 50%;
+        left: 0;
+        right: 0;
+        height: 1px;
+        background-color: black;
+    }
+    #nav-item-container a:before {
+        opacity: 0;
+        transform: translateY(-2px);
+        transition: transform 0s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0s;
+    }
+    #nav-item-container a:after {
+        opacity: 0;
+        transform: translateY(2px/2);
+        transition: transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0.2s;
+    }
+    #nav-item-container a:hover:before,
+    #nav-item-container a:hover:after {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    #nav-item-container a:hover:before {
+        transition: transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0.2s;
+    }
+    #nav-item-container a:hover:after {
+        transition: transform 0s 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0s 0.2s;
+    }
+    #nav-item-container {
+        width: 70em;
+        display: flex;
+        justify-content: space-evenly;
+        margin-right: 5em;
+    }
 }
-#nav-item-container a:before,
-#nav-item-container a:after {
-    content: "";
-    position: absolute;
-    bottom: 50%;
-    left: 0;
-    right: 0;
-    height: 1px;
-    background-color: black;
+@media screen and (min-width: 1300px) and (max-width: 1549px) {
+    #nav-container {
+        display: flex;
+        justify-content: flex-end;
+        padding-top: 4%;
+        background-color: white;
+        position: fixed;
+        width: 100%;
+        height: 10em;
+        z-index: 2;
+        font-family: "Helvetica Light";
+        font-size: 0.85em;
+    }
+
+    #top-logo {
+        top: 2em;
+        left: 4em;
+        position: absolute;
+    }
+
+    #top-logo svg {
+        height: 8em;
+        cursor: pointer;
+    }
+
+    #nav-container a {
+        text-decoration: none;
+        position: relative;
+        color: black;
+        cursor: pointer;
+    }
+    #nav-item-container a:before,
+    #nav-item-container a:after {
+        content: "";
+        position: absolute;
+        bottom: 65%;
+        left: 0;
+        right: 0;
+        height: 1px;
+        background-color: black;
+    }
+    #nav-item-container a:before {
+        opacity: 0;
+        transform: translateY(-2 px);
+        transition: transform 0s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0s;
+    }
+    #nav-item-container a:after {
+        opacity: 0;
+        transform: translateY(2px/2);
+        transition: transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0.2s;
+    }
+    #nav-item-container a:hover:before,
+    #nav-item-container a:hover:after {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    #nav-item-container a:hover:before {
+        transition: transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0.2s;
+    }
+    #nav-item-container a:hover:after {
+        transition: transform 0s 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0s 0.2s;
+    }
+    #nav-item-container {
+        width: 70em;
+        display: flex;
+        justify-content: space-evenly;
+        margin-right: 2em;
+    }
 }
-#nav-item-container a:before {
-    opacity: 0;
-    transform: translateY(-2px);
-    transition: transform 0s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0s;
+@media screen and (min-width: 1081px) and (max-width: 1299px) {
+    #nav-container {
+        display: flex;
+        justify-content: flex-end;
+        padding-top: 5%;
+        background-color: white;
+        position: fixed;
+        width: 100%;
+        height: 10em;
+        z-index: 2;
+        font-family: "Helvetica Light";
+        font-size: 0.85em;
+    }
+
+    #top-logo {
+        top: 2em;
+        left: 4em;
+        position: absolute;
+    }
+
+    #top-logo svg {
+        height: 8em;
+        cursor: pointer;
+    }
+
+    #nav-container a {
+        text-decoration: none;
+        position: relative;
+        color: black;
+        cursor: pointer;
+    }
+    #nav-item-container a:before,
+    #nav-item-container a:after {
+        content: "";
+        position: absolute;
+        bottom: 60%;
+        left: 0;
+        right: 0;
+        height: 1px;
+        background-color: black;
+    }
+    #nav-item-container a:before {
+        opacity: 0;
+        transform: translateY(-2 px);
+        transition: transform 0s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0s;
+    }
+    #nav-item-container a:after {
+        opacity: 0;
+        transform: translateY(2px/2);
+        transition: transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0.2s;
+    }
+    #nav-item-container a:hover:before,
+    #nav-item-container a:hover:after {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    #nav-item-container a:hover:before {
+        transition: transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0.2s;
+    }
+    #nav-item-container a:hover:after {
+        transition: transform 0s 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0s 0.2s;
+    }
+    #nav-item-container {
+        width: 60em;
+        display: flex;
+        justify-content: space-evenly;
+    }
 }
-#nav-item-container a:after {
-    opacity: 0;
-    transform: translateY(2px/2);
-    transition: transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0.2s;
-}
-#nav-item-container a:hover:before,
-#nav-item-container a:hover:after {
-    opacity: 1;
-    transform: translateY(0);
-}
-#nav-item-container a:hover:before {
-    transition: transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0.2s;
-}
-#nav-item-container a:hover:after {
-    transition: transform 0s .2s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0s .2s;
-}
-#nav-item-container {
-    width: 70em;
-    display: flex;
-    justify-content: space-evenly;
-    margin-right: 5em;
-}
-/*mobile*/
+    /*mobile*/
 
 @media screen and (max-width: 1080px) {
     #nav-container {

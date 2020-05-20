@@ -29,7 +29,11 @@ const Correction = () => {
                     <br></br>
                     <p>For any clients that have had previous eyebrow tattoos, not initially performed by Dollface Permanent Makeup.</p>
                     <p>This service is to color correct, refine, cover-up, and/or add symmetry to your preexisting tattoo.</p>
-                    <p><strong>Please be mindful that not all tattoos can be corrected, and all corrections require the client to submit a photo of their bare brows before booking their appointment.</strong></p>
+                    <p>
+                    Please send clear photos of your bare brows to: <strong>DollfacePMU@gmail.com</strong>. Failure to inform your technician of previous eyebrow tattoos can result in a loss of deposit if the tattoo cannot be worked on / covered up.
+                    </p>
+                    <p><strong>Please be mindful that not all tattoos can be corrected, and all corrections require the client to submit a photo of their bare brows before booking their appointment.
+                    </strong></p>
                     <br></br>
                     <div className="modal-book-button">
                         <Link className="modal-book" to="/appointments">Book Now</Link>

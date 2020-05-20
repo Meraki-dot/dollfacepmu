@@ -15,14 +15,14 @@ const Footer = () => {
                 </a>
             </div>
             <div id="number">
-                <a href="tel:7149499495">714.949.9495</a>
+                <a href="sms:7149499495">714.949.9495</a>
             </div>
             <div id="social-icons">
                 <span id="insta">
                     <a className="social-icon" href="https://www.instagram.com/dollfacepmu/?hl=en" target="_blank" rel="noopener noreferrer"><Instagram /></a>
                 </span>
                 <span id="fb">
-                    <a className="social-icon" href="https://www.shorturl.at/fhjwU" target="_blank" rel="noopener noreferrer"><Facebook /></a>
+                    <a className="social-icon" href="https://www.facebook.com/dollfacePMU" target="_blank" rel="noopener noreferrer"><Facebook /></a>
                 </span>
                 <span id="yelp">
                     <a className="social-icon" href="https://www.yelp.com/biz/dollface-permanent-makeup-anaheim" target="_blank" rel="noopener noreferrer"><Yelp /></a>

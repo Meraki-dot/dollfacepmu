@@ -15,7 +15,7 @@ const Schedule = () => {
     }, []);
 
     return (
-        <Animated animationIn="fadeIn" animationInDuration="2000" isVisible={true}>
+        <Animated animationIn="fadeIn" animationInDuration="500" isVisible={true}>
             <div className="burger-container">
                 <Burger className="burger-menu" open={open} isOpen={isOpen} />
             </div>

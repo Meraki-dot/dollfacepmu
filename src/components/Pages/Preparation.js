@@ -14,7 +14,7 @@ const Preparation = () => {
         isOpen(false);
     }, []);
 
-    return (<Animated animationIn="fadeIn" animationInDuration="2000" isVisible={true}>
+    return (<Animated animationIn="fadeIn" animationInDuration="500" isVisible={true}>
         <div id="preparation-container">
             <Navbar />
             <div className="burger-container">
@@ -52,7 +52,7 @@ const Preparation = () => {
                 <ul className="right-list">
                     <li>
                         <strong>
-                            - Please provide a valid form of id if this is your first visit to Dollface Permanent Makeup.
+                            - Please provide a valid form of ID if this is your first visit to Dollface Permanent Makeup.
                         </strong>
                     </li>
                     <li>
@@ -94,8 +94,8 @@ const Preparation = () => {
                     <strong>General rules of After Care (eyebrows):</strong>
                 </p>
                 <p>
-                    Do not scratch, pick, or pull any of the scabs. Please allow the scabs to exfoliate naturally! It will generally taking anywhere from 7-14 days.
-                    Do NOT partake in activities that will cause you to sweat during the healing process. Sweat will break down color pigments which will lead to poor retention, loss of color, and increase risk of an infection.
+                    Do not scratch, pick, or pull any of the scabs. Please allow the scabs to exfoliate naturally! <br></br>
+                    Do not partake in activities that will cause you to sweat during the healing process. Sweat will break down color pigments which will lead to poor retention, loss of color, and increase risk of an infection.
                     <br></br>
                     Avoid exposing your eyebrows to water, direct shower streams, saunas, steam, pools, salt water, and tubs.
                     Do not expose healing skin to the sun, tanning beds, pets, dust/dirt, smoke, or chemicals of any kind (ie: make up, toners, moisturizers, serums, etc) unless stated otherwise by the artist.

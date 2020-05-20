@@ -15,7 +15,7 @@ const TOA = () => {
     }, []);
 
     return (
-        <Animated animationIn="fadeIn" animationInDuration="2000" isVisible={true}>
+        <Animated animationIn="fadeIn" animationInDuration="500" isVisible={true}>
             <div id="TOA-container">
                 <Navbar />
                 <div className="burger-container">
@@ -30,15 +30,27 @@ const TOA = () => {
                 <div id="TOA-content">
                     <p>
                         <br></br>
-                        When booking for services you must provide clear photos via text message of the procedure area.
+                        <strong>When booking for services you must provide clear photos via text message of the procedure area.</strong>&nbsp;
                         Photos must be free of any makeup, taken in good lighting and with no filters. When booking for
                         eyebrow procedures, you must inform Dollface Permanent Makeup if you had any previous eyebrow procedures done
                         prior to coming to Dollface Permanent Makeup. A non-refundable $50 deposit will be required to book
                         your appointment and will be added towards to the full amount of the selected service(s) that day.
-                        Deposits must be made via Venmo or PayPal to "DollfacePMU" only. Remaining balances will be due the day of your
+                        Deposits must be made via Venmo or PayPal to "DollfacePMU" only.
+                        <br></br>
+                        <ul>
+                            <li>
+                                <strong>Venmo</strong>: <a href="https://venmo.com/DollfacePMU" target="_blank" rel="noopener noreferrer">DollfacePMU</a>
+                            </li>
+                            <li>
+                                <strong>PayPal</strong>: <a href="https://www.paypal.me/dollfacepmu" target="_blank" rel="noopener noreferrer">https://www.paypal.me/dollfacepmu</a>
+                                <br></br>
+                                (Please list as Gift/Friend to avoid transfer fees)
+                            </li>
+                        </ul>
+                        Remaining balances will be due the day of your
                         appointment and can be paid with cash, Venmo, PayPal or all major credit cards. Any card transactions will
-                        have a 3% tranascation fee applied.
-                    <br></br>
+                        have a 3% transaction fee applied.
+
                         <br></br>
                         Deposits are not refundable and will automatically forfeited if the following occur:
                         <ul>
@@ -55,8 +67,11 @@ const TOA = () => {
                                 Please reschedule if you are feeling unwell. Clients who come to their appointment sick will be sent back home and their deposit forfeited
                             </li>
                             <li>
-                                Being 20 minutes late or later to arrive for your 
+                                Being 20 minutes late or later to arrive for your
                                 appointment. This will also automatically cancel your appointment
+                            </li>
+                            <li>
+                                Failure in booking the correct service may result in a loss of deposit (eg: booking for Ombré <em>virgin brows</em> when client needs a Correction instead).
                             </li>
                             <li>
                                 No shows.
@@ -119,8 +134,9 @@ const TOA = () => {
                                 Undergoing or scheduled for chemotherapy
                              </li>
                             <li>
-                                Prone to fainting and allergies to pigments or topical anesthetics.
+                                Prone to fainting
                              </li>
+                             <li>Allergies to pigments or topical anesthetics.</li>
                         </ul>
                         Your safety is my priority. You know your health better than anyone. If you have any medical issues that you feel
                          might be a contraindication, then we suggest you get clearance from your physicican prior to getting any procedures.

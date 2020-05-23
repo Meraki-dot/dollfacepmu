@@ -18,7 +18,6 @@
   }
   .left-list {
     margin-top: 100px;
-    list-style: none;
     padding-left: 0;
     font-size: 20px;
     width: 800px;
@@ -38,7 +37,6 @@
   }
   .right-list {
     margin-top: 100px;
-    list-style: none;
     padding-left: 0;
     font-size: 20px;
     text-align: left;
@@ -63,8 +61,12 @@
   .sub-cat {
     font-size: 30px !important;
   }
+  #general-after-care {
+    width: 800px;
+    font-size: 20px;
+    padding-left: 0px;
+  }
   #after-list {
-    list-style: none;
     padding-left: 0;
     font-size: 20px;
     width: 800px;
@@ -91,7 +93,6 @@
   }
   .left-list {
     margin-top: 100px;
-    list-style: none;
     padding-left: 0;
     font-size: 20px;
     width: 800px;
@@ -109,7 +110,6 @@
   }
   .right-list {
     margin-top: 100px;
-    list-style: none;
     padding-left: 0;
     font-size: 20px;
     text-align: left;
@@ -135,8 +135,12 @@
   .sub-cat {
     font-size: 30px !important;
   }
+  #general-after-care {
+    width: 800px;
+    font-size: 20px;
+    padding-left: 0px;
+  }
   #after-list {
-    list-style: none;
     padding-left: 0;
     font-size: 20px;
     width: 800px;
@@ -165,7 +169,6 @@
   }
   .left-list {
     margin-top: 50px;
-    list-style: none;
     padding-left: 0;
     font-size: 16px;
     width: 300px;
@@ -183,7 +186,6 @@
   }
   .right-list {
     margin-top: 50px;
-    list-style: none;
     padding-left: 0;
     font-size: 16px;
     text-align: left;
@@ -207,13 +209,17 @@
     margin-top: 60px;
   }
   #after-list {
-    list-style: none;
     padding-left: 0;
     font-size: 16px;
     width: 300px;
   }
   .sub-cat {
     font-size: 20px !important;
+  }
+  #general-after-care {
+    width: 300px;
+    font-size: 16px;
+    padding-left: 0px;
   }
   #prep-footer {
     margin-right: 5%;

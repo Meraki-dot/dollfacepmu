@@ -23,7 +23,7 @@ const AboutMe = () => {
                 </div>
                 <Menu open={open} isOpen={isOpen} />
                 <div id="about-me-title">
-                    <h1>ABOUT ME</h1>
+                    <h1>ABOUT THE ARTIST</h1>
                 </div>
                 <div id="profile-container">
                     <img id="profile" src={require("../images/steph_profile.JPG")} alt="Profile of Stephanie Gang" />

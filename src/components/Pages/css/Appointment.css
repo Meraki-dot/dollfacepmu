@@ -220,27 +220,20 @@
 
     #services-preread {
         border: 1px solid black;
-        padding: 0.3em 0.8em;
+        padding: 2px 4px;
     }
     #prep-preread {
         border: 1px solid black;
-        padding: 0.3em 0.8em;
+        padding: 2px 4px;
     }
-    #prep-preread a {
-        color: black;
-        text-decoration: none;
-    }
-    #prep-preread p {
+    #prep-preread p, #services-preread p {
         margin: 0;
         padding: 3px;
     }
-    #services-preread a {
+    #services-preread a, #prep-preread a {
         color: black;
         text-decoration: none;
-    }
-    #services-preread p {
-        margin: 0;
-        padding: 3px;
+        font-size: 13px;
     }
     #agreement-container {
         display: flex;
@@ -293,11 +286,11 @@
     }
     /*Outer box*/
     .checkbox-container label::before {
-        right: 270px;
+        right: 65vw;
     }
     /*Checkmark*/
     .checkbox-container label::after {
-        right: 274px;
+        right: 66.2vw;
         top: 3px;
     }
     /*Hide the checkmark by default*/
@@ -310,7 +303,7 @@
     }
     .checkbox-container p {
         position: absolute;
-        left: 180px;
+        left: 40%;
         top: -2vw;
         width: 17em;
         font-size: 10px;

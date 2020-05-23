@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.76a6e1f7.chunk.css",
-    "main.js": "/static/js/main.60444a80.chunk.js",
-    "main.js.map": "/static/js/main.60444a80.chunk.js.map",
+    "main.css": "/static/css/main.77dd65bf.chunk.css",
+    "main.js": "/static/js/main.9bab73e7.chunk.js",
+    "main.js.map": "/static/js/main.9bab73e7.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.0f4a8057.js",
     "runtime-main.js.map": "/static/js/runtime-main.0f4a8057.js.map",
-    "static/js/2.fb1fe63c.chunk.js": "/static/js/2.fb1fe63c.chunk.js",
-    "static/js/2.fb1fe63c.chunk.js.map": "/static/js/2.fb1fe63c.chunk.js.map",
+    "static/js/2.98cd5ed8.chunk.js": "/static/js/2.98cd5ed8.chunk.js",
+    "static/js/2.98cd5ed8.chunk.js.map": "/static/js/2.98cd5ed8.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.bf3eb73bff7d973402849d0d2ba6a22c.js": "/precache-manifest.bf3eb73bff7d973402849d0d2ba6a22c.js",
+    "precache-manifest.ea15cd7dd20f8f184e00acadefdf0cdd.js": "/precache-manifest.ea15cd7dd20f8f184e00acadefdf0cdd.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.76a6e1f7.chunk.css.map": "/static/css/main.76a6e1f7.chunk.css.map",
-    "static/js/2.fb1fe63c.chunk.js.LICENSE.txt": "/static/js/2.fb1fe63c.chunk.js.LICENSE.txt",
+    "static/css/main.77dd65bf.chunk.css.map": "/static/css/main.77dd65bf.chunk.css.map",
+    "static/js/2.98cd5ed8.chunk.js.LICENSE.txt": "/static/js/2.98cd5ed8.chunk.js.LICENSE.txt",
     "static/media/Correction.JPG": "/static/media/Correction.32d69c20.JPG",
     "static/media/index.css": "/static/media/Helvetica_light.055551ba.woff2",
     "static/media/Lashes.JPG": "/static/media/Lashes.c29e43e8.JPG",
@@ -22,13 +22,13 @@
     "static/media/dollface.a64cae4b.svg": "/static/media/dollface.a64cae4b.svg",
     "static/media/facebook.70f7463b.svg": "/static/media/facebook.70f7463b.svg",
     "static/media/instagram.d0b7c685.svg": "/static/media/instagram.d0b7c685.svg",
-    "static/media/steph_profile.jpg": "/static/media/steph_profile.406dca1c.jpg",
+    "static/media/steph_profile.JPG": "/static/media/steph_profile.406dca1c.JPG",
     "static/media/yelp.4b666449.svg": "/static/media/yelp.4b666449.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.0f4a8057.js",
-    "static/js/2.fb1fe63c.chunk.js",
-    "static/css/main.76a6e1f7.chunk.css",
-    "static/js/main.60444a80.chunk.js"
+    "static/js/2.98cd5ed8.chunk.js",
+    "static/css/main.77dd65bf.chunk.css",
+    "static/js/main.9bab73e7.chunk.js"
   ]
 }

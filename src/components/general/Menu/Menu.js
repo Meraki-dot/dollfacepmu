@@ -32,7 +32,7 @@ const Menu = ({ open }) => {
       </a>
       <Link to="/about-me">
         <span aria-label="about me"></span>
-        About Me
+        About the Artist
         </Link> 
     </StyledMenu>
   )

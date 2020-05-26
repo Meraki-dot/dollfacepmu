@@ -1,6 +1,6 @@
 @media screen and (min-width: 1510px) {
     #about-me-container {
-        height: 100vh;
+        max-height: 100%;
         width: 100%;
         display: flex;
         flex-direction: column;
@@ -10,11 +10,10 @@
         display: flex;
         justify-content: center;
         align-items: flex-end;
-        height: 30vh;
+        margin-top: 9.3%;
     }
     #about-me-title h1 {
         font-size: 60px;
-        margin-bottom: 2%;
     }
     #profile-container {
         display: flex;

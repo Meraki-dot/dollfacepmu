@@ -6,8 +6,8 @@ import TOA from "./components/Pages/TOA";
 import Preparation from "./components/Pages/Preparation";
 import Services from "./components/Pages/Services";
 import Appointment from "./components/Pages/Appointment";
-import Schedule from "./components/Pages/Schedule";
 import AboutMe from "./components/Pages/AboutMe";
+import Schedule from "./components/Pages/Schedule";
 
 const App = () => {
 

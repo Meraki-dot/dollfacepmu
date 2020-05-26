@@ -1,22 +1,19 @@
 @media screen and (min-width: 921px) {
+
     #schedule-container {
-        height: 100vh;
+        height: 100%;
         width: 100%;
-        display: grid;
-        grid-template-columns: auto 95% auto;
-        grid-template-rows: 20% auto 10%;
     }
-    #schedulista-widget-00 {
+    .schedulista-widget-desktop {
         height: 100%;
         width: 100%;
         z-index: 0;
-        grid-row-start: 2;
-        grid-column-start: 2;
+        top: 18%;
+        position: absolute;
+        padding: 0 5%;
     }
-    #schedule-footer {
-        width: 100%;
-        display: flex;
-        justify-content: center;
+    .schedulista-widget-mobile {
+        display: none;
     }
     .breadcrumb {
         margin-left: 5%;
@@ -27,18 +24,19 @@
 
 @media screen and (max-width: 920px) {
     #schedule-container {
-        height: 110vh;
+        height: 100%;
         width: 100%;
     }
-    #schedulista-widget-00 {
-        height: 115%;
+    .schedulista-widget-desktop {
+        display: none;
+    }
+    .schedulista-widget-mobile {
+        height: 100%;
         width: 100%;
         z-index: 0;
         margin-top: 5em;
         padding: 1em;
-    }
-    #schedule-footer {
-        display: none;
+        position: absolute;
     }
     .breadcrumb {
         margin-left: 5%;

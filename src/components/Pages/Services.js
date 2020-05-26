@@ -43,6 +43,10 @@ const Services = () => {
         isOpen(false);
     }, []);
 
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      }, [])
+
     return (
         <Animated animationIn="fadeIn" animationInDelay="100" animationInDuration="500" isVisible={true}>
             <div id="services-container">
@@ -115,7 +119,7 @@ const Services = () => {
                         <div className='services-info'>
                             <h1>CORRECTION</h1>
                             <p className="subtext service-category">EYEBROW SERVICES</p>
-                            <p className="subtext"><em>3 - 4 hours | selected style +$50</em></p>
+                            <p className="subtext"><em>3 - 4 hours | $450</em></p>
                             <Correction />
                         </div>
                     </div>

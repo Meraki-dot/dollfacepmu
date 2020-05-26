@@ -29,7 +29,7 @@ const Removal = () => {
                     <br></br>
                     <ul>
                         <li>
-                            5-10 weeks: (required touch up) : $50
+                            5 - 10 weeks: $50
                         </li>
                         <li>
                             10 weeks - 6 months: $100

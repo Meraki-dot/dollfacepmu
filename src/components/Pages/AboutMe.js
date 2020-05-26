@@ -29,11 +29,12 @@ const AboutMe = () => {
                     <img id="profile" src={require("../images/steph_profile.JPG")} alt="Profile of Stephanie Gang" />
                     <div id="about-me-content">
                         <br></br>
-                        <p>Stephanie G. is the owner and artist of Dollface Permanent Makeup.</p>
-                        <p>Her mother swears that Stephanie was born with a crayon in her hand, since she’s always been drawn to any form of Art since she was a little girl.</p>
-                        <p>With an extensive imagination, she has gained experience in numerous forms of art (painting, drawing, digital media, photography, culinary, crafts, and design). Her work has been featured in magazines, newspapers, and local galleries. Creativity has always been a huge part of her life.</p>
-                        <p>Stephanie first stepped into the tattoo-beauty industry in 2017, where she learned and refined her tattoo skills by shadowing various Masters within the industry, earning her multiple certifications.</p>
-                        <p>Equipped with her preexisting knowledge of color and design, she incorporates color theory, attention to detail and an eye for aesthetics into her business to help her clients look and feel their truest beauty everyday.</p>
+                        <p>Hi! My name's Stephanie, and I'm the owner and artist of Dollface Permanent Makeup.</p>
+                        <p>You know that friend that is super creative,(the total arsty-fartsy type) but is also a major perfectionist? Yep. That’s me. I have always had an obsession with minor details, and I really try to bring that passion for perfection to the front line of my work. I have gained experience in numerous forms of art (painting, drawing, digital media, photography, culinary arts, crafts, and design), and some of my work has been featured in magazines, newspapers, and local galleries! Creativity has always been a huge part of my life, and honestly, I believe that it makes life more beautiful and fun.</p>
+                        <p>I first stepped into the tattoo-beauty industry in 2017, where I learned and refined my tattoo skills by shadowing various Masters and earning multiple certifications along the way. My biggest joy in this industry is seeing the happy faces of my satisfied clients. I love knowing that I helped make my clients feel as beautiful as I know they are. </p>
+                        <p>
+                        Equipped with my pre-existing knowledge of color and design, I incorporate color theory, attention to detail, and an eye for aesthetics into my business to help all of my clients look and feel their truest beauty everyday.
+                        </p>
                 </div>
             </div>
                 <div id="about-me-footer">

@@ -13,6 +13,10 @@ const Preparation = () => {
     isOpen(false);
   }, []);
 
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
+
   return (
     <Animated animationIn="fadeIn" animationInDuration="500" isVisible={true}>
       <div id="preparation-container">

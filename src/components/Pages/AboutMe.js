@@ -26,7 +26,7 @@ const AboutMe = () => {
                     <h1>ABOUT THE ARTIST</h1>
                 </div>
                 <div id="profile-container">
-                    <img id="profile" src={require("../images/steph_profile.JPG")} alt="Profile of Stephanie Gang" />
+                    <img id="profile" src={require("../images/steph_profile.JPG")} alt="Dollface Permanent Makeup owner Stephanie smiling." />
                     <div id="about-me-content">
                         <br></br>
                         <p>Hi! My name's Stephanie, and I'm the owner and artist of Dollface Permanent Makeup.</p>

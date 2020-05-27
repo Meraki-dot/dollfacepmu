@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./css/Schedule.css";
 import Navbar from "../general/Navbar";
-import Footer from "../general/Footer";
 import { Animated } from "react-animated-css";
 import Burger from "../general/Burger/Burger";
 import Menu from "../general/Menu/Menu";

@@ -14,8 +14,9 @@ const TOA = () => {
   }, []);
 
   useEffect(() => {
-    window.scrollTo(0, 0)
-  }, [])
+    document.getElementById('TOA-container').scrollIntoView();
+    document.body.scrollTop = 0;
+  }, []);
 
   return (
     <Animated animationIn="fadeIn" animationInDuration="500" isVisible={true}>
@@ -32,21 +33,20 @@ const TOA = () => {
           <p>
             <br></br>
             <strong>
-              When booking for services you must provide clear photos via text
-              message of the procedure area, via text message to (714) 949-9495
+              Prior to booking, clients must provide clear photos of procedure area by text (714) 949-9495.
             </strong>
             <ul>
               <li>Photos must be free of makeup and/or filters</li>
               <li>Clear and taken in good lighting</li>
-              <li>Be taken at multiple angles (left, right, middle)</li>
-            </ul>
-            When booking for eyebrow procedures
-            <ul>
               <li>
-                You must inform Dollface Permanent Makeup if you had any
-                previous eyebrow procedures done prior to coming to Dollface
-                Permanent Makeup
+                Be taken at multiple angles (left, right, straight forward)
               </li>
+              <li>
+                Dollface Permanent Makeup must also be informed if any prior work has been done on the area.
+              </li>
+            </ul>
+            <strong>When booking for services:</strong>
+            <ul>
               <li>
                 A non-refundable deposit will be required to book your
                 appointment and will be added towards to the full amount of the
@@ -84,19 +84,26 @@ const TOA = () => {
             be paid with cash, Venmo, PayPal or all major credit cards. Any card
             transactions will have a 3% transaction fee applied.
             <br></br>
-            Deposits are not refundable and will automatically be forfeited if
-            the following occur:
+            <br></br>
+            <strong>Deposits are not refundable and will automatically be forfeited if
+            the following occur:</strong>
             <ul>
-              <li>Rescheduling within 1 week of your appointment date</li>
+              <li>
+                A Pre-screening Health form will be emailed to every client 1
+                week prior to their appointment. It is mandatory that clients
+                complete and resend the form within 4 days upon receiving it to
+                avoid any scheduling complications. Failure to comply will
+                result in a forfeit of deposit and cancellation of appointment.
+              </li>
+              <li>
+                Please reschedule if you are feeling unwell. Clients who come in
+                to their appointment sick will be sent home, their deposit
+                forfeited, and appointment canceled.
+              </li>
               <li>Clients are allowed only 2 reschedules</li>
               <li>
                 If you are rescheduling for your Required Touch Up, the date
                 must not exceed 6 months from you initial procedure
-              </li>
-              <li>
-                Please reschedule if you are feeling unwell. Clients who come to
-                their appointment sick will be sent back home and their deposit
-                forfeited
               </li>
               <li>
                 Being 20 minutes late or later to arrive for your appointment.
@@ -119,19 +126,20 @@ const TOA = () => {
             </div>
             We will be working together to create a shape that fits to your
             unique facial structure. Please be mindful that faces are naturally
-            asymmetrical, we ask all clients carefully examine and approve each
-            predraw before starting all tatooting procedures. Results may vary
-            dependent on the client's skin, lifestyle, age, sun exposure, diet,
-            health and/or aftercare. We are not responsible and/or liable for
-            any changes in shape or color once you leave our studio. Permanent
-            makeup is an Art and results are never guaranteed (if you require
-            touchup(s) prices will be based accordingly). Photos, videos and
-            audios taken before, during or after your procedure will be owned by
-            Dollface Permanent Makeup and may be used for promotional/marketing
-            services on our social media, websites or other business related
-            platforms. Prices and promotions are subject to change at any time.
-            Since this is a service, all transactions will be final. There will
-            be no refunds. We reserve the right to refuse service to anyone.
+            asymmetrical, we ask all clients to carefully examine and approve
+            each predraw before starting all tatooing procedures. Results may
+            vary depending on the client's skin, lifestyle, age, sun exposure,
+            diet, health and/or aftercare. We are not responsible and/or liable
+            for any changes in shape or color once you leave our studio.
+            Permanent makeup is an art and results are never guaranteed (if you
+            require touchup(s) prices will be based accordingly). Photos, videos
+            and audios taken before, during or after your procedure will be
+            owned by Dollface Permanent Makeup and may be used for
+            promotional/marketing services on our social media, websites or
+            other business related platforms. Prices and promotions are subject
+            to change at any time. Since this is a service, all transactions
+            will be final. There will be no refunds. We reserve the right to
+            refuse service to anyone.
             <div id="TOA-sub-title">
               <h1>INELIGIBLITY</h1>
             </div>
@@ -146,11 +154,16 @@ const TOA = () => {
                 aspirin or ibuprofen)
               </li>
               <li>
-                Having and/or being at risk of autoimmune disease, blood
-                disorders, heart conditions, prone to keloids and post
-                inflammatory hyper pigmentation
+                Autoimmune disease, blood disorders, and/or heart conditions
               </li>
-              <li>Using of Accutane / Retin A</li>
+              <li>Prone to keloids</li>
+              <li>Hyper pigmentation or hypo pigmentation</li>
+              <li>Glaucoma</li>
+              <li>Healing disorders</li>
+              <li>Botox within the last month</li>
+              <li>Use of Latisse or other hair growth enhancers</li>
+              <li>Trichotillomania</li>
+              <li>Use of Accutane / Retin A</li>
               <li>History of poor reactions to prior tattoos</li>
               <li>
                 Having open wounds, rashes or any other skin conditions on the

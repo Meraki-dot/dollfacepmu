@@ -14,8 +14,9 @@ const Preparation = () => {
   }, []);
 
   useEffect(() => {
-    window.scrollTo(0, 0)
-  }, [])
+    document.getElementById("preparation-container").scrollIntoView();
+    document.body.scrollTop = 0;
+  }, []);
 
   return (
     <Animated animationIn="fadeIn" animationInDuration="500" isVisible={true}>
@@ -28,6 +29,19 @@ const Preparation = () => {
         <div id="prep-container">
           <h1>PREP</h1>
           <ul className="left-list">
+            <li>
+              Please do not forget to submit photos of your bare brows to (714)
+              949-9495 if you have not already done so. Failure to comply will
+              result in a forfeit of deposit and cancelation of appointment.
+            </li>
+            <li>
+              Please do not forget to fill out your Pre-Screening Form prior to
+              your arrival. Failure to comply will result in a forfeit of
+              deposit and cancelation of appointment.
+            </li>
+            <li>
+              If you are feeling sick or unwell, please notify us immediately.
+            </li>
             <li>
               Do not pick, tweeze, wax, thread, perform electrolysis before the
               procedure.
@@ -53,27 +67,23 @@ const Preparation = () => {
           <ul className="right-list">
             <li>
               <strong>
-                Please provide a valid form of ID if this is your first visit to
-                Dollface Permanent Makeup.
+                Please bring a valid form on ID if this is your first visit to
+                Dollface Permanent Makeup
               </strong>
             </li>
             <li>
-              Please wear your make up when you arrive to your appointment, we
-              will be taking plenty of before & after photos. Bring your makeup
-              kit with you for touch ups, since I will be wiping your forehead
-              often throughout the procedure.
+              Please wear your makeup when you come for your appointment, as we
+              will be taking plenty of Before & After photos. This helps provide
+              an idea (for your artist) of how you like to style your eyebrows.
+              It is advised to bring your makeup kit with you, as your artist
+              will be wiping your brows/forehead often, it may be beneficial to
+              "touch up" your makeup prior to getting your After photos taken.
             </li>
             <li>
-              Please be mindful of our “No Guest(s)” Policy, as the environment
-              is not ideal for children or waiting guests due to the lengthy
-              procedure time which can be uncomfortable/distracting for your
-              guest(s) and for myself as the artist.
-            </li>
-            <li>
-              Please be on time to your appointment, be wary of any possible
-              traffic on the way. Being late will result in loss of deposit.
-              Your ID will be required if this is your first visit to Dollface
-              Permanent Makeup.
+              Clients will be required to fill out forms prior to every
+              procedure. If a translator is required, it is the client's
+              responsibility to bring a translator who can help assist in
+              interpreting the forms (please inform your artist ahead of time).
             </li>
             <li>
               Payments can be made via Cash, Venmo, Paypal, or (all major)
@@ -81,21 +91,51 @@ const Preparation = () => {
               additional 3% transaction fee added to your total.
             </li>
             <li>
-              Do not take Fish Oil, Vitamin E, Asprin, Ibuprofen or pain
-              relievers (they are blood thinners).
+              Please arrive in a timely manner to your appointment. Be wary of
+              possible traffic on the way, being late will result in a loss of
+              deposit, and will require a reschedule. (Policies can be viewed on
+              our website).
             </li>
-            <li>Do not wax or tint your eyebrows prior to the procedure.</li>
             <li>
-              Do not drink alcohol, tea, coffee, or energy drinks 24 - 48 hours
-              before your appointment.
+              Please be mindful of our "No Guest(s)" Policy, as the environment
+              is not ideal for children, pets, or waiting guests due to the
+              lengthy procedure time, which can be uncomfortable/distracting for
+              your guest(s) and for your artist.
             </li>
             <li>
               <strong>
-                Clients will be required to fill out a Health / Consent form
+                Clients will be required to fill out Health / Consent forms
                 prior to every procedure. If a translator is required, it is the
                 client's responsibility to bring a translator who can help
-                assist in interpreting the forms.
+                assist in interpreting the forms (Please inform your artist
+                ahead of time if you must bring a guest).
               </strong>
+            </li>
+            <h2>
+              <strong>DUE TO ADDITIONAL SAFETY MEASURES</strong>
+            </h2>
+            <li>
+              Clients are required to wear a brand new mask before entering the
+              studio. If you do not have a mask, a one time use mask will be
+              provided for you.
+            </li>
+            <li>
+              We ask our clients to please wait in the car until called upon. We
+              will be reaching out to you by Text Message when we are ready to
+              service you.
+            </li>
+            <li>
+              No additional guests will be allowed, unless it is absolutely
+              necessary to have a translator to assist the client in filling out
+              the required paperwork. After the paperwork is complete, the guest
+              will need to leave the studio to minimize the number of bodies
+              within the studio.
+            </li>
+            <li>
+              Cellphones, purses and other accessories must be kept away from
+              the procedure area, and must not be handled during the session.
+              Please keep personal items to just the essentials. No food or
+              drinks.
             </li>
           </ul>
         </div>
@@ -116,11 +156,11 @@ const Preparation = () => {
               scabs to exfoliate naturally!
             </li>
             <li>
-                Do not partake in activities that will cause you to sweat during
-                the healing process. Sweat will break down color pigments which
-                will lead to poor retention, loss of color, and increase risk of
-                an infection.
-              </li>
+              Do not partake in activities that will cause you to sweat during
+              the healing process. Sweat will break down color pigments which
+              will lead to poor retention, loss of color, and increase risk of
+              an infection.
+            </li>
             <li>
               Avoid exposing your eyebrows to water, direct shower streams,
               saunas, steam, pools, salt water, and tubs.

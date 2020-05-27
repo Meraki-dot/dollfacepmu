@@ -10,12 +10,12 @@
         display: flex;
         justify-content: center;
         width: 100%;
-        margin-top: 16em;
+        margin-top: 35vh;
     }
     #appointment-title {
         width: 20em;
         text-align: center;
-        font-size: 50px;
+        font-size: 40px;
     }
     #pre-reading {
         display: flex;
@@ -34,26 +34,19 @@
         align-self: flex-end;
     }
     #prep-preread, #services-preread {
-        font-size: 2em;
+        font-size: 20px;
     }
-    #prep-preread a {
+    #prep-preread a, #services-preread a {
         color: black;
         text-decoration: none;
         position: relative;
         border: black 1px solid;
-        padding: 0.396em 1em;
+        padding: 10px 30px;
     }
     #services-preread {
         font-family: 'Helvetica Bold';
         justify-self: center;
         align-self: flex-end;
-    }
-    #services-preread a {
-        color: black;
-        text-decoration: none;
-        position: relative;
-        border: black 1px solid;
-        padding: 0.396em 1em;
     }
     @keyframes color-shift {
         from {
@@ -148,8 +141,12 @@
     #schedulista-button {
         background: transparent;
         border: 1px solid black;
-        padding: 1% 5% 1% 5%;
+        padding: 0.75% 2% 0.75% 2%;
         margin-top: 1.5em;
+    }
+    #schedulista-button h2{
+        font-size: 25px;
+        margin: 0;
     }
     #redirect-schedulista a {
         text-decoration: none;
@@ -201,7 +198,7 @@
         margin-top: 11em;
     }
     #appointment-title {
-        font-size: 1.5em;
+        font-size: 1.65em;
         width: 70%;
         word-wrap: break-word;
         text-align: center;

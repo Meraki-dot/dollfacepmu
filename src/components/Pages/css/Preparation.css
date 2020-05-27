@@ -6,8 +6,8 @@
     flex-direction: column;
   }
   #prep-container {
-    height: 585px;
-    margin-top: 300px;
+    height: auto;
+    margin-top: 12%;
     margin-left: 17%;
   }
   #prep-container h1 {
@@ -20,7 +20,7 @@
     width: 800px;
   }
   #day-of-container {
-    height: 820px;
+    height: auto;
     display: flex;
     align-items: flex-end;
     width: 100%;
@@ -32,6 +32,9 @@
     text-align: right;
     margin-right: 17%;
   }
+  #day-of-container h2 {
+    margin: 30px 0 30px -23px;
+  }
   .right-list {
     margin-top: 100px;
     padding-left: 0;
@@ -41,7 +44,7 @@
     margin-right: 17%;
   }
   #after-container {
-    height: 1500px;
+    height: auto;
     margin-top: 225px;
     margin-left: 17%;
   }
@@ -69,7 +72,9 @@
     width: 800px;
   }
   #prep-footer {
-    margin-left: 5%;
+    width: 100%;
+    margin-left: 3.5%;
+    margin-top: 10%;
   }
 }
 
@@ -82,7 +87,7 @@
     align-items: flex-end;
   }
   #prep-container {
-    height: 585px;
+    height: auto;
     margin-top: 300px;
     display: flex;
     flex-direction: column;
@@ -98,7 +103,7 @@
     width: 800px;
   }
   #day-of-container {
-    height: 730px;
+    height: auto;
     width: 100%;
     margin-top: 100px;
     display: flex;
@@ -108,6 +113,9 @@
   #day-of-container h1 {
     font-size: 80px;
   }
+  #day-of-container h2 {
+    margin: 30px 0 30px -23px;
+  }
   .right-list {
     margin-top: 100px;
     padding-left: 0;
@@ -116,7 +124,7 @@
     width: 800px;
   }
   #after-container {
-    height: 1500px;
+    height: auto;
     margin-top: 230px;
     display: flex;
     flex-direction: column;
@@ -147,6 +155,7 @@
   }
   #prep-footer {
     width: 95%;
+    margin-top: 15%;
   }
 }
 
@@ -161,7 +170,7 @@
     align-items: center;
   }
   #prep-container {
-    height: 585px;
+    height: auto;
     margin-top: 160px;
     display: flex;
     flex-direction: column;
@@ -177,7 +186,7 @@
     width: 300px;
   }
   #day-of-container {
-    height: 890px;
+    height: auto;
     width: 100%;
     margin-top: 40px;
     display: flex;
@@ -195,14 +204,18 @@
     width: 300px;
   }
   #after-container {
-    height: 1900px;
-    margin-top: 235px;
+    height: auto;
+    margin-top: 60px;
     display: flex;
     flex-direction: column;
     width: 75%;
   }
   #after-container h1 {
     font-size: 40px;
+  }
+  #day-of-container h2 {
+    margin: 30px 0;
+    font-size: 20px;
   }
   #after-container p {
     width: 300px;
@@ -226,5 +239,6 @@
   }
   #prep-footer {
     margin-right: 5%;
+    margin-top: 10%;
   }
 }

@@ -71,7 +71,7 @@ const Services = () => {
         <div id="eyebrows" className="ind-services first">
           <div className="services-info-container">
             <div className="services-info">
-              <h1>OMBRE</h1>
+              <h1>OMBRÉ</h1>
               <p className="subtext service-category">EYEBROW SERVICES</p>
               <p className="subtext">
                 <em>3 - 4 hours | $400</em>

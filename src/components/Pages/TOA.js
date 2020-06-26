@@ -14,7 +14,7 @@ const TOA = () => {
   }, []);
 
   useEffect(() => {
-    document.getElementById('TOA-container').scrollIntoView();
+    document.getElementById("TOA-container").scrollIntoView();
     document.body.scrollTop = 0;
   }, []);
 
@@ -33,7 +33,8 @@ const TOA = () => {
           <p>
             <br></br>
             <strong>
-              Prior to booking, clients must provide clear photos of procedure area by text (714) 949-9495.
+              Prior to booking, clients must provide clear photos of procedure
+              area by text (714) 949-9495.
             </strong>
             <ul>
               <li>Photos must be free of makeup and/or filters</li>
@@ -42,7 +43,8 @@ const TOA = () => {
                 Be taken at multiple angles (left, right, straight forward)
               </li>
               <li>
-                Dollface Permanent Makeup must also be informed if any prior work has been done on the area.
+                Dollface Permanent Makeup must also be informed if any prior
+                work has been done on the area.
               </li>
             </ul>
             <strong>When booking for services:</strong>
@@ -85,29 +87,27 @@ const TOA = () => {
             transactions will have a 3% transaction fee applied.
             <br></br>
             <br></br>
-            <strong>Deposits are not refundable and will automatically be forfeited if
-            the following occur:</strong>
+            <strong>
+              Deposits are not refundable and will automatically be forfeited if
+              the following occur:
+            </strong>
             <ul>
               <li>
-                A Pre-screening Health form will be emailed to every client 1
-                week prior to their appointment. It is mandatory that clients
-                complete and resend the form within 4 days upon receiving it to
-                avoid any scheduling complications. Failure to comply will
-                result in a forfeit of deposit and cancellation of appointment.
-              </li>
-              <li>
-                Please reschedule if you are feeling unwell. Clients who come in
-                to their appointment sick will be sent home, their deposit
-                forfeited, and appointment canceled.
+                Clients who come in to their appointment sick will be sent home,
+                their deposit forfeited, and appointment canceled. Please
+                reschedule if you are feeling unwell.
               </li>
               <li>Clients are allowed only 2 reschedules</li>
               <li>
                 If you are rescheduling for your Required Touch Up, the date
-                must not exceed 6 months from you initial procedure
+                must not exceed 6 months from you initial procedure.
               </li>
               <li>
-                Being 20 minutes late or later to arrive for your appointment.
-                This will also automatically cancel your appointment
+                If you are more than 20 minutes late to arrive for your
+                appointment, your deposit will be forfeited, your appointment
+                will be cancelled, and an additional deposit will be required to
+                rebook. Please be wary of traffic and courteous of people's
+                time.
               </li>
               <li>
                 Failure in booking the correct service may result in a loss of

@@ -35,11 +35,6 @@ const Preparation = () => {
               result in a forfeit of deposit and cancelation of appointment.
             </li>
             <li>
-              Please do not forget to fill out your Pre-Screening Form prior to
-              your arrival. Failure to comply will result in a forfeit of
-              deposit and cancelation of appointment.
-            </li>
-            <li>
               If you are feeling sick or unwell, please notify us immediately.
             </li>
             <li>
@@ -48,7 +43,7 @@ const Preparation = () => {
             </li>
             <li>Do not tan prior to the service, or have a sunburned face.</li>
             <li>
-              Do not have any type of facial/injections prior to the procedure.
+              Avoid any types of facials/botox/injections one month prior to your appointment.
             </li>
             <li>Do not work out the day of the procedure.</li>
             <li>
@@ -118,6 +113,12 @@ const Preparation = () => {
               Clients are required to wear a brand new mask before entering the
               studio. If you do not have a mask, a one time use mask will be
               provided for you.
+            </li>
+            <li>
+              All clients will be subject to a temperature check as soon as they
+              walk into the studio, if there is a fever or any symptoms of
+              illness, the appointment will be cancelled, the deposit will be
+              forfeited, and a new appoitnment will need to be made.
             </li>
             <li>
               We ask our clients to please wait in the car until called upon. We

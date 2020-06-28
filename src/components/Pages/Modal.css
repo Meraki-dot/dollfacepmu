@@ -89,6 +89,10 @@
     justify-content: center;
 }
 
+.modal-link {
+    color: black;
+}
+
 @media screen and (min-width: 921px) {
     .ReactModal__Content {
         height: 65%;

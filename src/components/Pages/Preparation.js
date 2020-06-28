@@ -75,12 +75,6 @@ const Preparation = () => {
               "touch up" your makeup prior to getting your After photos taken.
             </li>
             <li>
-              Clients will be required to fill out forms prior to every
-              procedure. If a translator is required, it is the client's
-              responsibility to bring a translator who can help assist in
-              interpreting the forms (please inform your artist ahead of time).
-            </li>
-            <li>
               Payments can be made via Cash, Venmo, Paypal, or (all major)
               credit cards, however, all card transactions will have an
               additional 3% transaction fee added to your total.

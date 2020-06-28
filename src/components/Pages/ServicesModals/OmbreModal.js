@@ -28,7 +28,7 @@ const OmbreModal = () => {
                     <h1>OMBRÉ</h1>
                     <p className="duration-price"><i>3 - 4 hours | $400</i></p>
                     <br></br>
-                    <p>The "Ombre Powder" is a technique that gradually shades from lightly colored fronts into a darker tail. This look can be customized to replicate a more saturated "makeup look," or it can be as subtle as a naturally tinted brow.</p>
+                    <p>Ombré is the signature technique at Dollface Permanent Makeup.</p>
                     <p>This service is the signature technique at Dollface Permanent Makeup.</p>
                     <ul>
                         <li>

@@ -40,7 +40,7 @@ const Homepage = () => {
                         </Link>
                     </div>
                     <div id="hero-right">
-                        <InstaGrid account="dollfacepmu" numberOfMediaElements={9} id="instafeed" />
+                        <InstaGrid account="dollfacepmu" numberOfMediaElements={9} />
                     </div>
                     <Link to="/appointments" id="homepage-schedule-mobile">
                         <button id="homepage-schedule-mobile-button">

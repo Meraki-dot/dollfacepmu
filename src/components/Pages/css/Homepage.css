@@ -79,18 +79,16 @@
     justify-content: center;
     align-items: center;
   }
-  #instafeed {
-    display: grid;
+  .MuiGrid-container {
+    display: grid !important;
     grid-template-columns: 1fr 1fr 1fr;
-    width: 480px;
+    max-width: 32rem;
+    width: 100%;
+    gap: 0.35rem;
   }
-  .img-fluid {
-    grid-column-start: 1;
-    grid-column-end: 3;
-    justify-self: center;
-    align-self: center;
-    max-height: 150px;
-    max-width: 150px;
+  .MuiGrid-container img {
+    height: 10rem !important;
+    width: 10rem !important;
   }
   .row {
     justify-self: center;
@@ -115,14 +113,16 @@
   body {
     overflow-x: hidden;
   }
-  #instafeed {
-    width: 350px;
-    grid-column-gap: 5px;
-    margin-right: 8%;
+  .MuiGrid-container {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 32rem;
+    width: 100%;
+    gap: 0.35rem;
   }
-  .img-fluid {
-    max-height: 150px;
-    max-width: 150px;
+  .MuiGrid-container img {
+    height: 8rem !important;
+    width: 8rem !important;
   }
   #hero-message {
     font-size: 80px;
@@ -174,19 +174,16 @@
   #homepage-schedule {
     display: none;
   }
-  #instafeed {
-    margin-left: 0.5em;
-    display: grid;
-    grid-template-columns: auto auto auto;
-    grid-column-start: 2;
-    width: 13em;
-    justify-content: center;
+  .MuiGrid-container {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 32rem;
+    width: 100%;
+    gap: 0.35rem;
   }
-  .img-fluid {
-    justify-self: center;
-    align-self: center;
-    max-height: 6em;
-    max-width: 6em;
+  .MuiGrid-container img {
+    height: 5.8rem !important;
+    width: 5.8rem !important;
   }
   .row {
     grid-row-gap: 5px;

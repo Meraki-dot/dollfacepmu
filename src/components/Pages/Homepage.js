@@ -2,30 +2,16 @@ import React, { useState, useEffect } from 'react';
 import './css/Homepage.css'
 import Navbar from '../general/Navbar';
 import Footer from '../general/Footer';
-import Instafeed from 'instafeed.js';
 import { Animated } from "react-animated-css";
 import { ReactComponent as Logo } from '../images/dollface.svg';
 import Burger from '../general/Burger/Burger';
 import Menu from '../general/Menu/Menu';
 import { Link } from 'react-router-dom';
+import InstaGrid from '../general/InstaGrid';
 
 const Homepage = () => {
 
-    let feed = new Instafeed({
-        get: 'user',
-        userId: '7601234475',
-        accessToken: '7601234475.1677ed0.b8899fa0e21347c8b91daea60166211e',
-        limit: 9,
-        sortBy: "most-recent",
-        template: '<div class="gallery col-lg-4 instaimg"><a href="{{link}}" target="_blank"><img src="{{image}}" alt="{{caption}}" class="img-fluid" /></a></div>'
-    });
-
     const [open, isOpen] = useState(false)
-
-    useEffect(() => {
-        feed.run()
-        // eslint-disable-next-line
-    }, [])
 
     return (
         <Animated animationIn="fadeIn" animationInDelay="400" animationInDuration="500" isVisible={true}>
@@ -54,8 +40,7 @@ const Homepage = () => {
                         </Link>
                     </div>
                     <div id="hero-right">
-                        <div id="instafeed" className="row">
-                        </div>
+                        <InstaGrid account="dollfacepmu" numberOfMediaElements={9} id="instafeed" />
                     </div>
                     <Link to="/appointments" id="homepage-schedule-mobile">
                         <button id="homepage-schedule-mobile-button">

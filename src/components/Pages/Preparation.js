@@ -35,6 +35,12 @@ const Preparation = () => {
               result in a forfeit of deposit and cancelation of appointment.
             </li>
             <li>
+              Once your appointment has been booked, clients will receive an
+              email a few days prior to the appointment that contains important
+              instructions and details. It is the client's responsibility to
+              read it in its entirety.
+            </li>
+            <li>
               If you are feeling sick or unwell, please notify us immediately.
             </li>
             <li>
@@ -43,7 +49,8 @@ const Preparation = () => {
             </li>
             <li>Do not tan prior to the service, or have a sunburned face.</li>
             <li>
-              Avoid any types of facials/botox/injections one month prior to your appointment.
+              Avoid any types of facials/botox/injections one month prior to
+              your appointment.
             </li>
             <li>Do not work out the day of the procedure.</li>
             <li>

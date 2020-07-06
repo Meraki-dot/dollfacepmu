@@ -47,15 +47,11 @@ const TOA = () => {
                 work has been done on the area.
               </li>
             </ul>
-            <strong>When booking for services:</strong>
             <ul>
               <li>
                 A non-refundable deposit will be required to book your
                 appointment and will be added towards to the full amount of the
                 selected service(s) that day
-              </li>
-              <li>
-                Deposits must be made via Venmo or PayPal to "DollfacePMU" only.
               </li>
               <ul>
                 <li>
@@ -103,18 +99,25 @@ const TOA = () => {
                 must not exceed 6 months from you initial procedure.
               </li>
               <li>
-                If you are more than 20 minutes late to arrive for your
-                appointment, your deposit will be forfeited, your appointment
-                will be cancelled, and an additional deposit will be required to
-                rebook. Please be wary of traffic and courteous of people's
-                time.
+                If you are more than 20 minutes late to your appointment, your
+                appointment will automatically be cancelled for the day and your
+                deposit will be forfeited. This rule will be strictly enforced.
+                (Please consider traffic or any other problems that may occur.
+                Tardiness leads to pushing back all of the day's appointments,
+                and it is unfair to other clients. Please be considerate of
+                everyone’s time.)
               </li>
               <li>
                 Failure in booking the correct service may result in a loss of
                 deposit (eg: booking for Ombré <em>virgin brows</em> when client
                 needs a Correction instead).
               </li>
-              <li>No shows.</li>
+              <li>
+                Clients who NO SHOW, or cancel within the same day, will
+                automatically have their deposit forfeited, charged the full
+                amount of the services booked, and will not be allowed to
+                reschedule again.
+              </li>
             </ul>
             Please be mindful of our "No Guest(s)" Policy, as the environment is
             not ideal for children or waiting guests due to the lengthy
@@ -124,59 +127,75 @@ const TOA = () => {
             <div id="TOA-sub-title">
               <h1>DISCLAIMERS</h1>
             </div>
-            We will be working together to create a shape that fits to your
-            unique facial structure. Please be mindful that faces are naturally
+            We will be working together to create a shape that fits your unique
+            facial structure. Please be mindful that faces are naturally
             asymmetrical, we ask all clients to carefully examine and approve
-            each predraw before starting all tatooing procedures. Results may
+            each predraw before starting all tattooing procedures. Results may
             vary depending on the client's skin, lifestyle, age, sun exposure,
-            diet, health and/or aftercare. We are not responsible and/or liable
-            for any changes in shape or color once you leave our studio.
-            Permanent makeup is an art and results are never guaranteed (if you
-            require touchup(s) prices will be based accordingly). Photos, videos
-            and audios taken before, during or after your procedure will be
-            owned by Dollface Permanent Makeup and may be used for
-            promotional/marketing services on our social media, websites or
-            other business related platforms. Prices and promotions are subject
-            to change at any time. Since this is a service, all transactions
-            will be final. There will be no refunds. We reserve the right to
-            refuse service to anyone.
+            diet, health and/or compliance with precare and aftercare. We are
+            not responsible and/or liable for any changes in shape or color once
+            you leave our studio. Although we give our best efforts to provide
+            you with optimal results, there are many factors that contribute to
+            the overall look, healing process, and retention of tattoos, which
+            can result in a less than desirable outcome. It is crucial for
+            clients to follow Pre-Care and After Care Instructions to help
+            produce the best results possible. Permanent makeup is an art and
+            results are never guaranteed (if you require additional touchup(s),
+            prices will be based accordingly). Photos, videos and audios taken
+            before, during or after your procedure will be owned by Dollface
+            Permanent Makeup and may be used for promotional/marketing services
+            on our social media, websites or other business related platforms.
+            Prices and promotions are subject to change at any time. Since this
+            is a service, all transactions will be final. There will be no
+            refunds. We reserve the right to refuse service to anyone.
             <div id="TOA-sub-title">
               <h1>INELIGIBLITY</h1>
             </div>
             Those who have the following will be ineligible for Permanent
             Makeup:
             <ul>
-              <li>Being under the age of 18 years old</li>
-              <li>Pregnant and nursing</li>
+              <li>Under the age of 18</li>
+              <li> Pregnant or nursing</li>
               <li>Diabetic (insulin dependent)</li>
               <li>
-                Being on anticoagulants / blood thinners (long term use of
-                aspirin or ibuprofen)
+                Actively on anticoagulants, blood thinners, or long term use of
+                aspirin, tylenol, and/ or ibuprofen.
               </li>
-              <li>
-                Autoimmune disease, blood disorders, and/or heart conditions
-              </li>
-              <li>Prone to keloids</li>
+              <li>Autoimmune Disease</li>
+              <li>Glaucoma</li>
               <li>Hyper pigmentation or hypo pigmentation</li>
               <li>Glaucoma</li>
-              <li>Healing disorders</li>
-              <li>Botox within the last month</li>
-              <li>Use of Latisse or other hair growth enhancers</li>
-              <li>Trichotillomania</li>
-              <li>Use of Accutane / Retin A</li>
-              <li>History of poor reactions to prior tattoos</li>
+              <li>Blood disorders</li>
+              <li>Heart conditions</li>
+              <li>Prone to keloids</li>
+              <li>Allergies to Lidocaine or Epinephrine</li>
               <li>
-                Having open wounds, rashes or any other skin conditions on the
-                procedure area
+                Botox/Facials/Peels/Microdermabrasions/Lasers within 1 month of
+                procedure
               </li>
-              <li>Undergoing or scheduled for chemotherapy</li>
-              <li>Prone to fainting</li>
-              <li>Allergies to pigments or topical anesthetics.</li>
+              <li>Post inflammatory hyperpigmentation</li>
+              <li>Use of Accutane / Retin A within the last year</li>
+              <li>Allergies to metal and/or color</li>
+              <li>Poor reactions to prior tattoos</li>
+              <li>
+                Open wounds, rashes, and/or any skin conditions on the procedure
+                area
+              </li>
+              <li>Undergoing / scheduled for Chemo</li>
+              <li>Epilepsy / Prone to fainting</li>
+              <li>Allergies to pigments or topical anesthetics</li>
+              <li>Lupus</li>
+              <li>Clients who have undergone organ transplant</li>
+              <li>
+                Clients with skin conditions (Eczema, dermatitis, rosacea,
+                psoriasis, etc)
+              </li>
             </ul>
-            Your safety is my priority. You know your health better than anyone.
-            If you have any medical issues that you feel might be a
-            contraindication, then we suggest you get clearance from your
-            physicican prior to getting any procedures.
+            Ultimately your safety is my priority. If you have any medical
+            issues that you feel might be a contraindication, then we suggest
+            you receive clearance from your health care provider / physician
+            prior to receiving any procedures. A Doctor's note will need to be
+            provided.
           </p>
         </div>
         <div id="toa-footer">

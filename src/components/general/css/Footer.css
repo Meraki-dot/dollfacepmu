@@ -8,7 +8,7 @@
     justify-content: space-between;
     font-family: 'Helvetica Light';
     font-size: 0.75em;
-    width: 95%;
+    width: 90%;
     height: 5em;
   }
 
@@ -64,11 +64,13 @@
 
   #social-icons {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: flex-end;
     width: 20em;
   }
-
-  #insta #fb #yelp {
+  #insta {
+    margin-right: 3rem;
+  }
+  #insta #fb {
     cursor: pointer;
   }
 }

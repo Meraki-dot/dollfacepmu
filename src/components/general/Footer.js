@@ -24,9 +24,6 @@ const Footer = () => {
                 <span id="fb">
                     <a className="social-icon" href="https://www.facebook.com/dollfacePMU" target="_blank" rel="noopener noreferrer"><Facebook /></a>
                 </span>
-                <span id="yelp">
-                    <a className="social-icon" href="https://www.yelp.com/biz/dollface-permanent-makeup-anaheim" target="_blank" rel="noopener noreferrer"><Yelp /></a>
-                </span>
             </div>
         </div>
     );

@@ -74,7 +74,7 @@ const Services = () => {
               <h1>OMBRÉ</h1>
               <p className="subtext service-category">EYEBROW SERVICES</p>
               <p className="subtext">
-                <em>3 - 4 hours | $400</em>
+                <em>3 - 4 hours | $450</em>
               </p>
               <OmbreModal />
             </div>
@@ -102,7 +102,7 @@ const Services = () => {
               <h1>MICROSHADE</h1>
               <p className="subtext service-category">EYEBROW SERVICES</p>
               <p className="subtext">
-                <em>3 - 4 hours | $450</em>
+                <em>3 - 4 hours | $500</em>
               </p>
               <MicroShade />
             </div>
@@ -132,7 +132,7 @@ const Services = () => {
               <h1>CORRECTION</h1>
               <p className="subtext service-category">EYEBROW SERVICES</p>
               <p className="subtext">
-                <em>3 - 4 hours | $450</em>
+                <em>3 - 4 hours | $550</em>
               </p>
               <Correction />
             </div>

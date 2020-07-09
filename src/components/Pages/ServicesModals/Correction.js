@@ -25,7 +25,7 @@ const Correction = () => {
                 <button className="modal-close-button" onClick={onClick}>X</button>
                 <div className="modal-content">
                     <h1>CORRECTION / COVER-UP</h1>
-                    <p className="duration-price"><i>3 hours | selected style +$50</i></p>
+                    <p className="duration-price"><i>3 hours | $550</i></p>
                     <br></br>
                     <p>For any clients that have had previous eyebrow tattoos, not initially performed by Dollface Permanent Makeup.</p>
                     <p>This service is to color correct, refine, cover-up, and/or add symmetry to your preexisting tattoo.</p>

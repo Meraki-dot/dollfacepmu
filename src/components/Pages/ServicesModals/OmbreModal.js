@@ -31,7 +31,7 @@ const OmbreModal = () => {
         <div className="modal-content">
           <h1>OMBRÉ</h1>
           <p className="duration-price">
-            <i>3 - 4 hours | $400</i>
+            <i>3 - 4 hours | $450</i>
           </p>
           <br></br>
           <p>Ombré is the signature technique at Dollface Permanent Makeup.</p>

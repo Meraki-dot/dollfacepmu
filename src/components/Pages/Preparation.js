@@ -82,7 +82,7 @@ const Preparation = () => {
               "touch up" your makeup prior to getting your After photos taken.
             </li>
             <li>
-              Payments can be made via Cash, Venmo, Paypal, or (all major)
+              Payments can be made via Cash, Venmo, Paypal, Zelle or (all major)
               credit cards, however, all card transactions will have an
               additional 3% transaction fee added to your total.
             </li>

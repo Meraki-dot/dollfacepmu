@@ -40,49 +40,18 @@ const TOA = () => {
               <li>Photos must be free of makeup and/or filters</li>
               <li>Clear and taken in good lighting</li>
               <li>
-                Be taken at multiple angles (left, right, straight forward)
+                Multiple angles (head turned slightly left, right, and facing forward)
               </li>
               <li>
                 Dollface Permanent Makeup must also be informed if any prior
                 work has been done on the area.
               </li>
-            </ul>
-            <ul>
               <li>
                 A non-refundable deposit will be required to book your
                 appointment and will be added towards to the full amount of the
                 selected service(s) that day
               </li>
-              <ul>
-                <li>
-                  <strong>Venmo</strong>:{" "}
-                  <a
-                    href="https://venmo.com/DollfacePMU"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    DollfacePMU
-                  </a>
-                </li>
-                <li>
-                  <strong>PayPal</strong>:{" "}
-                  <a
-                    href="https://www.paypal.me/dollfacepmu"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    www.paypal.me/dollfacepmu
-                  </a>
-                  <br></br>
-                  (Please list as Gift/Friend to avoid transfer fees)
-                </li>
-              </ul>
-            </ul>
-            Remaining balances will be due the day of your appointment and can
-            be paid with cash, Venmo, PayPal or all major credit cards. Any card
-            transactions will have a 3% transaction fee applied.
-            <br></br>
-            <br></br>
+            </ul> 
             <strong>
               Deposits are not refundable and will automatically be forfeited if
               the following occur:

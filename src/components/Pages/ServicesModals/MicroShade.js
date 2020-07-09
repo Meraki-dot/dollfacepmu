@@ -25,7 +25,7 @@ const MicroShade = () => {
                 <button className="modal-close-button" onClick={onClick}>X</button>
                 <div className="modal-content">
                     <h1>MICROSHADE</h1>
-                    <p className="duration-price"><i>3 - 4 hours | $450</i></p>
+                    <p className="duration-price"><i>3 - 4 hours | $500</i></p>
                     <br></br>
                     <p>A hybrid of Ombre with Microbladed fronts.</p>
                     <ul>

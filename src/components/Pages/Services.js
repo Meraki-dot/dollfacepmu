@@ -114,21 +114,6 @@ const Services = () => {
         <div id="eyebrows" className="ind-services">
           <div className="services-info-container">
             <div className="services-info">
-              <h1>TOUCH UP</h1>
-              <p className="subtext service-category">EYEBROW SERVICES</p>
-              <p className="subtext">
-                <em>2 hours | price in details</em>
-              </p>
-              <TouchUp />
-            </div>
-          </div>
-          <div className="img-box">
-            <img src={Touch_Up} alt="Woman with healed initial results on the top half, and on the bottom half, woman with eyebrows after required touch up." />
-          </div>
-        </div>
-        <div id="eyebrows" className="ind-services">
-          <div className="services-info-container">
-            <div className="services-info">
               <h1>CORRECTION</h1>
               <p className="subtext service-category">EYEBROW SERVICES</p>
               <p className="subtext">
@@ -139,6 +124,21 @@ const Services = () => {
           </div>
           <div className="img-box">
             <img src={CorrectionImage} alt="Woman with a before and after of old eyebrow tattos and new eyebrow tattoos." />
+          </div>
+        </div>
+        <div id="eyebrows" className="ind-services">
+          <div className="services-info-container">
+            <div className="services-info">
+              <h1>TOUCH UP</h1>
+              <p className="subtext service-category">EYEBROW SERVICES</p>
+              <p className="subtext">
+                <em>2 hours | price in details</em>
+              </p>
+              <TouchUp />
+            </div>
+          </div>
+          <div className="img-box">
+            <img src={Touch_Up} alt="Woman with healed initial results on the top half, and on the bottom half, woman with eyebrows after required touch up." />
           </div>
         </div>
         {/* <div id="eyebrows" className="ind-services">

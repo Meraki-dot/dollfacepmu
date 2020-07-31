@@ -4,6 +4,7 @@
         width: 100%;
         display: flex;
         flex-direction: column;
+        align-items: center;
     }
     #about-me-title {
         font-family: "Helvetica Bold";
@@ -19,17 +20,17 @@
         display: flex;
         flex-direction: row-reverse;
         justify-content: space-evenly;
-        max-width: 100%;
         height: 32em;
-        margin-top: 2rem;
+        margin: 2rem 0;
     }
     #profile {
         max-width: 18em;
         justify-self: flex-start;
         align-self: center;
+        margin-left: 5rem;
     }
     #about-me-content {
-        max-width: 42em;
+        max-width: 34em;
         justify-self: center;
         align-self: center;
         padding: 2em;

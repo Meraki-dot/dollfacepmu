@@ -33,14 +33,15 @@ const TOA = () => {
           <p>
             <br></br>
             <strong>
-              Prior to booking, clients must provide clear photos of procedure
-              area by text (714) 949-9495.
+              Prior to booking, clients must provide their full name and clear
+              photos of the procedure area by text (714) 949-9495.
             </strong>
             <ul>
               <li>Photos must be free of makeup and/or filters</li>
               <li>Clear and taken in good lighting</li>
               <li>
-                Multiple angles (head turned slightly left, right, and facing forward)
+                Multiple angles (head turned slightly left, right, and facing
+                forward)
               </li>
               <li>
                 Dollface Permanent Makeup must also be informed if any prior
@@ -51,10 +52,10 @@ const TOA = () => {
                 appointment and will be added towards to the full amount of the
                 selected service(s) that day
               </li>
-            </ul> 
+            </ul>
             <strong>
-              Deposits are not refundable and will automatically be forfeited if
-              the following occur:
+              Deposits are not refundable or transferable and will automatically
+              be forfeited if the following occur:
             </strong>
             <ul>
               <li>
@@ -82,9 +83,9 @@ const TOA = () => {
                 needs a Correction instead).
               </li>
               <li>
-                Clients who NO SHOW, or cancel within the same day, will
-                automatically have their deposit forfeited, charged the full
-                amount of the services booked, and will not be allowed to
+                Clients who are NO SHOWS, or cancel the day of their appointment
+                will automatically have their deposit forfeited, charged for
+                half the service(s) booked, and will not be allowed to
                 reschedule again.
               </li>
             </ul>

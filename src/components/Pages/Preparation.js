@@ -59,7 +59,7 @@ const Preparation = () => {
             </li>
             <li>Do not wax or tint your eyebrows prior to the procedure.</li>
             <li>
-              Do not drink alcohol, tea, coffee, or energy drinks 24 - 48 hours
+              Do not drink alcohol, tea, coffee, soda or energy drinks 24 - 48 hours
               before your appointment.
             </li>
           </ul>
